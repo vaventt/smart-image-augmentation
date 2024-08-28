@@ -10,8 +10,8 @@ import os
 from PIL import Image
 from collections import defaultdict
 
-COLLAB_DIR = "content/"
-PASCAL_DIR = "/projects/rsalakhugroup/datasets/pascal"
+COLLAB_DIR = "/content/VOCdevkit/VOC2012"
+PASCAL_DIR = COLLAB_DIR
 
 TRAIN_IMAGE_SET = os.path.join(
     PASCAL_DIR, "ImageSets/Segmentation/train.txt")
