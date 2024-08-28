@@ -427,7 +427,7 @@ def main(args):
         gradient_accumulation_steps=args.gradient_accumulation_steps,
         mixed_precision=args.mixed_precision,
         log_with=args.report_to,
-        logging_dir=logging_dir,
+        project_dir=logging_dir,
     )
 
     # Make one log on every process with the configuration for debugging.
@@ -605,7 +605,11 @@ def main(args):
     # We need to initialize the trackers we use, and also store our configuration.
     # The trackers initializes automatically on the main process.
     if accelerator.is_main_process:
-        accelerator.init_trackers("textual_inversion", config=vars(args))
+        config = vars(args)
+        # Convert unsupported types to strings or remove them
+        config = {k: (str(v) if not isinstance(v, (int, float, str, bool, torch.Tensor)) else v) for k, v in config.items()}
+        print(f'### MY CONFIG: {config}') 
+        accelerator.init_trackers("textual_inversion", config=config)
 
     # Train!
     total_batch_size = args.train_batch_size * accelerator.num_processes * args.gradient_accumulation_steps
