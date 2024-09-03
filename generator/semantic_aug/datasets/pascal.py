@@ -11,7 +11,8 @@ from PIL import Image
 from collections import defaultdict
 
 COLLAB_DIR = "/content/VOCdevkit/VOC2012"
-PASCAL_DIR = COLLAB_DIR
+AWS_DIR = "/home/ubuntu/EzLogz/smart-image-augmentation/VOCdevkit/VOC2012"
+PASCAL_DIR = AWS_DIR
 
 TRAIN_IMAGE_SET = os.path.join(
     PASCAL_DIR, "ImageSets/Segmentation/train.txt")

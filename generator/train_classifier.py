@@ -38,10 +38,9 @@ except:
 DEFAULT_MODEL_PATH = "CompVis/stable-diffusion-v1-4"
 DEFAULT_PROMPT = "a photo of a {name}"
 
-DEFAULT_SYNTHETIC_DIR = "/projects/rsalakhugroup/\
-btrabucc/aug/{dataset}-{aug}-{seed}-{examples_per_class}"
+DEFAULT_SYNTHETIC_DIR = "/home/ubuntu/EzLogz/smart-image-augmentation/generator/aug/{dataset}-{aug}-{seed}-{examples_per_class}"
 
-DEFAULT_EMBED_PATH = "/content/smart-image-augmentation/generator/{dataset}-tokens/{dataset}-{seed}-{examples_per_class}.pt"
+DEFAULT_EMBED_PATH = "/home/ubuntu/EzLogz/smart-image-augmentation/generator/{dataset}-tokens/{dataset}-{seed}-{examples_per_class}.pt"
 
 DATASETS = {
     "spurge": SpurgeDataset, 

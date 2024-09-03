@@ -1,1 +1,6 @@
-.
+__pycache__
+VOCdevkit
+VOCtrainval_11-May-2012.tar
+aug
+randaugment-pascal-baselines
+pascal-baselines
