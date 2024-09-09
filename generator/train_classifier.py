@@ -62,6 +62,33 @@ AUGMENTATIONS = {
     "multi-token-inversion": MultiTokenTextualInversion
 }
 
+import pandas as pd
+import os
+
+def generate_image_mappings(dataset, examples_per_class, num_synthetic, output_dir, seed):
+    mappings = []
+    
+    for class_idx, class_name in enumerate(dataset.class_names):
+        real_images = dataset.class_to_images[class_name][:examples_per_class]
+        
+        for img_idx, real_image in enumerate(real_images):
+            real_filename = os.path.basename(real_image)
+            
+            for aug_idx in range(num_synthetic):
+                aug_filename = f"aug-{class_idx * examples_per_class + img_idx}-{aug_idx}.png"
+                mappings.append({
+                    'filename_real': real_filename,
+                    'filename_aug': aug_filename,
+                    'class': class_name
+                })
+    
+    df = pd.DataFrame(mappings)
+    output_file = os.path.join(output_dir, f"images-map-{seed}-{examples_per_class}.csv")
+    df.to_csv(output_file, index=False)
+    print(f"Mapping file saved: {output_file}")
+
+    return df
+
 
 def run_experiment(examples_per_class: int = 0, 
                    seed: int = 0, 
@@ -87,7 +114,8 @@ def run_experiment(examples_per_class: int = 0,
                    use_cutmix: bool = False,
                    erasure_ckpt_path: str = None,
                    image_size: int = 256,
-                   classifier_backbone: str = "resnet50"):
+                   classifier_backbone: str = "resnet50",
+                   mappings_output_dir: str = "map-images"):
 
     torch.manual_seed(seed)
     np.random.seed(seed)
@@ -127,6 +155,10 @@ def run_experiment(examples_per_class: int = 0,
 
     if num_synthetic > 0 and aug is not None:
         train_dataset.generate_augmentations(num_synthetic)
+        
+        # Generate and save the mapping file after augmentation
+        os.makedirs(mappings_output_dir, exist_ok=True)
+        generate_image_mappings(train_dataset, examples_per_class, num_synthetic, mappings_output_dir, seed)
 
     cutmix_dataset = None
     if use_cutmix and IS_CUTMIX_INSTALLED:
@@ -416,7 +448,9 @@ if __name__ == "__main__":
     parser.add_argument("--use-cutmix", action="store_true")
 
     parser.add_argument("--tokens-per-class", type=int, default=4)
-    
+
+    parser.add_argument("--mappings-output-dir", type=str, default="image_mappings", help="Output directory for mapping files")
+
     args = parser.parse_args()
 
     try:
@@ -462,7 +496,9 @@ if __name__ == "__main__":
             use_cutmix=args.use_cutmix,
             erasure_ckpt_path=args.erasure_ckpt_path,
             image_size=args.image_size,
-            classifier_backbone=args.classifier_backbone)
+            classifier_backbone=args.classifier_backbone,
+            mappings_output_dir=args.mappings_output_dir
+        )
 
         synthetic_dir = args.synthetic_dir.format(**hyperparameters)
         embed_path = args.embed_path.format(**hyperparameters)

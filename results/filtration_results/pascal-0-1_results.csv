@@ -1,0 +1,201 @@
+index,quality,realism,relevance,detail_preservation,explanation,filename,class_name,overall_score,real_filename
+8,0.95,0.95,0.95,0.95,Almost identical to the reference image.,aug-6-7.png,car,0.95,2008_002473.jpg
+8,0.9,0.9,1.0,0.9,"Almost identical to the reference, with minute differences in sharpness and clarity.",aug-2-7.png,bird,0.9249999999999999,2010_000075.jpg
+10,0.9,0.9,1.0,0.9,"Closely resembles the reference image in quality, setting, and details.",aug-3-9.png,boat,0.9249999999999999,2008_006065.jpg
+9,0.9,0.9,1.0,0.9,"Closely resembles the reference image in quality, setting, and details.",aug-3-8.png,boat,0.9249999999999999,2008_006065.jpg
+8,0.9,0.9,1.0,0.9,"Closely resembles the reference image in quality, setting, and details.",aug-3-7.png,boat,0.9249999999999999,2008_006065.jpg
+6,0.9,0.9,1.0,0.9,"Closely resembles the reference image in quality, setting, and details.",aug-3-5.png,boat,0.9249999999999999,2008_006065.jpg
+4,0.9,0.9,1.0,0.9,"Closely resembles the reference image in quality, setting, and details.",aug-3-3.png,boat,0.9249999999999999,2008_006065.jpg
+2,0.9,0.9,1.0,0.9,"Closely resembles the reference image in quality, setting, and details.",aug-3-1.png,boat,0.9249999999999999,2008_006065.jpg
+1,0.9,0.9,1.0,0.9,The image is nearly identical to the reference with minor differences in color and sharpness.,aug-2-0.png,bird,0.9249999999999999,2010_000075.jpg
+2,0.9,0.9,0.9,0.9,Very similar to the original with slight visual differences.,aug-15-1.png,potted plant,0.9,2010_000567.jpg
+1,0.9,0.8,0.9,0.9,Good image quality and realism with minor background changes.,aug-10-0.png,dining table,0.875,2008_002960.jpg
+3,0.9,0.8,0.9,0.9,"Highly similar to real image, good realism and bus features well preserved.",aug-5-2.png,bus,0.875,2008_003373.jpg
+7,0.9,0.8,0.9,0.9,"Excellent quality and detail retention, though the design is reinforced with motorbike features.",aug-1-6.png,bicycle,0.875,2008_005839.jpg
+8,0.9,0.8,0.9,0.9,"Excellent quality and detail, more bike-like even with some variations.",aug-1-7.png,bicycle,0.875,2008_005839.jpg
+6,0.9,0.8,0.9,0.9,"High quality and realism with significant detail preservation, but notably different design.",aug-1-5.png,bicycle,0.875,2008_005839.jpg
+4,0.8,0.8,1.0,0.8,"Similar to the first and second image, but slightly different coloration and sharpness.",aug-2-3.png,bird,0.8500000000000001,2010_000075.jpg
+2,0.8,0.8,1.0,0.8,"Slightly less sharp and vibrant compared to the reference, yet still highly relevant.",aug-2-1.png,bird,0.8500000000000001,2010_000075.jpg
+7,0.8,0.8,1.0,0.8,Similar to the reference but with some minor variations.,aug-3-6.png,boat,0.8500000000000001,2008_006065.jpg
+2,0.9,0.9,0.7,0.9,"High visual fidelity and realism, but different car model.",aug-6-1.png,car,0.85,2008_002473.jpg
+5,0.9,0.9,0.7,0.9,"High visual fidelity and realism, different car model.",aug-6-4.png,car,0.85,2008_002473.jpg
+9,0.9,0.9,0.7,0.9,"High visual fidelity and realism, different car model.",aug-6-8.png,car,0.85,2008_002473.jpg
+10,0.9,0.9,0.7,0.9,"High visual fidelity and realism, different car model.",aug-6-9.png,car,0.85,2008_002473.jpg
+1,0.9,0.9,0.7,0.9,"High visual fidelity and realism, but different car model.",aug-6-0.png,car,0.85,2008_002473.jpg
+4,0.8,0.8,0.9,0.9,"Good quality with high realism, relevance, and excellent detail preservation of television-like features.",aug-19-3.png,television,0.85,2007_000121.jpg
+5,0.85,0.8,0.85,0.85,"Fidelity and realism are fairly high, close to the reference.",aug-15-4.png,potted plant,0.8375,2010_000567.jpg
+6,0.92,0.82,0.7,0.9,"Very good quality and detail, different model and style.",aug-13-5.png,motorcycle,0.835,2007_004003.jpg
+9,0.85,0.75,0.85,0.85,Very similar visual quality and detail preservation.,aug-15-8.png,potted plant,0.8250000000000001,2010_000567.jpg
+8,0.8,0.8,0.8,0.9,"High quality, good realism with very relevant features and details retained.",aug-17-7.png,sofa,0.8250000000000001,2008_001399.jpg
+5,0.8,0.8,0.9,0.8,Very similar to the reference image with minimal changes.,aug-10-4.png,dining table,0.825,2008_002960.jpg
+4,0.7,0.9,0.9,0.8,Similar breed but different setting and pose.,aug-11-3.png,dog,0.825,2010_005419.jpg
+10,0.8,0.8,0.9,0.8,Similar setting but different features and breed.,aug-11-9.png,dog,0.825,2010_005419.jpg
+9,0.8,0.9,0.8,0.8,Similar setting but different features and breed.,aug-11-8.png,dog,0.825,2010_005419.jpg
+2,0.8,0.8,0.9,0.8,Similar setting but different features and breed.,aug-11-1.png,dog,0.825,2010_005419.jpg
+8,0.8,0.9,0.9,0.7,Similar setting but visible editing effects.,aug-11-7.png,dog,0.825,2010_005419.jpg
+10,0.89,0.79,0.7,0.88,"Good quality and detail, different setting and model style.",aug-13-9.png,motorcycle,0.815,2007_004003.jpg
+7,0.8,0.8,0.85,0.8,"Decent quality and realism, similar visual style to reference image.",aug-6-6.png,car,0.8125,2008_002473.jpg
+4,0.85,0.85,0.7,0.85,"Good quality and realism, different car model.",aug-6-3.png,car,0.8125,2008_002473.jpg
+6,0.85,0.85,0.7,0.85,"Good quality and realism, different car model.",aug-6-5.png,car,0.8125,2008_002473.jpg
+5,0.8,0.7,0.9,0.8,"High quality and realism, clear train structure and features.",aug-18-4.png,train,0.8,2010_003274.jpg
+8,0.8,0.8,0.8,0.8,Slightly closer in similarity with high visual quality.,aug-15-7.png,potted plant,0.8,2010_000567.jpg
+7,0.9,0.8,0.8,0.7,Most details are retained with minimal distortions.,aug-14-6.png,person,0.8,2007_002611.jpg
+9,0.8,0.8,0.8,0.8,"Close to reference image, high quality and details preserved well.",aug-0-8.png,airplane,0.8,2007_009348.jpg
+3,0.8,0.7,0.9,0.8,"High quality and relevance, although the design still leans towards a motorbike.",aug-1-2.png,bicycle,0.8,2008_005839.jpg
+5,0.8,0.7,0.9,0.8,"Better quality and realism, though it still blurs the line between bicycle/motorbike.",aug-1-4.png,bicycle,0.8,2008_005839.jpg
+5,0.87,0.78,0.65,0.85,"High quality with an action shot, different setting and motorcycle style.",aug-13-4.png,motorcycle,0.7875,2007_004003.jpg
+8,0.86,0.77,0.68,0.83,"Good fidelity with clear detail, comparison complicated by multiple motorcycles.",aug-13-7.png,motorcycle,0.785,2007_004003.jpg
+1,0.9,0.8,0.6,0.8,Good visual fidelity but different motorcycle style.,aug-13-0.png,motorcycle,0.7750000000000001,2007_004003.jpg
+5,0.8,0.8,0.8,0.7,Similar setting but different features and items.,aug-11-4.png,dog,0.7750000000000001,2010_005419.jpg
+5,0.7,0.7,0.9,0.8,"Decent quality, good relevance and detail preservation, closely matches the reference.",aug-17-4.png,sofa,0.7749999999999999,2008_001399.jpg
+2,0.88,0.75,0.6,0.85,"High quality and detail, but different motorcycle type.",aug-13-1.png,motorcycle,0.77,2007_004003.jpg
+7,0.84,0.76,0.65,0.8,"Good quality, slightly different model and setting.",aug-13-6.png,motorcycle,0.7625,2007_004003.jpg
+9,0.83,0.75,0.66,0.8,High quality but environment and model differ.,aug-13-8.png,motorcycle,0.76,2007_004003.jpg
+6,0.8,0.7,0.8,0.7,Similar background but different pose and light.,aug-11-5.png,dog,0.75,2010_005419.jpg
+9,0.7,0.7,0.8,0.8,"Good quality and realism, very relevant with well-preserved details.",aug-17-8.png,sofa,0.75,2008_001399.jpg
+9,0.7,0.7,0.9,0.7,"Good quality and realism, bus shape and features closely maintained.",aug-5-8.png,bus,0.75,2008_003373.jpg
+8,0.7,0.8,0.8,0.7,"Two chairs visible, clear and detailed, though not matching the reference style completely.",aug-8-7.png,chair,0.75,2011_002709.jpg
+7,0.8,0.7,0.7,0.8,"High fidelity with clear bus image, but distinct architectural elements.",aug-5-6.png,bus,0.75,2008_003373.jpg
+5,0.7,0.7,0.8,0.8,"Quality is decent with a realistic setup, relevant to televisions and good detail preservation.",aug-19-4.png,television,0.75,2007_000121.jpg
+7,0.75,0.75,0.75,0.75,Fairly similar to the original with minor differences.,aug-15-6.png,potted plant,0.75,2010_000567.jpg
+3,0.85,0.73,0.6,0.8,"Good quality, different model and setting.",aug-13-2.png,motorcycle,0.7450000000000001,2007_004003.jpg
+10,0.7,0.7,0.8,0.7,Image is clear and similar but lacks additional food details.,aug-10-9.png,dining table,0.7250000000000001,2008_002960.jpg
+2,0.7,0.8,0.7,0.6,"The chair is clear and fits better into a realistic setting than some others, but still quite different from the reference in terms of style.",aug-8-1.png,chair,0.7000000000000001,2011_002709.jpg
+2,0.7,0.6,0.8,0.7,"Better quality and realism, but still not entirely a bicycle.",aug-1-1.png,bicycle,0.7,2008_005839.jpg
+7,0.7,0.6,0.8,0.7,Image has good quality and relatively high realism; bottle is clear.,aug-4-6.png,bottle,0.7,2009_001937.jpg
+4,0.8,0.7,0.55,0.75,"Quality is good, the setting is unclear and different model.",aug-13-3.png,motorcycle,0.7,2007_004003.jpg
+6,0.7,0.6,0.8,0.7,"Clear image, good preservation of important train features.",aug-18-5.png,train,0.7,2010_003274.jpg
+3,0.7,0.7,0.65,0.7,"Moderate visual fidelity and realism, some car-like features.",aug-6-2.png,car,0.6875,2008_002473.jpg
+3,0.7,0.5,0.8,0.7,"Distinctive train features present, some distortion in details.",aug-18-2.png,train,0.675,2010_003274.jpg
+8,0.7,0.5,0.8,0.7,Recognizable train but with some distortions and color changes.,aug-18-7.png,train,0.675,2010_003274.jpg
+9,0.6,0.6,0.7,0.8,High-quality image with good realism and detail retention.,aug-7-8.png,cat,0.675,2009_001270.jpg
+3,0.7,0.7,0.6,0.7,Similar setting but different features and lighting.,aug-11-2.png,dog,0.675,2010_005419.jpg
+7,0.7,0.6,0.7,0.7,"Outdoor setting, varied group, good quality but changes in context.",aug-10-6.png,dining table,0.6749999999999999,2008_002960.jpg
+10,0.7,0.6,0.7,0.7,"High quality, close to real image, missing some finer details.",aug-0-9.png,airplane,0.6749999999999999,2007_009348.jpg
+8,0.7,0.6,0.7,0.7,Background changes and addition of more food items.,aug-10-7.png,dining table,0.6749999999999999,2008_002960.jpg
+9,0.7,0.7,0.7,0.6,"The image is fairly clear and realistic, representing cows with good detail preservation.",aug-9-8.png,cow,0.6749999999999999,2011_001653.jpg
+10,0.5,0.6,0.7,0.8,"Good quality and realism, similar to the reference but with slight blurriness.",aug-7-9.png,cat,0.65,2009_001270.jpg
+4,0.7,0.6,0.6,0.7,Outdoor setting changes realism and relevance.,aug-10-3.png,dining table,0.6499999999999999,2008_002960.jpg
+2,0.7,0.6,0.6,0.7,Background differs and relevance to indoor dining table is lower.,aug-10-1.png,dining table,0.6499999999999999,2008_002960.jpg
+8,0.6,0.6,0.7,0.7,Clean and detailed; buses are well-defined but layout is uncommon.,aug-5-7.png,bus,0.6499999999999999,2008_003373.jpg
+7,0.6,0.6,0.7,0.7,"Moderate quality and realism, decent relevance with noticeable details.",aug-17-6.png,sofa,0.6499999999999999,2008_001399.jpg
+1,0.7,0.6,0.6,0.7,"Quality and detail are somewhat maintained, but clarity reduced and partial misrepresentation of bus labelling.",aug-5-0.png,bus,0.6499999999999999,2008_003373.jpg
+6,0.7,0.6,0.6,0.7,"Flying airplane, decent quality, moderately realistic and relevant.",aug-0-5.png,airplane,0.6499999999999999,2007_009348.jpg
+6,0.8,0.6,0.7,0.5,The image is visually clearer but contains distortions.,aug-14-5.png,person,0.6499999999999999,2007_002611.jpg
+1,0.6,0.5,0.75,0.7,Moderate quality with some blurriness. Realism and detail aspects are slightly compromised.,aug-7-0.png,cat,0.6375,2009_001270.jpg
+1,0.7,0.5,0.7,0.6,"Clear image but different breed, background, and lighting.",aug-11-0.png,dog,0.625,2010_005419.jpg
+10,0.7,0.6,0.6,0.5,"Clearer image with some distortions, retaining some important details.",aug-14-9.png,person,0.6,2007_002611.jpg
+1,0.6,0.5,0.7,0.6,"The image has decent quality, but realism is affected due to a more motorbike-like appearance.",aug-1-0.png,bicycle,0.6,2008_005839.jpg
+9,0.6,0.5,0.7,0.6,"Decent quality, with aspects of a bicycle still present but altered significantly.",aug-1-8.png,bicycle,0.6,2008_005839.jpg
+7,0.6,0.5,0.7,0.6,"Moderate quality and realism, relevant to televisions with fair detail preservation.",aug-19-6.png,television,0.6,2007_000121.jpg
+10,0.6,0.5,0.7,0.6,"Quality is acceptable, but design shifts make it less recognizable as a traditional bicycle.",aug-1-9.png,bicycle,0.6,2008_005839.jpg
+6,0.6,0.5,0.7,0.6,Better clarity and overall good representation of a bottle.,aug-4-5.png,bottle,0.6,2009_001937.jpg
+10,0.75,0.5,0.6,0.5,"Different plant species, fair visual quality.",aug-15-9.png,potted plant,0.5875,2010_000567.jpg
+4,0.6,0.5,0.6,0.6,"The image quality is decent, but the modifications veer strongly into a different design.",aug-1-3.png,bicycle,0.5750000000000001,2008_005839.jpg
+10,0.6,0.4,0.7,0.6,"Moderate clarity, distorted shapes, some train-specific details.",aug-18-9.png,train,0.575,2010_003274.jpg
+5,0.8,0.7,0.2,0.6,"Features a large ship in the ocean, differing significantly from the reference image.",aug-3-4.png,boat,0.575,2008_006065.jpg
+8,0.5,0.5,0.6,0.7,Moderate clarity and realistic features retained.,aug-7-7.png,cat,0.575,2009_001270.jpg
+9,0.6,0.6,0.6,0.5,"Clear image but more of an outdoor tea setup, less complexity.",aug-10-8.png,dining table,0.575,2008_002960.jpg
+4,0.5,0.5,0.6,0.7,Quality and detail slightly better but realism moderate.,aug-7-3.png,cat,0.575,2009_001270.jpg
+1,0.6,0.7,0.5,0.5,"The chair appears ornate and detailed, but the setting is quite different from the reference and the visual clarity is lower.",aug-8-0.png,chair,0.575,2011_002709.jpg
+2,0.6,0.4,0.7,0.6,"Blurry and distorted, but more recognizable as a train than Image 1.",aug-18-1.png,train,0.575,2010_003274.jpg
+4,0.7,0.6,0.5,0.5,Similar to the reference but with clear signs of digital alteration.,aug-14-3.png,person,0.575,2007_002611.jpg
+9,0.6,0.4,0.7,0.6,"Moderate clarity, some recognizable features, distorted colors.",aug-18-8.png,train,0.575,2010_003274.jpg
+3,0.7,0.5,0.6,0.5,Plant type is different but overall quality is fairly good.,aug-15-2.png,potted plant,0.575,2010_000567.jpg
+5,0.6,0.5,0.5,0.6,"Clearer than others but low realism, though some key features preserved.",aug-0-4.png,airplane,0.55,2007_009348.jpg
+4,0.65,0.45,0.6,0.5,"Plant type is slightly off, but visual quality good.",aug-15-3.png,potted plant,0.55,2010_000567.jpg
+6,0.7,0.4,0.55,0.5,Different plant species and clarity is slightly lower.,aug-15-5.png,potted plant,0.5375000000000001,2010_000567.jpg
+7,0.6,0.4,0.6,0.5,"Moderate clarity, noticeable distortions, some recognizability as a train.",aug-18-6.png,train,0.525,2010_003274.jpg
+5,0.7,0.5,0.5,0.4,Preserves some details but still distorted with digital artifacts.,aug-14-4.png,person,0.525,2007_002611.jpg
+3,0.6,0.5,0.5,0.5,"Image features children and simpler setup, less relevant as a dining table.",aug-10-2.png,dining table,0.525,2008_002960.jpg
+3,0.4,0.5,0.6,0.6,"Closer to original, retains significant portions of horse features.",aug-12-2.png,horse,0.525,2011_003184.jpg
+7,0.6,0.5,0.5,0.5,Different background and not in focus.,aug-11-6.png,dog,0.525,2010_005419.jpg
+3,0.4,0.4,0.6,0.7,Preserves some features but blurry and less realistic.,aug-7-2.png,cat,0.5249999999999999,2009_001270.jpg
+3,0.7,0.6,0.3,0.5,"Features multiple large ships, which diverge from the small boat in the reference.",aug-3-2.png,boat,0.5249999999999999,2008_006065.jpg
+2,0.5,0.4,0.6,0.5,"The image is a bit clearer, but the bottle shape is unusual and slightly distorted.",aug-4-1.png,bottle,0.5,2009_001937.jpg
+8,0.5,0.4,0.6,0.5,"Average quality and realism, somewhat relevant but lacks some television features.",aug-19-7.png,television,0.5,2007_000121.jpg
+1,0.5,0.4,0.6,0.5,"Low clarity, distorted shapes, some recognizable train features.",aug-18-0.png,train,0.5,2010_003274.jpg
+10,0.6,0.5,0.4,0.5,"Contains buses but poorly preserved details, less distinct appearance.",aug-5-9.png,bus,0.5,2008_003373.jpg
+2,0.5,0.4,0.5,0.6,Multiple buses merged; clear but lacks realism and looks off in perspective.,aug-5-1.png,bus,0.5,2008_003373.jpg
+1,0.4,0.4,0.7,0.5,Blurry image with some relevance to the reference but low detail preservation.,aug-17-0.png,sofa,0.5,2008_001399.jpg
+8,0.6,0.5,0.5,0.4,"The image has moderate quality and somewhat resembles cows, though with some blurring and loss of detail.",aug-9-7.png,cow,0.5,2011_001653.jpg
+9,0.6,0.5,0.5,0.4,"Includes relevant elements, but they are heavily distorted.",aug-14-8.png,person,0.5,2007_002611.jpg
+1,0.6,0.5,0.5,0.4,The image is blurry with some distortions and artifacts.,aug-14-0.png,person,0.5,2007_002611.jpg
+5,0.5,0.4,0.5,0.5,Close to the reference but has minor distortions in body features.,aug-16-4.png,sheep,0.475,2009_002988.jpg
+7,0.5,0.4,0.5,0.5,"Airplane in doubtful scene, clarity is moderate but relevance lower.",aug-0-6.png,airplane,0.475,2007_009348.jpg
+6,0.5,0.4,0.5,0.5,"Similar to image 4, visually close but with slight inaccuracies.",aug-16-5.png,sheep,0.475,2009_002988.jpg
+4,0.5,0.4,0.5,0.5,"More visually coherent, though details are somewhat distorted.",aug-16-3.png,sheep,0.475,2009_002988.jpg
+8,0.5,0.4,0.5,0.5,"Clear image of airplane but lacking context, moderate relevance.",aug-0-7.png,airplane,0.475,2007_009348.jpg
+1,0.6,0.4,0.5,0.4,"Distinct different plant species, visual fidelity is lower.",aug-15-0.png,potted plant,0.475,2010_000567.jpg
+1,0.7,0.4,0.2,0.6,"The image quality is decent but features a large cruise ship and people, which diverges from the small boat in the reference.",aug-3-0.png,boat,0.475,2008_006065.jpg
+5,0.4,0.3,0.5,0.6,Blurry and lower relevance to a real cat.,aug-7-4.png,cat,0.44999999999999996,2009_001270.jpg
+6,0.3,0.4,0.5,0.6,Moderate blurriness with slightly better realism.,aug-7-5.png,cat,0.44999999999999996,2009_001270.jpg
+4,0.5,0.4,0.4,0.4,"Less distortion than previous, still low realism and relevance.",aug-0-3.png,airplane,0.42500000000000004,2007_009348.jpg
+5,0.5,0.5,0.3,0.4,The structure of the chair is somewhat preserved but the surrounding elements are distracting.,aug-8-4.png,chair,0.42500000000000004,2011_002709.jpg
+4,0.5,0.3,0.5,0.4,"Significantly altered colors and shapes, less realistic than others.",aug-18-3.png,train,0.42500000000000004,2010_003274.jpg
+6,0.5,0.5,0.3,0.4,"Focuses on food with no people, relevance to dining ensemble is low.",aug-10-5.png,dining table,0.42500000000000004,2008_002960.jpg
+1,0.4,0.3,0.5,0.4,"Blurry image with unrelated objects, unrealistic and poor preservation of television features.",aug-19-0.png,television,0.4,2007_000121.jpg
+6,0.4,0.3,0.5,0.4,"Low quality and unrealistic image, somewhat relevant but loses crucial television features.",aug-19-5.png,television,0.4,2007_000121.jpg
+9,0.4,0.3,0.5,0.4,"Poor quality and realism, some relevance but significant detail loss.",aug-19-8.png,television,0.4,2007_000121.jpg
+2,0.3,0.3,0.5,0.5,"Minor distortions and artifacts, retains some features of the horse.",aug-12-1.png,horse,0.4,2011_003184.jpg
+6,0.4,0.5,0.3,0.4,"Chair features are present but significantly altered, reducing both realism and relevance.",aug-8-5.png,chair,0.4,2011_002709.jpg
+5,0.5,0.4,0.4,0.3,"Quality is moderate, but the image still resembles cows albeit with poor detail preservation and clarity.",aug-9-4.png,cow,0.4,2011_001653.jpg
+10,0.4,0.4,0.4,0.4,"Quality is average with some resemblance to cows, but the image is not highly detailed or clear.",aug-9-9.png,cow,0.4,2011_001653.jpg
+6,0.4,0.3,0.5,0.4,"Image portrays an object draped with white cloth, somewhat resembling a bird, but not clearly.",aug-2-5.png,bird,0.4,2010_000075.jpg
+3,0.4,0.3,0.5,0.4,Image quality is mediocre with visible noise; bottle lacks clarity.,aug-4-2.png,bottle,0.4,2009_001937.jpg
+10,0.4,0.3,0.5,0.4,Image has moderate quality with average bottle representation.,aug-4-9.png,bottle,0.4,2009_001937.jpg
+10,0.4,0.5,0.3,0.4,"The chair is discernible but merged with other elements, the overall visual quality is reduced.",aug-8-9.png,chair,0.4,2011_002709.jpg
+3,0.4,0.4,0.4,0.3,"The chair is visible but merged with other elements, detracting from both quality and realism.",aug-8-2.png,chair,0.37500000000000006,2011_002709.jpg
+8,0.4,0.4,0.3,0.3,"Highly manipulated, some recognizable human elements but lacks clarity.",aug-14-7.png,person,0.35000000000000003,2007_002611.jpg
+3,0.4,0.3,0.4,0.3,"Multiple airplanes, some resemblance to real but blurred and not clear.",aug-0-2.png,airplane,0.35000000000000003,2007_009348.jpg
+2,0.4,0.3,0.4,0.3,"Multiple airplanes visible, but distorted and unrealistic representation.",aug-0-1.png,airplane,0.35000000000000003,2007_009348.jpg
+10,0.3,0.2,0.5,0.4,"Low quality and realism, moderate relevance with minimal detail preservation.",aug-17-9.png,sofa,0.35,2008_001399.jpg
+4,0.3,0.3,0.4,0.4,"Low visual fidelity and detail retention, moderate relevance to a sofa.",aug-17-3.png,sofa,0.35,2008_001399.jpg
+1,0.2,0.3,0.5,0.4,"Blurred and distorted, somewhat retains original horse features.",aug-12-0.png,horse,0.35,2011_003184.jpg
+6,0.4,0.3,0.3,0.3,"The details are not well-preserved, and the cow representation is weak with low realism.",aug-9-5.png,cow,0.325,2011_001653.jpg
+3,0.4,0.2,0.4,0.3,"Blurry and unrealistic, with irrelevance to a television setup and loss of important details.",aug-19-2.png,television,0.325,2007_000121.jpg
+2,0.4,0.3,0.3,0.3,"Some cow-like features are present, but overall quality is low with significant blurring and distortion.",aug-9-1.png,cow,0.325,2011_001653.jpg
+4,0.4,0.3,0.3,0.3,"The features resemble cows to some extent, though the image is blurred and lacks detail.",aug-9-3.png,cow,0.325,2011_001653.jpg
+3,0.3,0.2,0.4,0.3,"Poor quality and realism, marginally relevant to a sofa, missing details.",aug-17-2.png,sofa,0.3,2008_001399.jpg
+10,0.3,0.2,0.4,0.3,"Very low quality and realism, minimal relevance to televisions, poor detail preservation.",aug-19-9.png,television,0.3,2007_000121.jpg
+9,0.3,0.4,0.3,0.2,"Chair structure is mixed with other elements, resulting in loss of detail and clarity.",aug-8-8.png,chair,0.3,2011_002709.jpg
+4,0.3,0.2,0.4,0.3,"The image lacks sharpness, and details of the bottle are hard to distinguish.",aug-4-3.png,bottle,0.3,2009_001937.jpg
+2,0.3,0.2,0.4,0.3,"Poor quality image, very unrealistic setup, irrelevant objects, and missing key television features.",aug-19-1.png,television,0.3,2007_000121.jpg
+4,0.3,0.4,0.2,0.3,The image is distorted and less visually clear. It is difficult to identify a distinct chair.,aug-8-3.png,chair,0.3,2011_002709.jpg
+6,0.2,0.2,0.4,0.3,Very blurry with poor relevance and detail preservation.,aug-17-5.png,sofa,0.275,2008_001399.jpg
+7,0.2,0.2,0.4,0.3,More animated appearance with significant deviation from real cat features.,aug-7-6.png,cat,0.275,2009_001270.jpg
+2,0.3,0.2,0.3,0.3,"Significantly different scene, less relevance and low detail preservation.",aug-17-1.png,sofa,0.275,2008_001399.jpg
+4,0.2,0.3,0.4,0.2,"Highly distorted, retains basic posture but lacks details.",aug-12-3.png,horse,0.275,2011_003184.jpg
+7,0.3,0.2,0.3,0.3,"Distorted, retains some elements of the horse but not realistic.",aug-12-6.png,horse,0.275,2011_003184.jpg
+9,0.3,0.2,0.3,0.3,Image shows text and unclear bottle features.,aug-4-8.png,bottle,0.275,2009_001937.jpg
+7,0.3,0.3,0.3,0.2,"The cow-like figure is very unclear and low in detail, resembling more a toy or object.",aug-9-6.png,cow,0.27499999999999997,2011_001653.jpg
+6,0.4,0.3,0.1,0.2,Includes architectural elements with minimal bus relevance.,aug-5-5.png,bus,0.25,2008_003373.jpg
+2,0.3,0.2,0.1,0.3,"Odd proportions and setting, barely represents a sheep.",aug-16-1.png,sheep,0.22499999999999998,2009_002988.jpg
+7,0.2,0.3,0.2,0.2,"The chair features are minimally preserved and mixed with other unrelated elements, reducing overall clarity and relevance.",aug-8-6.png,chair,0.22499999999999998,2011_002709.jpg
+10,0.3,0.2,0.1,0.3,"Very distorted body structure, lacks key sheep features.",aug-16-9.png,sheep,0.22499999999999998,2009_002988.jpg
+9,0.3,0.2,0.1,0.3,"Proportions are highly disturbed, low similarity to a real sheep.",aug-16-8.png,sheep,0.22499999999999998,2009_002988.jpg
+8,0.3,0.2,0.1,0.3,"Misplaced body parts, setting does not match natural environment.",aug-16-7.png,sheep,0.22499999999999998,2009_002988.jpg
+7,0.3,0.2,0.1,0.3,Unnatural setting and body shapes decrease realism and relevance.,aug-16-6.png,sheep,0.22499999999999998,2009_002988.jpg
+3,0.3,0.2,0.1,0.3,"Inconsistent body structure, bizarre shape makes it less realistic.",aug-16-2.png,sheep,0.22499999999999998,2009_002988.jpg
+1,0.3,0.2,0.2,0.2,"The image is unclear and the cow-like structure is distorted, appearing almost like a rug or carpet rather than a real cow.",aug-9-0.png,cow,0.22499999999999998,2011_001653.jpg
+3,0.3,0.3,0.1,0.2,Contains very few recognizable elements from the reference image.,aug-14-2.png,person,0.22499999999999998,2007_002611.jpg
+10,0.2,0.2,0.3,0.2,"Blurry and distorted, some horse features but not clear.",aug-12-9.png,horse,0.22499999999999998,2011_003184.jpg
+1,0.3,0.2,0.1,0.2,"Blurred and distorted image, low fidelity and realism.",aug-0-0.png,airplane,0.2,2007_009348.jpg
+3,0.2,0.2,0.2,0.2,The image is highly abstract with shapes that do not convincingly represent real cows. Details are not preserved.,aug-9-2.png,cow,0.2,2011_001653.jpg
+2,0.2,0.1,0.3,0.2,Significant deviation from realism and relevance with animated elements.,aug-7-1.png,cat,0.2,2009_001270.jpg
+2,0.3,0.2,0.1,0.2,The image appears to be heavily manipulated with non-human elements prominent.,aug-14-1.png,person,0.2,2007_002611.jpg
+1,0.2,0.1,0.3,0.2,The image is blurry and the main bottle is distorted.,aug-4-0.png,bottle,0.2,2009_001937.jpg
+5,0.1,0.2,0.3,0.1,"Highly distorted and stretched, lacks key details.",aug-12-4.png,horse,0.17500000000000002,2011_003184.jpg
+8,0.2,0.1,0.2,0.2,The image is blurry with unclear bottle representation.,aug-4-7.png,bottle,0.175,2009_001937.jpg
+1,0.2,0.1,0.1,0.2,"Highly distorted, missing body parts make it unrealistic and irrelevant.",aug-16-0.png,sheep,0.15000000000000002,2009_002988.jpg
+6,0.2,0.1,0.2,0.1,"Significantly different, focuses on legs with distortions.",aug-12-5.png,horse,0.15,2011_003184.jpg
+4,0.2,0.1,0.0,0.1,Image is of architecture without any buses.,aug-5-3.png,bus,0.1,2008_003373.jpg
+10,0.3,0.1,0.0,0.0,"Shows a fabric-covered object, no resemblance to a bird.",aug-2-9.png,bird,0.1,2010_000075.jpg
+9,0.3,0.1,0.0,0.0,"Depicts an object wrapped in some fabric, not resembling a bird.",aug-2-8.png,bird,0.1,2010_000075.jpg
+3,0.3,0.1,0.0,0.0,"Completely irrelevant image, does not represent a bird.",aug-2-2.png,bird,0.1,2010_000075.jpg
+8,0.1,0.1,0.1,0.1,"Not a horse image, contains human-like figure.",aug-12-7.png,horse,0.1,2011_003184.jpg
+9,0.1,0.1,0.1,0.1,"No clear horse features, another human-like figure.",aug-12-8.png,horse,0.1,2011_003184.jpg
+5,0.2,0.1,0.0,0.0,Sky view of building structure with no buses present.,aug-5-4.png,bus,0.07500000000000001,2008_003373.jpg
+5,0.1,0.0,0.1,0.1,The image does not clearly represent a bottle; details are very obscure.,aug-4-4.png,bottle,0.07500000000000001,2009_001937.jpg
+7,0.2,0.1,0.0,0.0,"Image depicts a roof, no resemblance to a bird.",aug-2-6.png,bird,0.07500000000000001,2010_000075.jpg
+5,0.2,0.1,0.0,0.0,Another image that does not represent a bird at all.,aug-2-4.png,bird,0.07500000000000001,2010_000075.jpg

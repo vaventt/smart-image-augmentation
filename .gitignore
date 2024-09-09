@@ -4,3 +4,10 @@ VOCtrainval_11-May-2012.tar
 aug
 randaugment-pascal-baselines
 pascal-baselines
+raw_data
+pascal
+coco
+.ipynb_checkpoints
+.env
+researchers_results
+.DS_Store

@@ -1,0 +1,401 @@
+filename_real,filename_aug,class
+2007_009348.jpg,aug-0-0.png,airplane
+2007_009348.jpg,aug-0-1.png,airplane
+2007_009348.jpg,aug-0-2.png,airplane
+2007_009348.jpg,aug-0-3.png,airplane
+2007_009348.jpg,aug-0-4.png,airplane
+2007_009348.jpg,aug-0-5.png,airplane
+2007_009348.jpg,aug-0-6.png,airplane
+2007_009348.jpg,aug-0-7.png,airplane
+2007_009348.jpg,aug-0-8.png,airplane
+2007_009348.jpg,aug-0-9.png,airplane
+2007_004988.jpg,aug-1-0.png,airplane
+2007_004988.jpg,aug-1-1.png,airplane
+2007_004988.jpg,aug-1-2.png,airplane
+2007_004988.jpg,aug-1-3.png,airplane
+2007_004988.jpg,aug-1-4.png,airplane
+2007_004988.jpg,aug-1-5.png,airplane
+2007_004988.jpg,aug-1-6.png,airplane
+2007_004988.jpg,aug-1-7.png,airplane
+2007_004988.jpg,aug-1-8.png,airplane
+2007_004988.jpg,aug-1-9.png,airplane
+2008_005839.jpg,aug-2-0.png,bicycle
+2008_005839.jpg,aug-2-1.png,bicycle
+2008_005839.jpg,aug-2-2.png,bicycle
+2008_005839.jpg,aug-2-3.png,bicycle
+2008_005839.jpg,aug-2-4.png,bicycle
+2008_005839.jpg,aug-2-5.png,bicycle
+2008_005839.jpg,aug-2-6.png,bicycle
+2008_005839.jpg,aug-2-7.png,bicycle
+2008_005839.jpg,aug-2-8.png,bicycle
+2008_005839.jpg,aug-2-9.png,bicycle
+2009_003519.jpg,aug-3-0.png,bicycle
+2009_003519.jpg,aug-3-1.png,bicycle
+2009_003519.jpg,aug-3-2.png,bicycle
+2009_003519.jpg,aug-3-3.png,bicycle
+2009_003519.jpg,aug-3-4.png,bicycle
+2009_003519.jpg,aug-3-5.png,bicycle
+2009_003519.jpg,aug-3-6.png,bicycle
+2009_003519.jpg,aug-3-7.png,bicycle
+2009_003519.jpg,aug-3-8.png,bicycle
+2009_003519.jpg,aug-3-9.png,bicycle
+2010_000075.jpg,aug-4-0.png,bird
+2010_000075.jpg,aug-4-1.png,bird
+2010_000075.jpg,aug-4-2.png,bird
+2010_000075.jpg,aug-4-3.png,bird
+2010_000075.jpg,aug-4-4.png,bird
+2010_000075.jpg,aug-4-5.png,bird
+2010_000075.jpg,aug-4-6.png,bird
+2010_000075.jpg,aug-4-7.png,bird
+2010_000075.jpg,aug-4-8.png,bird
+2010_000075.jpg,aug-4-9.png,bird
+2009_000746.jpg,aug-5-0.png,bird
+2009_000746.jpg,aug-5-1.png,bird
+2009_000746.jpg,aug-5-2.png,bird
+2009_000746.jpg,aug-5-3.png,bird
+2009_000746.jpg,aug-5-4.png,bird
+2009_000746.jpg,aug-5-5.png,bird
+2009_000746.jpg,aug-5-6.png,bird
+2009_000746.jpg,aug-5-7.png,bird
+2009_000746.jpg,aug-5-8.png,bird
+2009_000746.jpg,aug-5-9.png,bird
+2008_006065.jpg,aug-6-0.png,boat
+2008_006065.jpg,aug-6-1.png,boat
+2008_006065.jpg,aug-6-2.png,boat
+2008_006065.jpg,aug-6-3.png,boat
+2008_006065.jpg,aug-6-4.png,boat
+2008_006065.jpg,aug-6-5.png,boat
+2008_006065.jpg,aug-6-6.png,boat
+2008_006065.jpg,aug-6-7.png,boat
+2008_006065.jpg,aug-6-8.png,boat
+2008_006065.jpg,aug-6-9.png,boat
+2007_007415.jpg,aug-7-0.png,boat
+2007_007415.jpg,aug-7-1.png,boat
+2007_007415.jpg,aug-7-2.png,boat
+2007_007415.jpg,aug-7-3.png,boat
+2007_007415.jpg,aug-7-4.png,boat
+2007_007415.jpg,aug-7-5.png,boat
+2007_007415.jpg,aug-7-6.png,boat
+2007_007415.jpg,aug-7-7.png,boat
+2007_007415.jpg,aug-7-8.png,boat
+2007_007415.jpg,aug-7-9.png,boat
+2009_001937.jpg,aug-8-0.png,bottle
+2009_001937.jpg,aug-8-1.png,bottle
+2009_001937.jpg,aug-8-2.png,bottle
+2009_001937.jpg,aug-8-3.png,bottle
+2009_001937.jpg,aug-8-4.png,bottle
+2009_001937.jpg,aug-8-5.png,bottle
+2009_001937.jpg,aug-8-6.png,bottle
+2009_001937.jpg,aug-8-7.png,bottle
+2009_001937.jpg,aug-8-8.png,bottle
+2009_001937.jpg,aug-8-9.png,bottle
+2008_000015.jpg,aug-9-0.png,bottle
+2008_000015.jpg,aug-9-1.png,bottle
+2008_000015.jpg,aug-9-2.png,bottle
+2008_000015.jpg,aug-9-3.png,bottle
+2008_000015.jpg,aug-9-4.png,bottle
+2008_000015.jpg,aug-9-5.png,bottle
+2008_000015.jpg,aug-9-6.png,bottle
+2008_000015.jpg,aug-9-7.png,bottle
+2008_000015.jpg,aug-9-8.png,bottle
+2008_000015.jpg,aug-9-9.png,bottle
+2008_003373.jpg,aug-10-0.png,bus
+2008_003373.jpg,aug-10-1.png,bus
+2008_003373.jpg,aug-10-2.png,bus
+2008_003373.jpg,aug-10-3.png,bus
+2008_003373.jpg,aug-10-4.png,bus
+2008_003373.jpg,aug-10-5.png,bus
+2008_003373.jpg,aug-10-6.png,bus
+2008_003373.jpg,aug-10-7.png,bus
+2008_003373.jpg,aug-10-8.png,bus
+2008_003373.jpg,aug-10-9.png,bus
+2007_002024.jpg,aug-11-0.png,bus
+2007_002024.jpg,aug-11-1.png,bus
+2007_002024.jpg,aug-11-2.png,bus
+2007_002024.jpg,aug-11-3.png,bus
+2007_002024.jpg,aug-11-4.png,bus
+2007_002024.jpg,aug-11-5.png,bus
+2007_002024.jpg,aug-11-6.png,bus
+2007_002024.jpg,aug-11-7.png,bus
+2007_002024.jpg,aug-11-8.png,bus
+2007_002024.jpg,aug-11-9.png,bus
+2008_002473.jpg,aug-12-0.png,car
+2008_002473.jpg,aug-12-1.png,car
+2008_002473.jpg,aug-12-2.png,car
+2008_002473.jpg,aug-12-3.png,car
+2008_002473.jpg,aug-12-4.png,car
+2008_002473.jpg,aug-12-5.png,car
+2008_002473.jpg,aug-12-6.png,car
+2008_002473.jpg,aug-12-7.png,car
+2008_002473.jpg,aug-12-8.png,car
+2008_002473.jpg,aug-12-9.png,car
+2011_002224.jpg,aug-13-0.png,car
+2011_002224.jpg,aug-13-1.png,car
+2011_002224.jpg,aug-13-2.png,car
+2011_002224.jpg,aug-13-3.png,car
+2011_002224.jpg,aug-13-4.png,car
+2011_002224.jpg,aug-13-5.png,car
+2011_002224.jpg,aug-13-6.png,car
+2011_002224.jpg,aug-13-7.png,car
+2011_002224.jpg,aug-13-8.png,car
+2011_002224.jpg,aug-13-9.png,car
+2009_001270.jpg,aug-14-0.png,cat
+2009_001270.jpg,aug-14-1.png,cat
+2009_001270.jpg,aug-14-2.png,cat
+2009_001270.jpg,aug-14-3.png,cat
+2009_001270.jpg,aug-14-4.png,cat
+2009_001270.jpg,aug-14-5.png,cat
+2009_001270.jpg,aug-14-6.png,cat
+2009_001270.jpg,aug-14-7.png,cat
+2009_001270.jpg,aug-14-8.png,cat
+2009_001270.jpg,aug-14-9.png,cat
+2011_000973.jpg,aug-15-0.png,cat
+2011_000973.jpg,aug-15-1.png,cat
+2011_000973.jpg,aug-15-2.png,cat
+2011_000973.jpg,aug-15-3.png,cat
+2011_000973.jpg,aug-15-4.png,cat
+2011_000973.jpg,aug-15-5.png,cat
+2011_000973.jpg,aug-15-6.png,cat
+2011_000973.jpg,aug-15-7.png,cat
+2011_000973.jpg,aug-15-8.png,cat
+2011_000973.jpg,aug-15-9.png,cat
+2011_002709.jpg,aug-16-0.png,chair
+2011_002709.jpg,aug-16-1.png,chair
+2011_002709.jpg,aug-16-2.png,chair
+2011_002709.jpg,aug-16-3.png,chair
+2011_002709.jpg,aug-16-4.png,chair
+2011_002709.jpg,aug-16-5.png,chair
+2011_002709.jpg,aug-16-6.png,chair
+2011_002709.jpg,aug-16-7.png,chair
+2011_002709.jpg,aug-16-8.png,chair
+2011_002709.jpg,aug-16-9.png,chair
+2009_000028.jpg,aug-17-0.png,chair
+2009_000028.jpg,aug-17-1.png,chair
+2009_000028.jpg,aug-17-2.png,chair
+2009_000028.jpg,aug-17-3.png,chair
+2009_000028.jpg,aug-17-4.png,chair
+2009_000028.jpg,aug-17-5.png,chair
+2009_000028.jpg,aug-17-6.png,chair
+2009_000028.jpg,aug-17-7.png,chair
+2009_000028.jpg,aug-17-8.png,chair
+2009_000028.jpg,aug-17-9.png,chair
+2011_001653.jpg,aug-18-0.png,cow
+2011_001653.jpg,aug-18-1.png,cow
+2011_001653.jpg,aug-18-2.png,cow
+2011_001653.jpg,aug-18-3.png,cow
+2011_001653.jpg,aug-18-4.png,cow
+2011_001653.jpg,aug-18-5.png,cow
+2011_001653.jpg,aug-18-6.png,cow
+2011_001653.jpg,aug-18-7.png,cow
+2011_001653.jpg,aug-18-8.png,cow
+2011_001653.jpg,aug-18-9.png,cow
+2007_005797.jpg,aug-19-0.png,cow
+2007_005797.jpg,aug-19-1.png,cow
+2007_005797.jpg,aug-19-2.png,cow
+2007_005797.jpg,aug-19-3.png,cow
+2007_005797.jpg,aug-19-4.png,cow
+2007_005797.jpg,aug-19-5.png,cow
+2007_005797.jpg,aug-19-6.png,cow
+2007_005797.jpg,aug-19-7.png,cow
+2007_005797.jpg,aug-19-8.png,cow
+2007_005797.jpg,aug-19-9.png,cow
+2008_002960.jpg,aug-20-0.png,dining table
+2008_002960.jpg,aug-20-1.png,dining table
+2008_002960.jpg,aug-20-2.png,dining table
+2008_002960.jpg,aug-20-3.png,dining table
+2008_002960.jpg,aug-20-4.png,dining table
+2008_002960.jpg,aug-20-5.png,dining table
+2008_002960.jpg,aug-20-6.png,dining table
+2008_002960.jpg,aug-20-7.png,dining table
+2008_002960.jpg,aug-20-8.png,dining table
+2008_002960.jpg,aug-20-9.png,dining table
+2010_002418.jpg,aug-21-0.png,dining table
+2010_002418.jpg,aug-21-1.png,dining table
+2010_002418.jpg,aug-21-2.png,dining table
+2010_002418.jpg,aug-21-3.png,dining table
+2010_002418.jpg,aug-21-4.png,dining table
+2010_002418.jpg,aug-21-5.png,dining table
+2010_002418.jpg,aug-21-6.png,dining table
+2010_002418.jpg,aug-21-7.png,dining table
+2010_002418.jpg,aug-21-8.png,dining table
+2010_002418.jpg,aug-21-9.png,dining table
+2010_005419.jpg,aug-22-0.png,dog
+2010_005419.jpg,aug-22-1.png,dog
+2010_005419.jpg,aug-22-2.png,dog
+2010_005419.jpg,aug-22-3.png,dog
+2010_005419.jpg,aug-22-4.png,dog
+2010_005419.jpg,aug-22-5.png,dog
+2010_005419.jpg,aug-22-6.png,dog
+2010_005419.jpg,aug-22-7.png,dog
+2010_005419.jpg,aug-22-8.png,dog
+2010_005419.jpg,aug-22-9.png,dog
+2010_002499.jpg,aug-23-0.png,dog
+2010_002499.jpg,aug-23-1.png,dog
+2010_002499.jpg,aug-23-2.png,dog
+2010_002499.jpg,aug-23-3.png,dog
+2010_002499.jpg,aug-23-4.png,dog
+2010_002499.jpg,aug-23-5.png,dog
+2010_002499.jpg,aug-23-6.png,dog
+2010_002499.jpg,aug-23-7.png,dog
+2010_002499.jpg,aug-23-8.png,dog
+2010_002499.jpg,aug-23-9.png,dog
+2011_003184.jpg,aug-24-0.png,horse
+2011_003184.jpg,aug-24-1.png,horse
+2011_003184.jpg,aug-24-2.png,horse
+2011_003184.jpg,aug-24-3.png,horse
+2011_003184.jpg,aug-24-4.png,horse
+2011_003184.jpg,aug-24-5.png,horse
+2011_003184.jpg,aug-24-6.png,horse
+2011_003184.jpg,aug-24-7.png,horse
+2011_003184.jpg,aug-24-8.png,horse
+2011_003184.jpg,aug-24-9.png,horse
+2007_003189.jpg,aug-25-0.png,horse
+2007_003189.jpg,aug-25-1.png,horse
+2007_003189.jpg,aug-25-2.png,horse
+2007_003189.jpg,aug-25-3.png,horse
+2007_003189.jpg,aug-25-4.png,horse
+2007_003189.jpg,aug-25-5.png,horse
+2007_003189.jpg,aug-25-6.png,horse
+2007_003189.jpg,aug-25-7.png,horse
+2007_003189.jpg,aug-25-8.png,horse
+2007_003189.jpg,aug-25-9.png,horse
+2007_004003.jpg,aug-26-0.png,motorcycle
+2007_004003.jpg,aug-26-1.png,motorcycle
+2007_004003.jpg,aug-26-2.png,motorcycle
+2007_004003.jpg,aug-26-3.png,motorcycle
+2007_004003.jpg,aug-26-4.png,motorcycle
+2007_004003.jpg,aug-26-5.png,motorcycle
+2007_004003.jpg,aug-26-6.png,motorcycle
+2007_004003.jpg,aug-26-7.png,motorcycle
+2007_004003.jpg,aug-26-8.png,motorcycle
+2007_004003.jpg,aug-26-9.png,motorcycle
+2010_004289.jpg,aug-27-0.png,motorcycle
+2010_004289.jpg,aug-27-1.png,motorcycle
+2010_004289.jpg,aug-27-2.png,motorcycle
+2010_004289.jpg,aug-27-3.png,motorcycle
+2010_004289.jpg,aug-27-4.png,motorcycle
+2010_004289.jpg,aug-27-5.png,motorcycle
+2010_004289.jpg,aug-27-6.png,motorcycle
+2010_004289.jpg,aug-27-7.png,motorcycle
+2010_004289.jpg,aug-27-8.png,motorcycle
+2010_004289.jpg,aug-27-9.png,motorcycle
+2007_002611.jpg,aug-28-0.png,person
+2007_002611.jpg,aug-28-1.png,person
+2007_002611.jpg,aug-28-2.png,person
+2007_002611.jpg,aug-28-3.png,person
+2007_002611.jpg,aug-28-4.png,person
+2007_002611.jpg,aug-28-5.png,person
+2007_002611.jpg,aug-28-6.png,person
+2007_002611.jpg,aug-28-7.png,person
+2007_002611.jpg,aug-28-8.png,person
+2007_002611.jpg,aug-28-9.png,person
+2008_000284.jpg,aug-29-0.png,person
+2008_000284.jpg,aug-29-1.png,person
+2008_000284.jpg,aug-29-2.png,person
+2008_000284.jpg,aug-29-3.png,person
+2008_000284.jpg,aug-29-4.png,person
+2008_000284.jpg,aug-29-5.png,person
+2008_000284.jpg,aug-29-6.png,person
+2008_000284.jpg,aug-29-7.png,person
+2008_000284.jpg,aug-29-8.png,person
+2008_000284.jpg,aug-29-9.png,person
+2010_000567.jpg,aug-30-0.png,potted plant
+2010_000567.jpg,aug-30-1.png,potted plant
+2010_000567.jpg,aug-30-2.png,potted plant
+2010_000567.jpg,aug-30-3.png,potted plant
+2010_000567.jpg,aug-30-4.png,potted plant
+2010_000567.jpg,aug-30-5.png,potted plant
+2010_000567.jpg,aug-30-6.png,potted plant
+2010_000567.jpg,aug-30-7.png,potted plant
+2010_000567.jpg,aug-30-8.png,potted plant
+2010_000567.jpg,aug-30-9.png,potted plant
+2009_000635.jpg,aug-31-0.png,potted plant
+2009_000635.jpg,aug-31-1.png,potted plant
+2009_000635.jpg,aug-31-2.png,potted plant
+2009_000635.jpg,aug-31-3.png,potted plant
+2009_000635.jpg,aug-31-4.png,potted plant
+2009_000635.jpg,aug-31-5.png,potted plant
+2009_000635.jpg,aug-31-6.png,potted plant
+2009_000635.jpg,aug-31-7.png,potted plant
+2009_000635.jpg,aug-31-8.png,potted plant
+2009_000635.jpg,aug-31-9.png,potted plant
+2009_002988.jpg,aug-32-0.png,sheep
+2009_002988.jpg,aug-32-1.png,sheep
+2009_002988.jpg,aug-32-2.png,sheep
+2009_002988.jpg,aug-32-3.png,sheep
+2009_002988.jpg,aug-32-4.png,sheep
+2009_002988.jpg,aug-32-5.png,sheep
+2009_002988.jpg,aug-32-6.png,sheep
+2009_002988.jpg,aug-32-7.png,sheep
+2009_002988.jpg,aug-32-8.png,sheep
+2009_002988.jpg,aug-32-9.png,sheep
+2011_002464.jpg,aug-33-0.png,sheep
+2011_002464.jpg,aug-33-1.png,sheep
+2011_002464.jpg,aug-33-2.png,sheep
+2011_002464.jpg,aug-33-3.png,sheep
+2011_002464.jpg,aug-33-4.png,sheep
+2011_002464.jpg,aug-33-5.png,sheep
+2011_002464.jpg,aug-33-6.png,sheep
+2011_002464.jpg,aug-33-7.png,sheep
+2011_002464.jpg,aug-33-8.png,sheep
+2011_002464.jpg,aug-33-9.png,sheep
+2008_001399.jpg,aug-34-0.png,sofa
+2008_001399.jpg,aug-34-1.png,sofa
+2008_001399.jpg,aug-34-2.png,sofa
+2008_001399.jpg,aug-34-3.png,sofa
+2008_001399.jpg,aug-34-4.png,sofa
+2008_001399.jpg,aug-34-5.png,sofa
+2008_001399.jpg,aug-34-6.png,sofa
+2008_001399.jpg,aug-34-7.png,sofa
+2008_001399.jpg,aug-34-8.png,sofa
+2008_001399.jpg,aug-34-9.png,sofa
+2009_004301.jpg,aug-35-0.png,sofa
+2009_004301.jpg,aug-35-1.png,sofa
+2009_004301.jpg,aug-35-2.png,sofa
+2009_004301.jpg,aug-35-3.png,sofa
+2009_004301.jpg,aug-35-4.png,sofa
+2009_004301.jpg,aug-35-5.png,sofa
+2009_004301.jpg,aug-35-6.png,sofa
+2009_004301.jpg,aug-35-7.png,sofa
+2009_004301.jpg,aug-35-8.png,sofa
+2009_004301.jpg,aug-35-9.png,sofa
+2010_003274.jpg,aug-36-0.png,train
+2010_003274.jpg,aug-36-1.png,train
+2010_003274.jpg,aug-36-2.png,train
+2010_003274.jpg,aug-36-3.png,train
+2010_003274.jpg,aug-36-4.png,train
+2010_003274.jpg,aug-36-5.png,train
+2010_003274.jpg,aug-36-6.png,train
+2010_003274.jpg,aug-36-7.png,train
+2010_003274.jpg,aug-36-8.png,train
+2010_003274.jpg,aug-36-9.png,train
+2009_005287.jpg,aug-37-0.png,train
+2009_005287.jpg,aug-37-1.png,train
+2009_005287.jpg,aug-37-2.png,train
+2009_005287.jpg,aug-37-3.png,train
+2009_005287.jpg,aug-37-4.png,train
+2009_005287.jpg,aug-37-5.png,train
+2009_005287.jpg,aug-37-6.png,train
+2009_005287.jpg,aug-37-7.png,train
+2009_005287.jpg,aug-37-8.png,train
+2009_005287.jpg,aug-37-9.png,train
+2007_000121.jpg,aug-38-0.png,television
+2007_000121.jpg,aug-38-1.png,television
+2007_000121.jpg,aug-38-2.png,television
+2007_000121.jpg,aug-38-3.png,television
+2007_000121.jpg,aug-38-4.png,television
+2007_000121.jpg,aug-38-5.png,television
+2007_000121.jpg,aug-38-6.png,television
+2007_000121.jpg,aug-38-7.png,television
+2007_000121.jpg,aug-38-8.png,television
+2007_000121.jpg,aug-38-9.png,television
+2010_005805.jpg,aug-39-0.png,television
+2010_005805.jpg,aug-39-1.png,television
+2010_005805.jpg,aug-39-2.png,television
+2010_005805.jpg,aug-39-3.png,television
+2010_005805.jpg,aug-39-4.png,television
+2010_005805.jpg,aug-39-5.png,television
+2010_005805.jpg,aug-39-6.png,television
+2010_005805.jpg,aug-39-7.png,television
+2010_005805.jpg,aug-39-8.png,television
+2010_005805.jpg,aug-39-9.png,television
