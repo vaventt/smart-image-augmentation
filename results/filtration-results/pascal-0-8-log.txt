@@ -1,0 +1,145 @@
+Processed group: airplane - 2007_002099.jpg, Time: 17.80s, Input Tokens: 1358, Output Tokens: 968, Price: $0.0213
+Processed group: airplane - 2007_004459.jpg, Time: 21.63s, Input Tokens: 1358, Output Tokens: 1047, Price: $0.0225
+Processed group: airplane - 2007_004988.jpg, Time: 22.01s, Input Tokens: 1358, Output Tokens: 995, Price: $0.0217
+Processed group: airplane - 2007_009030.jpg, Time: 25.87s, Input Tokens: 1358, Output Tokens: 1038, Price: $0.0224
+Processed group: airplane - 2007_009348.jpg, Time: 32.69s, Input Tokens: 1358, Output Tokens: 1005, Price: $0.0219
+Processed group: airplane - 2009_002448.jpg, Time: 21.33s, Input Tokens: 1358, Output Tokens: 1051, Price: $0.0226
+Processed group: airplane - 2010_002532.jpg, Time: 32.72s, Input Tokens: 1358, Output Tokens: 991, Price: $0.0217
+Processed group: airplane - 2010_005106.jpg, Time: 23.87s, Input Tokens: 1358, Output Tokens: 1017, Price: $0.0220
+Processed group: bicycle - 2008_005839.jpg, Time: 36.75s, Input Tokens: 1358, Output Tokens: 945, Price: $0.0210
+Processed group: bicycle - 2009_000015.jpg, Time: 45.31s, Input Tokens: 1358, Output Tokens: 1038, Price: $0.0224
+Processed group: bicycle - 2009_003519.jpg, Time: 35.21s, Input Tokens: 1358, Output Tokens: 1131, Price: $0.0238
+Processed group: bicycle - 2010_000685.jpg, Time: 18.45s, Input Tokens: 1358, Output Tokens: 1031, Price: $0.0223
+Processed group: bicycle - 2010_003799.jpg, Time: 36.33s, Input Tokens: 1358, Output Tokens: 1015, Price: $0.0220
+Processed group: bicycle - 2010_004072.jpg, Time: 22.83s, Input Tokens: 1358, Output Tokens: 1053, Price: $0.0226
+Processed group: bicycle - 2010_004154.jpg, Time: 16.00s, Input Tokens: 1358, Output Tokens: 1030, Price: $0.0222
+Processed group: bicycle - 2010_005111.jpg, Time: 21.61s, Input Tokens: 1358, Output Tokens: 963, Price: $0.0212
+Processed group: bird - 2007_003330.jpg, Time: 13.12s, Input Tokens: 1358, Output Tokens: 900, Price: $0.0203
+Processed group: bird - 2008_000861.jpg, Time: 20.79s, Input Tokens: 1358, Output Tokens: 1069, Price: $0.0228
+Processed group: bird - 2008_001387.jpg, Time: 17.42s, Input Tokens: 1358, Output Tokens: 938, Price: $0.0209
+Processed group: bird - 2009_000746.jpg, Time: 23.69s, Input Tokens: 1358, Output Tokens: 980, Price: $0.0215
+Processed group: bird - 2009_001693.jpg, Time: 15.89s, Input Tokens: 1358, Output Tokens: 997, Price: $0.0217
+Processed group: bird - 2009_004334.jpg, Time: 51.12s, Input Tokens: 1358, Output Tokens: 1145, Price: $0.0240
+Processed group: bird - 2010_000075.jpg, Time: 44.10s, Input Tokens: 1358, Output Tokens: 1051, Price: $0.0226
+Processed group: bird - 2010_005129.jpg, Time: 17.59s, Input Tokens: 1358, Output Tokens: 1069, Price: $0.0228
+Processed group: boat - 2007_007415.jpg, Time: 40.70s, Input Tokens: 1358, Output Tokens: 958, Price: $0.0212
+Processed group: boat - 2007_008571.jpg, Time: 18.60s, Input Tokens: 1358, Output Tokens: 1050, Price: $0.0225
+Processed group: boat - 2007_009527.jpg, Time: 24.55s, Input Tokens: 1358, Output Tokens: 1070, Price: $0.0228
+Processed group: boat - 2008_001056.jpg, Time: 26.03s, Input Tokens: 1358, Output Tokens: 1093, Price: $0.0232
+Processed group: boat - 2008_006065.jpg, Time: 22.20s, Input Tokens: 1358, Output Tokens: 1048, Price: $0.0225
+Processed group: boat - 2009_005118.jpg, Time: 20.76s, Input Tokens: 1358, Output Tokens: 1028, Price: $0.0222
+Processed group: boat - 2010_003599.jpg, Time: 31.69s, Input Tokens: 1358, Output Tokens: 1056, Price: $0.0226
+Processed group: boat - 2011_003025.jpg, Time: 14.79s, Input Tokens: 1358, Output Tokens: 1032, Price: $0.0223
+Processed group: bottle - 2008_000015.jpg, Time: 16.09s, Input Tokens: 1358, Output Tokens: 1000, Price: $0.0218
+Processed group: bottle - 2008_007142.jpg, Time: 18.21s, Input Tokens: 1358, Output Tokens: 953, Price: $0.0211
+Processed group: bottle - 2008_007858.jpg, Time: 46.79s, Input Tokens: 1358, Output Tokens: 985, Price: $0.0216
+Processed group: bottle - 2009_001937.jpg, Time: 22.94s, Input Tokens: 1358, Output Tokens: 1016, Price: $0.0220
+Processed group: bottle - 2009_002567.jpg, Time: 17.15s, Input Tokens: 1358, Output Tokens: 1038, Price: $0.0224
+Processed group: bottle - 2009_003865.jpg, Time: 20.48s, Input Tokens: 1358, Output Tokens: 1008, Price: $0.0219
+Processed group: bottle - 2010_002455.jpg, Time: 16.56s, Input Tokens: 1358, Output Tokens: 961, Price: $0.0212
+Processed group: bottle - 2010_004288.jpg, Time: 30.80s, Input Tokens: 1358, Output Tokens: 1149, Price: $0.0240
+Processed group: bus - 2007_000768.jpg, Time: 27.31s, Input Tokens: 1358, Output Tokens: 1108, Price: $0.0234
+Processed group: bus - 2007_002024.jpg, Time: 27.83s, Input Tokens: 1358, Output Tokens: 1037, Price: $0.0223
+Processed group: bus - 2007_005262.jpg, Time: 14.04s, Input Tokens: 1358, Output Tokens: 978, Price: $0.0215
+Processed group: bus - 2007_007591.jpg, Time: 22.42s, Input Tokens: 1358, Output Tokens: 1031, Price: $0.0223
+Processed group: bus - 2008_003373.jpg, Time: 20.07s, Input Tokens: 1358, Output Tokens: 1007, Price: $0.0219
+Processed group: bus - 2009_003461.jpg, Time: 19.66s, Input Tokens: 1358, Output Tokens: 1029, Price: $0.0222
+Processed group: bus - 2010_002218.jpg, Time: 21.09s, Input Tokens: 1358, Output Tokens: 1110, Price: $0.0234
+Processed group: bus - 2011_001270.jpg, Time: 17.98s, Input Tokens: 1358, Output Tokens: 1068, Price: $0.0228
+Processed group: car - 2008_000105.jpg, Time: 19.70s, Input Tokens: 1358, Output Tokens: 1055, Price: $0.0226
+Processed group: car - 2008_002473.jpg, Time: 16.45s, Input Tokens: 1358, Output Tokens: 1029, Price: $0.0222
+Processed group: car - 2009_002010.jpg, Time: 22.09s, Input Tokens: 1358, Output Tokens: 1023, Price: $0.0221
+Processed group: car - 2009_002343.jpg, Time: 33.08s, Input Tokens: 1358, Output Tokens: 1059, Price: $0.0227
+Processed group: car - 2009_002387.jpg, Time: 17.97s, Input Tokens: 1358, Output Tokens: 964, Price: $0.0213
+Processed group: car - 2010_000466.jpg, Time: 19.11s, Input Tokens: 1358, Output Tokens: 1147, Price: $0.0240
+Processed group: car - 2010_005318.jpg, Time: 16.42s, Input Tokens: 1358, Output Tokens: 1098, Price: $0.0233
+Processed group: car - 2011_002224.jpg, Time: 20.50s, Input Tokens: 1358, Output Tokens: 1021, Price: $0.0221
+Processed group: cat - 2009_001270.jpg, Time: 21.72s, Input Tokens: 1358, Output Tokens: 1053, Price: $0.0226
+Processed group: cat - 2010_001195.jpg, Time: 22.74s, Input Tokens: 1358, Output Tokens: 979, Price: $0.0215
+Processed group: cat - 2010_001842.jpg, Time: 16.08s, Input Tokens: 1358, Output Tokens: 984, Price: $0.0215
+Processed group: cat - 2010_004933.jpg, Time: 25.06s, Input Tokens: 1358, Output Tokens: 939, Price: $0.0209
+Processed group: cat - 2010_005202.jpg, Time: 17.02s, Input Tokens: 1358, Output Tokens: 1073, Price: $0.0229
+Processed group: cat - 2010_005513.jpg, Time: 30.18s, Input Tokens: 1358, Output Tokens: 981, Price: $0.0215
+Processed group: cat - 2010_005652.jpg, Time: 16.52s, Input Tokens: 1358, Output Tokens: 961, Price: $0.0212
+Processed group: cat - 2011_000973.jpg, Time: 22.09s, Input Tokens: 1358, Output Tokens: 995, Price: $0.0217
+Processed group: chair - 2007_008948.jpg, Time: 20.71s, Input Tokens: 1358, Output Tokens: 956, Price: $0.0211
+Processed group: chair - 2009_000028.jpg, Time: 21.89s, Input Tokens: 1358, Output Tokens: 1177, Price: $0.0244
+Processed group: chair - 2010_002815.jpg, Time: 38.99s, Input Tokens: 1358, Output Tokens: 1039, Price: $0.0224
+Processed group: chair - 2010_003665.jpg, Time: 24.86s, Input Tokens: 1358, Output Tokens: 934, Price: $0.0208
+Processed group: chair - 2010_003925.jpg, Time: 15.94s, Input Tokens: 1358, Output Tokens: 1077, Price: $0.0229
+Processed group: chair - 2010_005800.jpg, Time: 18.04s, Input Tokens: 1358, Output Tokens: 1047, Price: $0.0225
+Processed group: chair - 2011_000108.jpg, Time: 17.53s, Input Tokens: 1358, Output Tokens: 999, Price: $0.0218
+Processed group: chair - 2011_002709.jpg, Time: 31.06s, Input Tokens: 1358, Output Tokens: 1055, Price: $0.0226
+Processed group: cow - 2007_005797.jpg, Time: 41.18s, Input Tokens: 1358, Output Tokens: 1168, Price: $0.0243
+Processed group: cow - 2009_001104.jpg, Time: 39.35s, Input Tokens: 1358, Output Tokens: 1093, Price: $0.0232
+Processed group: cow - 2009_001163.jpg, Time: 44.87s, Input Tokens: 1358, Output Tokens: 1071, Price: $0.0229
+Processed group: cow - 2009_002588.jpg, Time: 21.32s, Input Tokens: 1358, Output Tokens: 1121, Price: $0.0236
+Processed group: cow - 2009_002912.jpg, Time: 19.58s, Input Tokens: 1358, Output Tokens: 1111, Price: $0.0235
+Processed group: cow - 2009_003146.jpg, Time: 18.98s, Input Tokens: 1358, Output Tokens: 1008, Price: $0.0219
+Processed group: cow - 2011_001653.jpg, Time: 16.10s, Input Tokens: 1358, Output Tokens: 1040, Price: $0.0224
+Processed group: cow - 2011_002134.jpg, Time: 18.54s, Input Tokens: 1358, Output Tokens: 1034, Price: $0.0223
+Processed group: dining table - 2007_006699.jpg, Time: 22.96s, Input Tokens: 1359, Output Tokens: 1166, Price: $0.0243
+Processed group: dining table - 2008_002032.jpg, Time: 20.09s, Input Tokens: 1359, Output Tokens: 1012, Price: $0.0220
+Processed group: dining table - 2008_002960.jpg, Time: 14.77s, Input Tokens: 1359, Output Tokens: 1001, Price: $0.0218
+Processed group: dining table - 2009_001095.jpg, Time: 21.03s, Input Tokens: 1359, Output Tokens: 1097, Price: $0.0232
+Processed group: dining table - 2009_004228.jpg, Time: 16.61s, Input Tokens: 1359, Output Tokens: 1124, Price: $0.0237
+Processed group: dining table - 2010_002418.jpg, Time: 14.73s, Input Tokens: 1359, Output Tokens: 1052, Price: $0.0226
+Processed group: dining table - 2010_004361.jpg, Time: 17.67s, Input Tokens: 1359, Output Tokens: 1059, Price: $0.0227
+Processed group: dining table - 2011_000573.jpg, Time: 19.99s, Input Tokens: 1359, Output Tokens: 985, Price: $0.0216
+Processed group: dog - 2007_001397.jpg, Time: 14.95s, Input Tokens: 1358, Output Tokens: 1020, Price: $0.0221
+Processed group: dog - 2007_003604.jpg, Time: 20.83s, Input Tokens: 1358, Output Tokens: 973, Price: $0.0214
+Processed group: dog - 2009_001885.jpg, Time: 27.89s, Input Tokens: 1358, Output Tokens: 1013, Price: $0.0220
+Processed group: dog - 2009_005055.jpg, Time: 20.92s, Input Tokens: 1358, Output Tokens: 1024, Price: $0.0221
+Processed group: dog - 2010_002499.jpg, Time: 24.79s, Input Tokens: 1358, Output Tokens: 1102, Price: $0.0233
+Processed group: dog - 2010_004493.jpg, Time: 22.87s, Input Tokens: 1358, Output Tokens: 1097, Price: $0.0232
+Processed group: dog - 2010_005419.jpg, Time: 21.80s, Input Tokens: 1358, Output Tokens: 1124, Price: $0.0237
+Processed group: dog - 2011_000428.jpg, Time: 17.65s, Input Tokens: 1358, Output Tokens: 1012, Price: $0.0220
+Processed group: horse - 2007_003189.jpg, Time: 16.42s, Input Tokens: 1358, Output Tokens: 1014, Price: $0.0220
+Processed group: horse - 2007_003889.jpg, Time: 15.38s, Input Tokens: 1358, Output Tokens: 1004, Price: $0.0218
+Processed group: horse - 2008_001235.jpg, Time: 18.10s, Input Tokens: 1358, Output Tokens: 951, Price: $0.0211
+Processed group: horse - 2008_004430.jpg, Time: 20.90s, Input Tokens: 1358, Output Tokens: 1006, Price: $0.0219
+Processed group: horse - 2008_008476.jpg, Time: 21.15s, Input Tokens: 1358, Output Tokens: 1028, Price: $0.0222
+Processed group: horse - 2009_000100.jpg, Time: 21.39s, Input Tokens: 1358, Output Tokens: 1071, Price: $0.0229
+Processed group: horse - 2010_005471.jpg, Time: 21.38s, Input Tokens: 1358, Output Tokens: 1039, Price: $0.0224
+Processed group: horse - 2011_003184.jpg, Time: 17.84s, Input Tokens: 1358, Output Tokens: 1010, Price: $0.0219
+Processed group: motorcycle - 2007_004003.jpg, Time: 23.47s, Input Tokens: 1358, Output Tokens: 1038, Price: $0.0224
+Processed group: motorcycle - 2008_003429.jpg, Time: 20.09s, Input Tokens: 1358, Output Tokens: 1041, Price: $0.0224
+Processed group: motorcycle - 2008_003769.jpg, Time: 24.88s, Input Tokens: 1358, Output Tokens: 1002, Price: $0.0218
+Processed group: motorcycle - 2010_000371.jpg, Time: 27.19s, Input Tokens: 1358, Output Tokens: 1056, Price: $0.0226
+Processed group: motorcycle - 2010_004119.jpg, Time: 24.86s, Input Tokens: 1358, Output Tokens: 1084, Price: $0.0230
+Processed group: motorcycle - 2010_004289.jpg, Time: 22.28s, Input Tokens: 1358, Output Tokens: 997, Price: $0.0217
+Processed group: motorcycle - 2010_004766.jpg, Time: 24.00s, Input Tokens: 1358, Output Tokens: 989, Price: $0.0216
+Processed group: motorcycle - 2011_003078.jpg, Time: 30.85s, Input Tokens: 1358, Output Tokens: 1023, Price: $0.0221
+Processed group: person - 2007_002611.jpg, Time: 19.46s, Input Tokens: 1358, Output Tokens: 1016, Price: $0.0220
+Processed group: person - 2007_003205.jpg, Time: 21.18s, Input Tokens: 1358, Output Tokens: 1072, Price: $0.0229
+Processed group: person - 2007_008801.jpg, Time: 18.74s, Input Tokens: 1358, Output Tokens: 1017, Price: $0.0220
+Processed group: person - 2007_009649.jpg, Time: 19.69s, Input Tokens: 1358, Output Tokens: 968, Price: $0.0213
+Processed group: person - 2008_000284.jpg, Time: 17.22s, Input Tokens: 1358, Output Tokens: 953, Price: $0.0211
+Processed group: person - 2008_001106.jpg, Time: 16.78s, Input Tokens: 1358, Output Tokens: 1036, Price: $0.0223
+Processed group: person - 2009_003035.jpg, Time: 12.24s, Input Tokens: 1358, Output Tokens: 992, Price: $0.0217
+Processed group: person - 2011_000594.jpg, Time: 20.64s, Input Tokens: 1358, Output Tokens: 948, Price: $0.0210
+Processed group: potted plant - 2007_002361.jpg, Time: 17.50s, Input Tokens: 1360, Output Tokens: 968, Price: $0.0213
+Processed group: potted plant - 2007_002967.jpg, Time: 22.13s, Input Tokens: 1360, Output Tokens: 1204, Price: $0.0249
+Processed group: potted plant - 2008_000188.jpg, Time: 22.40s, Input Tokens: 1360, Output Tokens: 975, Price: $0.0214
+Processed group: potted plant - 2008_000923.jpg, Time: 17.75s, Input Tokens: 1360, Output Tokens: 1019, Price: $0.0221
+Processed group: potted plant - 2008_006751.jpg, Time: 18.16s, Input Tokens: 1360, Output Tokens: 1129, Price: $0.0237
+Processed group: potted plant - 2009_000635.jpg, Time: 19.28s, Input Tokens: 1360, Output Tokens: 1108, Price: $0.0234
+Processed group: potted plant - 2009_001100.jpg, Time: 17.64s, Input Tokens: 1360, Output Tokens: 941, Price: $0.0209
+Processed group: potted plant - 2010_000567.jpg, Time: 20.82s, Input Tokens: 1360, Output Tokens: 936, Price: $0.0208
+Processed group: sheep - 2007_001416.jpg, Time: 17.64s, Input Tokens: 1358, Output Tokens: 995, Price: $0.0217
+Processed group: sheep - 2008_001601.jpg, Time: 21.33s, Input Tokens: 1358, Output Tokens: 1013, Price: $0.0220
+Processed group: sheep - 2008_005706.jpg, Time: 20.00s, Input Tokens: 1358, Output Tokens: 1062, Price: $0.0227
+Processed group: sheep - 2008_006070.jpg, Time: 31.36s, Input Tokens: 1358, Output Tokens: 930, Price: $0.0207
+Processed group: sheep - 2008_006221.jpg, Time: 30.65s, Input Tokens: 1358, Output Tokens: 1051, Price: $0.0226
+Processed group: sheep - 2009_001177.jpg, Time: 25.08s, Input Tokens: 1358, Output Tokens: 981, Price: $0.0215
+Processed group: sheep - 2009_002988.jpg, Time: 22.51s, Input Tokens: 1358, Output Tokens: 1016, Price: $0.0220
+Processed group: sheep - 2011_002464.jpg, Time: 21.93s, Input Tokens: 1358, Output Tokens: 1028, Price: $0.0222
+Processed group: sofa - 2007_003451.jpg, Time: 19.29s, Input Tokens: 1358, Output Tokens: 1007, Price: $0.0219
+Processed group: sofa - 2007_008821.jpg, Time: 31.68s, Input Tokens: 1358, Output Tokens: 1067, Price: $0.0228
+Processed group: sofa - 2008_001399.jpg, Time: 26.66s, Input Tokens: 1358, Output Tokens: 987, Price: $0.0216
+Processed group: sofa - 2008_001896.jpg, Time: 22.73s, Input Tokens: 1358, Output Tokens: 1009, Price: $0.0219
+Processed group: sofa - 2009_003711.jpg, Time: 15.99s, Input Tokens: 1358, Output Tokens: 1085, Price: $0.0231
+Processed group: sofa - 2009_004301.jpg, Time: 17.52s, Input Tokens: 1358, Output Tokens: 1012, Price: $0.0220
+Processed group: sofa - 2011_000457.jpg, Time: 20.72s, Input Tokens: 1358, Output Tokens: 1097, Price: $0.0232
+Processed group: sofa - 2011_002335.jpg, Time: 19.54s, Input Tokens: 1358, Output Tokens: 1050, Price: $0.0225
+Processed group: train - 2007_007726.jpg, Time: 19.11s, Input Tokens: 1358, Output Tokens: 1018, Price: $0.0221

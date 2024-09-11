@@ -16,8 +16,8 @@ client = OpenAI(api_key=api_key)
 BASE_DIR = "/Users/andrew/Thesis/smart-image-augmentation"
 REAL_DIR = os.path.join(BASE_DIR, "pascal", "real", "train")
 AUG_BASE_DIR = os.path.join(BASE_DIR, "pascal", "aug-pascal-original")
-MAPPING_BASE_DIR = os.path.join(BASE_DIR, "pascal", "map_images")
-OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "filtration_results")
+MAPPING_BASE_DIR = os.path.join(BASE_DIR, "pascal", "map-images")
+OUTPUT_DIR = os.path.join(BASE_DIR, "results", "filtration-results")
 
 # Constants for pricing
 INPUT_TOKEN_PRICE_PER_MILLION = 5
@@ -55,17 +55,28 @@ def analyze_images_with_gpt(image_paths, class_name):
         print(f"No valid images to analyze for class {class_name}")
         return None, 0, 0
     
-    prompt = f"""Analyze these images of class {class_name}. The first image is real and serves as reference.
-    For each of the remaining 10 augmented images, compare them to the real one and provide float scores from 0 to 1 for:
-    Index: from 1 to 10 in order of the augmented images
-    a) Quality: Overall visual fidelity and clarity compared to the real one.
-    b) Realism: How well it matches real-world expectations set by the reference image.
-    c) Relevance: How well it represents a {class_name} compared to the reference image.
-    d) Detail Preservation: Retention of important class-specific features.
+    prompt = f"""You are evaluating augmented images for an image classification task. The first image of class {class_name} is real and serves as reference.
+    For each of the remaining 10 augmented images, please evaluate them based on the following criteria, providing a score between 0.0 and 1.0 for each:
     
-    Respond ONLY with a list of JSON objects, one for each non-reference image, in this format:
+    Index: from 1 to 10 in order of the augmented images
+
+    1. Class Representation: How well does the image maintain the core semantic content, key features, and distinguishability of the original class? (0 = completely irrelevant or indistinguishable, 1 = perfectly relevant, feature-complete, and highly distinguishable)
+    2. Visual Fidelity: Is the image clear, well-formed, free from artifacts, natural-looking, and in an appropriate context for the given class? (0 = poor quality, unrealistic, or out of context, 1 = excellent quality, realistic, and in perfect context)
+    3. Structural Integrity: How well does the image maintain the overall structure and proportions expected for the class? (0 = severely distorted structure, 1 = perfect structural integrity)
+    4. Diversity: How different is the image from the reference while still maintaining class identity? (0 = identical, 1 = maximum beneficial diversity)
+    5. Beneficial Variations: How effectively does the image introduce meaningful changes in pose, viewpoint, lighting, or color that could aid in generalization? (0 = no variation, 1 = optimal variation)
+
+    Provide your response as a list of JSON objects, one for each non-reference augmented image, in this format:
     [
-      {{"index": 1, "quality": 0.0, "realism": 0.0, "relevance": 0.0, "detail_preservation": 0.0, "explanation": "Brief explanation."}}
+    {{
+    "index": 1,
+    "class_representation": 0.0,
+    "visual_fidelity": 0.0,
+    "structural_integrity": 0.0,
+    "diversity": 0.0,
+    "beneficial_variations": 0.0,
+    "explanation": "Brief explanation of how changes affect classification and quality"
+    }}
     ]
     """
     
@@ -83,7 +94,8 @@ def analyze_images_with_gpt(image_paths, class_name):
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=messages,
-            max_tokens=2000
+            max_tokens=2000,
+            temperature=0.0
         )
 
         content = response.choices[0].message.content.strip('`').strip()
@@ -151,18 +163,17 @@ def process_image_group(real_path, aug_paths, class_name):
         i = len(df_data)
         df_data.append({
             'index': i + 1,
-            'quality': 0.5,
-            'realism': 0.5,
-            'relevance': 0.5,
-            'detail_preservation': 0.5,
+            'class_representation': 0.5,
+            'visual_fidelity': 0.5,
+            'structural_integrity': 0.5,
+            'diversity': 0.5,
+            'beneficial_variations': 0.5,
             'explanation': 'Default values due to incomplete GPT response',
             'filename': os.path.basename(aug_paths[i]),
             'class_name': class_name
         })
     
     df = pd.DataFrame(df_data)
-    df['overall_score'] = df[['quality', 'realism', 'relevance', 'detail_preservation']].mean(axis=1)
-    df = df.sort_values('overall_score', ascending=False)
     
     end_time = time.time()
     execution_time = end_time - start_time
@@ -176,7 +187,7 @@ def process_folder(real_dir, aug_dir, mapping_file, output_dir):
     total_output_tokens = 0
 
     os.makedirs(output_dir, exist_ok=True)
-    log_file = os.path.join(output_dir, f'{os.path.basename(aug_dir)}_log.txt')
+    log_file = os.path.join(output_dir, f'{os.path.basename(aug_dir)}-log.txt')
     
     # Read the mapping file
     mapping_df = pd.read_csv(mapping_file)
@@ -228,9 +239,8 @@ def process_folder(real_dir, aug_dir, mapping_file, output_dir):
 
     if all_results:
         final_df = pd.concat(all_results, ignore_index=True)
-        final_df = final_df.sort_values('overall_score', ascending=False)
         
-        csv_path = os.path.join(output_dir, f'{os.path.basename(aug_dir)}_results.csv')
+        csv_path = os.path.join(output_dir, f'{os.path.basename(aug_dir)}-results.csv')
         final_df.to_csv(csv_path, index=False)
         print(f"Results saved to {csv_path}")
     else:
@@ -242,7 +252,7 @@ def get_matching_mapping_file(folder, mapping_dir):
         raise ValueError(f"Invalid folder name format: {folder}")
     
     seed, examples_per_class = folder_parts[1], folder_parts[2]
-    pattern = f"images_map_{seed}_{examples_per_class}.csv"
+    pattern = f"images-map-{seed}-{examples_per_class}.csv"
     
     for file in os.listdir(mapping_dir):
         if file == pattern:

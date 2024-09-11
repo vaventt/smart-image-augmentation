@@ -4,6 +4,7 @@ from PIL import Image
 from collections import defaultdict
 import shutil
 
+
 def transform_pascal_voc_2012(voc_path, output_path):
     segmentation_path = os.path.join(voc_path, 'SegmentationClass')
     images_path = os.path.join(voc_path, 'JPEGImages')
@@ -37,7 +38,8 @@ def transform_pascal_voc_2012(voc_path, output_path):
     
     # Mapping from original to new class names
     class_name_mapping = {orig: new for orig, new in zip(original_class_names[1:], PASCAL_CLASSES)}
-    
+
+
     def process_image_set(image_set, output_subset):
         count_dict = defaultdict(int)
         skipped_no_mask = 0
@@ -75,12 +77,14 @@ def transform_pascal_voc_2012(voc_path, output_path):
             
             shutil.copy(src_path, dst_path)
             count_dict[new_class_name] += 1
-        
+
+
         print(f"\nProcessed {output_subset} set:")
         print(f"Skipped {skipped_no_mask} images with no segmentation mask")
         print(f"Skipped {skipped_background} images with only background")
         return count_dict
-    
+
+
     train_count = process_image_set(train_set, 'train')
     val_count = process_image_set(val_set, 'val')
     
@@ -94,8 +98,12 @@ def transform_pascal_voc_2012(voc_path, output_path):
     for class_name, count in val_count.items():
         print(f"{class_name}: {count} images")
     print(f"Total validation images: {sum(val_count.values())}")
-
     print(f"\nTotal images processed: {sum(train_count.values()) + sum(val_count.values())}")
 
+
 # Usage
-transform_pascal_voc_2012('/Users/andrew/Thesis/smart-image-augmentation/VOCdevkit/VOC2012', '/Users/andrew/Thesis/smart-image-augmentation/pascal/real')
+BASE_DIR = "/Users/andrew/Thesis/smart-image-augmentation"
+PASCAL_DIR = os.path.join(BASE_DIR, "raw_data", "VOCdevkit", "VOC2012")
+OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "real")
+
+transform_pascal_voc_2012(PASCAL_DIR, OUTPUT_DIR)

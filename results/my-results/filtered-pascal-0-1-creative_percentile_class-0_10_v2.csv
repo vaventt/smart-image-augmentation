@@ -1,0 +1,4201 @@
+seed,examples_per_class,epoch,value,metric,split
+0,1,0,1.9584682,Loss,Training
+0,1,0,2.3601403,Loss,Validation
+0,1,0,0.85031843,Accuracy,Training
+0,1,0,0.53588754,Accuracy,Validation
+0,1,0,1.9178084,Loss Airplane,Training
+0,1,0,2.3903599,Loss Airplane,Validation
+0,1,0,0.92877495,Accuracy Airplane,Training
+0,1,0,0.7438692,Accuracy Airplane,Validation
+0,1,0,1.5035738,Loss Bicycle,Training
+0,1,0,2.04618,Loss Bicycle,Validation
+0,1,0,0.9341693,Accuracy Bicycle,Training
+0,1,0,0.8218391,Accuracy Bicycle,Validation
+0,1,0,2.10201,Loss Bird,Training
+0,1,0,2.5107007,Loss Bird,Validation
+0,1,0,0.8636364,Accuracy Bird,Training
+0,1,0,0.4103139,Accuracy Bird,Validation
+0,1,0,1.7650259,Loss Boat,Training
+0,1,0,2.5660357,Loss Boat,Validation
+0,1,0,0.8745981,Accuracy Boat,Training
+0,1,0,0.24054983,Accuracy Boat,Validation
+0,1,0,2.0205061,Loss Bottle,Training
+0,1,0,2.2979274,Loss Bottle,Validation
+0,1,0,0.84090906,Accuracy Bottle,Training
+0,1,0,0.7924528,Accuracy Bottle,Validation
+0,1,0,2.1261308,Loss Bus,Training
+0,1,0,2.19965,Loss Bus,Validation
+0,1,0,0.85942495,Accuracy Bus,Training
+0,1,0,0.8417266,Accuracy Bus,Validation
+0,1,0,2.185808,Loss Car,Training
+0,1,0,2.575423,Loss Car,Validation
+0,1,0,0.91212124,Accuracy Car,Training
+0,1,0,0.33433735,Accuracy Car,Validation
+0,1,0,1.90967,Loss Cat,Training
+0,1,0,2.1119773,Loss Cat,Validation
+0,1,0,0.83225805,Accuracy Cat,Training
+0,1,0,0.83371824,Accuracy Cat,Validation
+0,1,0,1.9000883,Loss Chair,Training
+0,1,0,2.6291282,Loss Chair,Validation
+0,1,0,0.7906977,Accuracy Chair,Training
+0,1,0,0.058064517,Accuracy Chair,Validation
+0,1,0,2.0205054,Loss Cow,Training
+0,1,0,2.2015076,Loss Cow,Validation
+0,1,0,0.897281,Accuracy Cow,Training
+0,1,0,0.55948555,Accuracy Cow,Validation
+0,1,0,1.6008915,Loss Dining Table,Training
+0,1,0,2.136195,Loss Dining Table,Validation
+0,1,0,0.88990825,Accuracy Dining Table,Training
+0,1,0,0.6256158,Accuracy Dining Table,Validation
+0,1,0,1.945578,Loss Dog,Training
+0,1,0,2.6220963,Loss Dog,Validation
+0,1,0,0.78504676,Accuracy Dog,Training
+0,1,0,0.16404495,Accuracy Dog,Validation
+0,1,0,2.0745614,Loss Horse,Training
+0,1,0,2.5027983,Loss Horse,Validation
+0,1,0,0.85163206,Accuracy Horse,Training
+0,1,0,0.27242523,Accuracy Horse,Validation
+0,1,0,2.1867225,Loss Motorcycle,Training
+0,1,0,2.2298083,Loss Motorcycle,Validation
+0,1,0,0.6739812,Accuracy Motorcycle,Training
+0,1,0,0.69014084,Accuracy Motorcycle,Validation
+0,1,0,1.7768803,Loss Person,Training
+0,1,0,2.7345421,Loss Person,Validation
+0,1,0,0.9054054,Accuracy Person,Training
+0,1,0,0.09008097,Accuracy Person,Validation
+0,1,0,1.6315473,Loss Potted Plant,Training
+0,1,0,2.632019,Loss Potted Plant,Validation
+0,1,0,0.9322034,Accuracy Potted Plant,Training
+0,1,0,0.32352942,Accuracy Potted Plant,Validation
+0,1,0,2.078491,Loss Sheep,Training
+0,1,0,1.9312372,Loss Sheep,Validation
+0,1,0,0.8683386,Accuracy Sheep,Training
+0,1,0,0.7942387,Accuracy Sheep,Validation
+0,1,0,1.8218544,Loss Sofa,Training
+0,1,0,2.167227,Loss Sofa,Validation
+0,1,0,0.86624205,Accuracy Sofa,Training
+0,1,0,0.6525974,Accuracy Sofa,Validation
+0,1,0,2.2878344,Loss Train,Training
+0,1,0,2.3044798,Loss Train,Validation
+0,1,0,0.6772152,Accuracy Train,Training
+0,1,0,0.9131653,Accuracy Train,Validation
+0,1,0,2.3138752,Loss Television,Training
+0,1,0,2.4135098,Loss Television,Validation
+0,1,0,0.8225256,Accuracy Television,Training
+0,1,0,0.5555556,Accuracy Television,Validation
+0,1,1,0.7787292,Loss,Training
+0,1,1,2.0566697,Loss,Validation
+0,1,1,0.9957119,Accuracy,Training
+0,1,1,0.56909645,Accuracy,Validation
+0,1,1,0.78949475,Loss Airplane,Training
+0,1,1,2.098972,Loss Airplane,Validation
+0,1,1,1.0,Accuracy Airplane,Training
+0,1,1,0.80160856,Accuracy Airplane,Validation
+0,1,1,0.47446012,Loss Bicycle,Training
+0,1,1,1.9265014,Loss Bicycle,Validation
+0,1,1,1.0,Accuracy Bicycle,Training
+0,1,1,0.6707317,Accuracy Bicycle,Validation
+0,1,1,0.92644536,Loss Bird,Training
+0,1,1,2.3054535,Loss Bird,Validation
+0,1,1,1.0,Accuracy Bird,Training
+0,1,1,0.41486812,Accuracy Bird,Validation
+0,1,1,0.73984885,Loss Boat,Training
+0,1,1,2.2748854,Loss Boat,Validation
+0,1,1,0.9171779,Accuracy Boat,Training
+0,1,1,0.3789809,Accuracy Boat,Validation
+0,1,1,0.8190031,Loss Bottle,Training
+0,1,1,1.9756938,Loss Bottle,Validation
+0,1,1,1.0,Accuracy Bottle,Training
+0,1,1,0.7834395,Accuracy Bottle,Validation
+0,1,1,0.8512676,Loss Bus,Training
+0,1,1,1.6313338,Loss Bus,Validation
+0,1,1,1.0,Accuracy Bus,Training
+0,1,1,0.8881119,Accuracy Bus,Validation
+0,1,1,1.0266726,Loss Car,Training
+0,1,1,2.3265882,Loss Car,Validation
+0,1,1,1.0,Accuracy Car,Training
+0,1,1,0.3576159,Accuracy Car,Validation
+0,1,1,0.7268729,Loss Cat,Training
+0,1,1,1.7381494,Loss Cat,Validation
+0,1,1,1.0,Accuracy Cat,Training
+0,1,1,0.8340336,Accuracy Cat,Validation
+0,1,1,0.792098,Loss Chair,Training
+0,1,1,2.4533556,Loss Chair,Validation
+0,1,1,1.0,Accuracy Chair,Training
+0,1,1,0.09150327,Accuracy Chair,Validation
+0,1,1,0.867744,Loss Cow,Training
+0,1,1,1.752216,Loss Cow,Validation
+0,1,1,1.0,Accuracy Cow,Training
+0,1,1,0.60750854,Accuracy Cow,Validation
+0,1,1,0.37196833,Loss Dining Table,Training
+0,1,1,1.9606555,Loss Dining Table,Validation
+0,1,1,1.0,Accuracy Dining Table,Training
+0,1,1,0.5263158,Accuracy Dining Table,Validation
+0,1,1,0.72715694,Loss Dog,Training
+0,1,1,2.5120735,Loss Dog,Validation
+0,1,1,1.0,Accuracy Dog,Training
+0,1,1,0.22119816,Accuracy Dog,Validation
+0,1,1,0.826149,Loss Horse,Training
+0,1,1,2.051137,Loss Horse,Validation
+0,1,1,0.9970588,Accuracy Horse,Training
+0,1,1,0.5044776,Accuracy Horse,Validation
+0,1,1,0.97074467,Loss Motorcycle,Training
+0,1,1,1.7161756,Loss Motorcycle,Validation
+0,1,1,1.0,Accuracy Motorcycle,Training
+0,1,1,0.8819444,Accuracy Motorcycle,Validation
+0,1,1,0.5853274,Loss Person,Training
+0,1,1,2.784869,Loss Person,Validation
+0,1,1,1.0,Accuracy Person,Training
+0,1,1,0.084337346,Accuracy Person,Validation
+0,1,1,0.5271698,Loss Potted Plant,Training
+0,1,1,2.7571099,Loss Potted Plant,Validation
+0,1,1,1.0,Accuracy Potted Plant,Training
+0,1,1,0.23529412,Accuracy Potted Plant,Validation
+0,1,1,0.9726339,Loss Sheep,Training
+0,1,1,1.5589886,Loss Sheep,Validation
+0,1,1,1.0,Accuracy Sheep,Training
+0,1,1,0.78294575,Accuracy Sheep,Validation
+0,1,1,0.6241245,Loss Sofa,Training
+0,1,1,1.7159795,Loss Sofa,Validation
+0,1,1,1.0,Accuracy Sofa,Training
+0,1,1,0.72727275,Accuracy Sofa,Validation
+0,1,1,0.8711306,Loss Train,Training
+0,1,1,1.7594616,Loss Train,Validation
+0,1,1,1.0,Accuracy Train,Training
+0,1,1,0.90434784,Accuracy Train,Validation
+0,1,1,1.0842702,Loss Television,Training
+0,1,1,1.8337919,Loss Television,Validation
+0,1,1,1.0,Accuracy Television,Training
+0,1,1,0.6853933,Accuracy Television,Validation
+0,1,2,0.38509208,Loss,Training
+0,1,2,1.89604,Loss,Validation
+0,1,2,0.99759614,Accuracy,Training
+0,1,2,0.56968147,Accuracy,Validation
+0,1,2,0.36561218,Loss Airplane,Training
+0,1,2,1.9640843,Loss Airplane,Validation
+0,1,2,1.0,Accuracy Airplane,Training
+0,1,2,0.7862797,Accuracy Airplane,Validation
+0,1,2,0.2472852,Loss Bicycle,Training
+0,1,2,1.8093828,Loss Bicycle,Validation
+0,1,2,1.0,Accuracy Bicycle,Training
+0,1,2,0.5833333,Accuracy Bicycle,Validation
+0,1,2,0.4616773,Loss Bird,Training
+0,1,2,2.099939,Loss Bird,Validation
+0,1,2,1.0,Accuracy Bird,Training
+0,1,2,0.49289098,Accuracy Bird,Validation
+0,1,2,0.39774957,Loss Boat,Training
+0,1,2,2.1668847,Loss Boat,Validation
+0,1,2,0.9519231,Accuracy Boat,Training
+0,1,2,0.44660193,Accuracy Boat,Validation
+0,1,2,0.37438262,Loss Bottle,Training
+0,1,2,1.706954,Loss Bottle,Validation
+0,1,2,1.0,Accuracy Bottle,Training
+0,1,2,0.835443,Accuracy Bottle,Validation
+0,1,2,0.37506363,Loss Bus,Training
+0,1,2,1.3459235,Loss Bus,Validation
+0,1,2,1.0,Accuracy Bus,Training
+0,1,2,0.87857145,Accuracy Bus,Validation
+0,1,2,0.60050017,Loss Car,Training
+0,1,2,2.2660677,Loss Car,Validation
+0,1,2,1.0,Accuracy Car,Training
+0,1,2,0.36190477,Accuracy Car,Validation
+0,1,2,0.36763716,Loss Cat,Training
+0,1,2,1.552249,Loss Cat,Validation
+0,1,2,1.0,Accuracy Cat,Training
+0,1,2,0.8078704,Accuracy Cat,Validation
+0,1,2,0.4177548,Loss Chair,Training
+0,1,2,2.5024335,Loss Chair,Validation
+0,1,2,1.0,Accuracy Chair,Training
+0,1,2,0.08496732,Accuracy Chair,Validation
+0,1,2,0.43717897,Loss Cow,Training
+0,1,2,1.594112,Loss Cow,Validation
+0,1,2,1.0,Accuracy Cow,Training
+0,1,2,0.49342105,Accuracy Cow,Validation
+0,1,2,0.16560298,Loss Dining Table,Training
+0,1,2,1.8788654,Loss Dining Table,Validation
+0,1,2,1.0,Accuracy Dining Table,Training
+0,1,2,0.4549763,Accuracy Dining Table,Validation
+0,1,2,0.41483566,Loss Dog,Training
+0,1,2,2.4498794,Loss Dog,Validation
+0,1,2,1.0,Accuracy Dog,Training
+0,1,2,0.17889908,Accuracy Dog,Validation
+0,1,2,0.3630658,Loss Horse,Training
+0,1,2,2.0120633,Loss Horse,Validation
+0,1,2,1.0,Accuracy Horse,Training
+0,1,2,0.44817072,Accuracy Horse,Validation
+0,1,2,0.45553854,Loss Motorcycle,Training
+0,1,2,1.3012513,Loss Motorcycle,Validation
+0,1,2,1.0,Accuracy Motorcycle,Training
+0,1,2,0.9358491,Accuracy Motorcycle,Validation
+0,1,2,0.27203557,Loss Person,Training
+0,1,2,2.7575812,Loss Person,Validation
+0,1,2,1.0,Accuracy Person,Training
+0,1,2,0.13163064,Accuracy Person,Validation
+0,1,2,0.26251572,Loss Potted Plant,Training
+0,1,2,2.6042738,Loss Potted Plant,Validation
+0,1,2,1.0,Accuracy Potted Plant,Training
+0,1,2,0.23880596,Accuracy Potted Plant,Validation
+0,1,2,0.4810325,Loss Sheep,Training
+0,1,2,1.207007,Loss Sheep,Validation
+0,1,2,1.0,Accuracy Sheep,Training
+0,1,2,0.8449612,Accuracy Sheep,Validation
+0,1,2,0.30475843,Loss Sofa,Training
+0,1,2,1.5195569,Loss Sofa,Validation
+0,1,2,1.0,Accuracy Sofa,Training
+0,1,2,0.7311828,Accuracy Sofa,Validation
+0,1,2,0.39953083,Loss Train,Training
+0,1,2,1.6152589,Loss Train,Validation
+0,1,2,1.0,Accuracy Train,Training
+0,1,2,0.8535211,Accuracy Train,Validation
+0,1,2,0.5380834,Loss Television,Training
+0,1,2,1.5670279,Loss Television,Validation
+0,1,2,1.0,Accuracy Television,Training
+0,1,2,0.8043478,Accuracy Television,Validation
+0,1,3,0.2251941,Loss,Training
+0,1,3,1.7686619,Loss,Validation
+0,1,3,0.99984896,Accuracy,Training
+0,1,3,0.61447555,Accuracy,Validation
+0,1,3,0.19410123,Loss Airplane,Training
+0,1,3,1.8619231,Loss Airplane,Validation
+0,1,3,1.0,Accuracy Airplane,Training
+0,1,3,0.7637795,Accuracy Airplane,Validation
+0,1,3,0.1513121,Loss Bicycle,Training
+0,1,3,1.5554769,Loss Bicycle,Validation
+0,1,3,1.0,Accuracy Bicycle,Training
+0,1,3,0.73333335,Accuracy Bicycle,Validation
+0,1,3,0.2208491,Loss Bird,Training
+0,1,3,1.9876379,Loss Bird,Validation
+0,1,3,1.0,Accuracy Bird,Training
+0,1,3,0.48729792,Accuracy Bird,Validation
+0,1,3,0.29163107,Loss Boat,Training
+0,1,3,2.0313184,Loss Boat,Validation
+0,1,3,0.9969789,Accuracy Boat,Training
+0,1,3,0.5049505,Accuracy Boat,Validation
+0,1,3,0.20324527,Loss Bottle,Training
+0,1,3,1.6400863,Loss Bottle,Validation
+0,1,3,1.0,Accuracy Bottle,Training
+0,1,3,0.81182796,Accuracy Bottle,Validation
+0,1,3,0.19767411,Loss Bus,Training
+0,1,3,1.1992253,Loss Bus,Validation
+0,1,3,1.0,Accuracy Bus,Training
+0,1,3,0.88447654,Accuracy Bus,Validation
+0,1,3,0.3450585,Loss Car,Training
+0,1,3,2.1216805,Loss Car,Validation
+0,1,3,1.0,Accuracy Car,Training
+0,1,3,0.38225257,Accuracy Car,Validation
+0,1,3,0.2246253,Loss Cat,Training
+0,1,3,1.3975872,Loss Cat,Validation
+0,1,3,1.0,Accuracy Cat,Training
+0,1,3,0.81938326,Accuracy Cat,Validation
+0,1,3,0.2785137,Loss Chair,Training
+0,1,3,2.2783062,Loss Chair,Validation
+0,1,3,1.0,Accuracy Chair,Training
+0,1,3,0.29268292,Accuracy Chair,Validation
+0,1,3,0.2698997,Loss Cow,Training
+0,1,3,1.5115744,Loss Cow,Validation
+0,1,3,1.0,Accuracy Cow,Training
+0,1,3,0.5247525,Accuracy Cow,Validation
+0,1,3,0.11480322,Loss Dining Table,Training
+0,1,3,1.7311442,Loss Dining Table,Validation
+0,1,3,1.0,Accuracy Dining Table,Training
+0,1,3,0.5744681,Accuracy Dining Table,Validation
+0,1,3,0.24576536,Loss Dog,Training
+0,1,3,2.2421472,Loss Dog,Validation
+0,1,3,1.0,Accuracy Dog,Training
+0,1,3,0.30365297,Accuracy Dog,Validation
+0,1,3,0.2194243,Loss Horse,Training
+0,1,3,1.8207422,Loss Horse,Validation
+0,1,3,1.0,Accuracy Horse,Training
+0,1,3,0.5117647,Accuracy Horse,Validation
+0,1,3,0.2533375,Loss Motorcycle,Training
+0,1,3,1.1833018,Loss Motorcycle,Validation
+0,1,3,1.0,Accuracy Motorcycle,Training
+0,1,3,0.951049,Accuracy Motorcycle,Validation
+0,1,3,0.15053257,Loss Person,Training
+0,1,3,2.7173436,Loss Person,Validation
+0,1,3,1.0,Accuracy Person,Training
+0,1,3,0.12794268,Accuracy Person,Validation
+0,1,3,0.14295992,Loss Potted Plant,Training
+0,1,3,2.641421,Loss Potted Plant,Validation
+0,1,3,1.0,Accuracy Potted Plant,Training
+0,1,3,0.3046875,Accuracy Potted Plant,Validation
+0,1,3,0.2908029,Loss Sheep,Training
+0,1,3,1.1253352,Loss Sheep,Validation
+0,1,3,1.0,Accuracy Sheep,Training
+0,1,3,0.85106385,Accuracy Sheep,Validation
+0,1,3,0.17065257,Loss Sofa,Training
+0,1,3,1.4589401,Loss Sofa,Validation
+0,1,3,1.0,Accuracy Sofa,Training
+0,1,3,0.760274,Accuracy Sofa,Validation
+0,1,3,0.22798629,Loss Train,Training
+0,1,3,1.4137244,Loss Train,Validation
+0,1,3,1.0,Accuracy Train,Training
+0,1,3,0.8988764,Accuracy Train,Validation
+0,1,3,0.31070703,Loss Television,Training
+0,1,3,1.4543229,Loss Television,Validation
+0,1,3,1.0,Accuracy Television,Training
+0,1,3,0.80099505,Accuracy Television,Validation
+0,1,4,0.14580114,Loss,Training
+0,1,4,1.703158,Loss,Validation
+0,1,4,0.99984473,Accuracy,Training
+0,1,4,0.60811996,Accuracy,Validation
+0,1,4,0.13141832,Loss Airplane,Training
+0,1,4,1.7869692,Loss Airplane,Validation
+0,1,4,0.9968944,Accuracy Airplane,Training
+0,1,4,0.75,Accuracy Airplane,Validation
+0,1,4,0.09305485,Loss Bicycle,Training
+0,1,4,1.5992304,Loss Bicycle,Validation
+0,1,4,1.0,Accuracy Bicycle,Training
+0,1,4,0.6666667,Accuracy Bicycle,Validation
+0,1,4,0.14700681,Loss Bird,Training
+0,1,4,2.0264494,Loss Bird,Validation
+0,1,4,1.0,Accuracy Bird,Training
+0,1,4,0.43809524,Accuracy Bird,Validation
+0,1,4,0.1881818,Loss Boat,Training
+0,1,4,1.7413206,Loss Boat,Validation
+0,1,4,1.0,Accuracy Boat,Training
+0,1,4,0.66433567,Accuracy Boat,Validation
+0,1,4,0.12713653,Loss Bottle,Training
+0,1,4,1.5793477,Loss Bottle,Validation
+0,1,4,1.0,Accuracy Bottle,Training
+0,1,4,0.84415585,Accuracy Bottle,Validation
+0,1,4,0.13142504,Loss Bus,Training
+0,1,4,1.084757,Loss Bus,Validation
+0,1,4,1.0,Accuracy Bus,Training
+0,1,4,0.8986928,Accuracy Bus,Validation
+0,1,4,0.22638422,Loss Car,Training
+0,1,4,2.1049228,Loss Car,Validation
+0,1,4,1.0,Accuracy Car,Training
+0,1,4,0.37082067,Accuracy Car,Validation
+0,1,4,0.132801,Loss Cat,Training
+0,1,4,1.2915457,Loss Cat,Validation
+0,1,4,1.0,Accuracy Cat,Training
+0,1,4,0.86150235,Accuracy Cat,Validation
+0,1,4,0.17480554,Loss Chair,Training
+0,1,4,2.1556125,Loss Chair,Validation
+0,1,4,1.0,Accuracy Chair,Training
+0,1,4,0.2551724,Accuracy Chair,Validation
+0,1,4,0.17500119,Loss Cow,Training
+0,1,4,1.3921835,Loss Cow,Validation
+0,1,4,1.0,Accuracy Cow,Training
+0,1,4,0.52427185,Accuracy Cow,Validation
+0,1,4,0.06997607,Loss Dining Table,Training
+0,1,4,1.8678284,Loss Dining Table,Validation
+0,1,4,1.0,Accuracy Dining Table,Training
+0,1,4,0.46464646,Accuracy Dining Table,Validation
+0,1,4,0.1565631,Loss Dog,Training
+0,1,4,2.1822078,Loss Dog,Validation
+0,1,4,1.0,Accuracy Dog,Training
+0,1,4,0.31223628,Accuracy Dog,Validation
+0,1,4,0.14831303,Loss Horse,Training
+0,1,4,1.8612789,Loss Horse,Validation
+0,1,4,1.0,Accuracy Horse,Training
+0,1,4,0.49562684,Accuracy Horse,Validation
+0,1,4,0.18225022,Loss Motorcycle,Training
+0,1,4,1.1134944,Loss Motorcycle,Validation
+0,1,4,1.0,Accuracy Motorcycle,Training
+0,1,4,0.9459459,Accuracy Motorcycle,Validation
+0,1,4,0.093636245,Loss Person,Training
+0,1,4,2.7277043,Loss Person,Validation
+0,1,4,1.0,Accuracy Person,Training
+0,1,4,0.121801436,Accuracy Person,Validation
+0,1,4,0.09096472,Loss Potted Plant,Training
+0,1,4,2.542507,Loss Potted Plant,Validation
+0,1,4,1.0,Accuracy Potted Plant,Training
+0,1,4,0.3188406,Accuracy Potted Plant,Validation
+0,1,4,0.20093885,Loss Sheep,Training
+0,1,4,1.0065832,Loss Sheep,Validation
+0,1,4,1.0,Accuracy Sheep,Training
+0,1,4,0.81092435,Accuracy Sheep,Validation
+0,1,4,0.107575975,Loss Sofa,Training
+0,1,4,1.4345855,Loss Sofa,Validation
+0,1,4,1.0,Accuracy Sofa,Training
+0,1,4,0.69536424,Accuracy Sofa,Validation
+0,1,4,0.14802709,Loss Train,Training
+0,1,4,1.2447896,Loss Train,Validation
+0,1,4,1.0,Accuracy Train,Training
+0,1,4,0.9371728,Accuracy Train,Validation
+0,1,4,0.19056219,Loss Television,Training
+0,1,4,1.3198435,Loss Television,Validation
+0,1,4,1.0,Accuracy Television,Training
+0,1,4,0.78612715,Accuracy Television,Validation
+0,1,5,0.10274343,Loss,Training
+0,1,5,1.61794,Loss,Validation
+0,1,5,1.0,Accuracy,Training
+0,1,5,0.6339057,Accuracy,Validation
+0,1,5,0.09160613,Loss Airplane,Training
+0,1,5,1.7022702,Loss Airplane,Validation
+0,1,5,1.0,Accuracy Airplane,Training
+0,1,5,0.80213904,Accuracy Airplane,Validation
+0,1,5,0.074934006,Loss Bicycle,Training
+0,1,5,1.5558496,Loss Bicycle,Validation
+0,1,5,1.0,Accuracy Bicycle,Training
+0,1,5,0.63414633,Accuracy Bicycle,Validation
+0,1,5,0.12275133,Loss Bird,Training
+0,1,5,1.8258406,Loss Bird,Validation
+0,1,5,1.0,Accuracy Bird,Training
+0,1,5,0.5633803,Accuracy Bird,Validation
+0,1,5,0.16748853,Loss Boat,Training
+0,1,5,1.6269244,Loss Boat,Validation
+0,1,5,1.0,Accuracy Boat,Training
+0,1,5,0.7383177,Accuracy Boat,Validation
+0,1,5,0.08546381,Loss Bottle,Training
+0,1,5,1.4038018,Loss Bottle,Validation
+0,1,5,1.0,Accuracy Bottle,Training
+0,1,5,0.8271605,Accuracy Bottle,Validation
+0,1,5,0.09593749,Loss Bus,Training
+0,1,5,0.9834223,Loss Bus,Validation
+0,1,5,1.0,Accuracy Bus,Training
+0,1,5,0.926045,Accuracy Bus,Validation
+0,1,5,0.16511509,Loss Car,Training
+0,1,5,1.9324664,Loss Car,Validation
+0,1,5,1.0,Accuracy Car,Training
+0,1,5,0.43464053,Accuracy Car,Validation
+0,1,5,0.08578614,Loss Cat,Training
+0,1,5,1.2568686,Loss Cat,Validation
+0,1,5,1.0,Accuracy Cat,Training
+0,1,5,0.8277405,Accuracy Cat,Validation
+0,1,5,0.11082739,Loss Chair,Training
+0,1,5,2.3592057,Loss Chair,Validation
+0,1,5,1.0,Accuracy Chair,Training
+0,1,5,0.23648648,Accuracy Chair,Validation
+0,1,5,0.1267896,Loss Cow,Training
+0,1,5,1.4089075,Loss Cow,Validation
+0,1,5,1.0,Accuracy Cow,Training
+0,1,5,0.48802397,Accuracy Cow,Validation
+0,1,5,0.0452143,Loss Dining Table,Training
+0,1,5,1.7081654,Loss Dining Table,Validation
+0,1,5,1.0,Accuracy Dining Table,Training
+0,1,5,0.5314286,Accuracy Dining Table,Validation
+0,1,5,0.09442819,Loss Dog,Training
+0,1,5,2.1404235,Loss Dog,Validation
+0,1,5,1.0,Accuracy Dog,Training
+0,1,5,0.27489176,Accuracy Dog,Validation
+0,1,5,0.09188509,Loss Horse,Training
+0,1,5,1.8081387,Loss Horse,Validation
+0,1,5,1.0,Accuracy Horse,Training
+0,1,5,0.5272206,Accuracy Horse,Validation
+0,1,5,0.1324479,Loss Motorcycle,Training
+0,1,5,0.99168456,Loss Motorcycle,Validation
+0,1,5,1.0,Accuracy Motorcycle,Training
+0,1,5,0.9516129,Accuracy Motorcycle,Validation
+0,1,5,0.07108211,Loss Person,Training
+0,1,5,2.5538363,Loss Person,Validation
+0,1,5,1.0,Accuracy Person,Training
+0,1,5,0.15718718,Accuracy Person,Validation
+0,1,5,0.0660928,Loss Potted Plant,Training
+0,1,5,2.4942772,Loss Potted Plant,Validation
+0,1,5,1.0,Accuracy Potted Plant,Training
+0,1,5,0.33802816,Accuracy Potted Plant,Validation
+0,1,5,0.1265881,Loss Sheep,Training
+0,1,5,0.885994,Loss Sheep,Validation
+0,1,5,1.0,Accuracy Sheep,Training
+0,1,5,0.88235295,Accuracy Sheep,Validation
+0,1,5,0.07602826,Loss Sofa,Training
+0,1,5,1.4221079,Loss Sofa,Validation
+0,1,5,1.0,Accuracy Sofa,Training
+0,1,5,0.7093023,Accuracy Sofa,Validation
+0,1,5,0.09724625,Loss Train,Training
+0,1,5,1.2006663,Loss Train,Validation
+0,1,5,1.0,Accuracy Train,Training
+0,1,5,0.9189189,Accuracy Train,Validation
+0,1,5,0.12715624,Loss Television,Training
+0,1,5,1.0979487,Loss Television,Validation
+0,1,5,1.0,Accuracy Television,Training
+0,1,5,0.90909094,Accuracy Television,Validation
+0,1,6,0.07557595,Loss,Training
+0,1,6,1.6322005,Loss,Validation
+0,1,6,1.0,Accuracy,Training
+0,1,6,0.6074035,Accuracy,Validation
+0,1,6,0.0676888,Loss Airplane,Training
+0,1,6,1.7189407,Loss Airplane,Validation
+0,1,6,1.0,Accuracy Airplane,Training
+0,1,6,0.7169312,Accuracy Airplane,Validation
+0,1,6,0.05669208,Loss Bicycle,Training
+0,1,6,1.4697722,Loss Bicycle,Validation
+0,1,6,1.0,Accuracy Bicycle,Training
+0,1,6,0.6744186,Accuracy Bicycle,Validation
+0,1,6,0.08896484,Loss Bird,Training
+0,1,6,1.8549951,Loss Bird,Validation
+0,1,6,1.0,Accuracy Bird,Training
+0,1,6,0.50121063,Accuracy Bird,Validation
+0,1,6,0.093301654,Loss Boat,Training
+0,1,6,1.5640389,Loss Boat,Validation
+0,1,6,1.0,Accuracy Boat,Training
+0,1,6,0.7760618,Accuracy Boat,Validation
+0,1,6,0.06733539,Loss Bottle,Training
+0,1,6,1.3882902,Loss Bottle,Validation
+0,1,6,1.0,Accuracy Bottle,Training
+0,1,6,0.88957053,Accuracy Bottle,Validation
+0,1,6,0.06851957,Loss Bus,Training
+0,1,6,1.0267674,Loss Bus,Validation
+0,1,6,1.0,Accuracy Bus,Training
+0,1,6,0.8919861,Accuracy Bus,Validation
+0,1,6,0.10542635,Loss Car,Training
+0,1,6,2.1078625,Loss Car,Validation
+0,1,6,1.0,Accuracy Car,Training
+0,1,6,0.36421725,Accuracy Car,Validation
+0,1,6,0.07269945,Loss Cat,Training
+0,1,6,1.2768538,Loss Cat,Validation
+0,1,6,1.0,Accuracy Cat,Training
+0,1,6,0.79318184,Accuracy Cat,Validation
+0,1,6,0.090174004,Loss Chair,Training
+0,1,6,2.2772677,Loss Chair,Validation
+0,1,6,1.0,Accuracy Chair,Training
+0,1,6,0.25316456,Accuracy Chair,Validation
+0,1,6,0.10424386,Loss Cow,Training
+0,1,6,1.4985516,Loss Cow,Validation
+0,1,6,1.0,Accuracy Cow,Training
+0,1,6,0.37864077,Accuracy Cow,Validation
+0,1,6,0.03326183,Loss Dining Table,Training
+0,1,6,1.6702065,Loss Dining Table,Validation
+0,1,6,1.0,Accuracy Dining Table,Training
+0,1,6,0.5,Accuracy Dining Table,Validation
+0,1,6,0.07049144,Loss Dog,Training
+0,1,6,2.209264,Loss Dog,Validation
+0,1,6,1.0,Accuracy Dog,Training
+0,1,6,0.28270042,Accuracy Dog,Validation
+0,1,6,0.078869715,Loss Horse,Training
+0,1,6,1.7989092,Loss Horse,Validation
+0,1,6,1.0,Accuracy Horse,Training
+0,1,6,0.4505814,Accuracy Horse,Validation
+0,1,6,0.0912615,Loss Motorcycle,Training
+0,1,6,0.8903305,Loss Motorcycle,Validation
+0,1,6,1.0,Accuracy Motorcycle,Training
+0,1,6,0.9558824,Accuracy Motorcycle,Validation
+0,1,6,0.045475256,Loss Person,Training
+0,1,6,2.7975519,Loss Person,Validation
+0,1,6,1.0,Accuracy Person,Training
+0,1,6,0.11770624,Accuracy Person,Validation
+0,1,6,0.04617772,Loss Potted Plant,Training
+0,1,6,2.6917202,Loss Potted Plant,Validation
+0,1,6,1.0,Accuracy Potted Plant,Training
+0,1,6,0.21656051,Accuracy Potted Plant,Validation
+0,1,6,0.095131285,Loss Sheep,Training
+0,1,6,0.7888669,Loss Sheep,Validation
+0,1,6,1.0,Accuracy Sheep,Training
+0,1,6,0.8793774,Accuracy Sheep,Validation
+0,1,6,0.058543835,Loss Sofa,Training
+0,1,6,1.3771843,Loss Sofa,Validation
+0,1,6,1.0,Accuracy Sofa,Training
+0,1,6,0.7067138,Accuracy Sofa,Validation
+0,1,6,0.0819657,Loss Train,Training
+0,1,6,1.1652126,Loss Train,Validation
+0,1,6,1.0,Accuracy Train,Training
+0,1,6,0.91644907,Accuracy Train,Validation
+0,1,6,0.0952947,Loss Television,Training
+0,1,6,1.0714229,Loss Television,Validation
+0,1,6,1.0,Accuracy Television,Training
+0,1,6,0.88271606,Accuracy Television,Validation
+0,1,7,0.057561435,Loss,Training
+0,1,7,1.5551805,Loss,Validation
+0,1,7,1.0,Accuracy,Training
+0,1,7,0.62936866,Accuracy,Validation
+0,1,7,0.0527962,Loss Airplane,Training
+0,1,7,1.6803992,Loss Airplane,Validation
+0,1,7,1.0,Accuracy Airplane,Training
+0,1,7,0.7361809,Accuracy Airplane,Validation
+0,1,7,0.043316048,Loss Bicycle,Training
+0,1,7,1.4460084,Loss Bicycle,Validation
+0,1,7,1.0,Accuracy Bicycle,Training
+0,1,7,0.6666667,Accuracy Bicycle,Validation
+0,1,7,0.05968778,Loss Bird,Training
+0,1,7,1.8187829,Loss Bird,Validation
+0,1,7,1.0,Accuracy Bird,Training
+0,1,7,0.50574714,Accuracy Bird,Validation
+0,1,7,0.09230444,Loss Boat,Training
+0,1,7,1.4526422,Loss Boat,Validation
+0,1,7,1.0,Accuracy Boat,Training
+0,1,7,0.8076923,Accuracy Boat,Validation
+0,1,7,0.05078999,Loss Bottle,Training
+0,1,7,1.274125,Loss Bottle,Validation
+0,1,7,1.0,Accuracy Bottle,Training
+0,1,7,0.79562044,Accuracy Bottle,Validation
+0,1,7,0.053205144,Loss Bus,Training
+0,1,7,0.92458105,Loss Bus,Validation
+0,1,7,1.0,Accuracy Bus,Training
+0,1,7,0.88927335,Accuracy Bus,Validation
+0,1,7,0.08248764,Loss Car,Training
+0,1,7,1.8309485,Loss Car,Validation
+0,1,7,1.0,Accuracy Car,Training
+0,1,7,0.50609756,Accuracy Car,Validation
+0,1,7,0.059176646,Loss Cat,Training
+0,1,7,1.1159761,Loss Cat,Validation
+0,1,7,1.0,Accuracy Cat,Training
+0,1,7,0.8548387,Accuracy Cat,Validation
+0,1,7,0.06796389,Loss Chair,Training
+0,1,7,2.2067513,Loss Chair,Validation
+0,1,7,1.0,Accuracy Chair,Training
+0,1,7,0.3,Accuracy Chair,Validation
+0,1,7,0.072573714,Loss Cow,Training
+0,1,7,1.2713073,Loss Cow,Validation
+0,1,7,1.0,Accuracy Cow,Training
+0,1,7,0.57931036,Accuracy Cow,Validation
+0,1,7,0.02575276,Loss Dining Table,Training
+0,1,7,1.6594323,Loss Dining Table,Validation
+0,1,7,1.0,Accuracy Dining Table,Training
+0,1,7,0.52284265,Accuracy Dining Table,Validation
+0,1,7,0.049857955,Loss Dog,Training
+0,1,7,2.1898572,Loss Dog,Validation
+0,1,7,1.0,Accuracy Dog,Training
+0,1,7,0.27654868,Accuracy Dog,Validation
+0,1,7,0.056242924,Loss Horse,Training
+0,1,7,1.7683511,Loss Horse,Validation
+0,1,7,1.0,Accuracy Horse,Training
+0,1,7,0.4387755,Accuracy Horse,Validation
+0,1,7,0.06856286,Loss Motorcycle,Training
+0,1,7,0.8343669,Loss Motorcycle,Validation
+0,1,7,1.0,Accuracy Motorcycle,Training
+0,1,7,0.929368,Accuracy Motorcycle,Validation
+0,1,7,0.036636036,Loss Person,Training
+0,1,7,2.739947,Loss Person,Validation
+0,1,7,1.0,Accuracy Person,Training
+0,1,7,0.14174758,Accuracy Person,Validation
+0,1,7,0.034548204,Loss Potted Plant,Training
+0,1,7,2.6281219,Loss Potted Plant,Validation
+0,1,7,1.0,Accuracy Potted Plant,Training
+0,1,7,0.26797387,Accuracy Potted Plant,Validation
+0,1,7,0.068438716,Loss Sheep,Training
+0,1,7,0.829446,Loss Sheep,Validation
+0,1,7,1.0,Accuracy Sheep,Training
+0,1,7,0.8844444,Accuracy Sheep,Validation
+0,1,7,0.047293562,Loss Sofa,Training
+0,1,7,1.3315464,Loss Sofa,Validation
+0,1,7,1.0,Accuracy Sofa,Training
+0,1,7,0.6642599,Accuracy Sofa,Validation
+0,1,7,0.058626838,Loss Train,Training
+0,1,7,1.0890161,Loss Train,Validation
+0,1,7,1.0,Accuracy Train,Training
+0,1,7,0.91573036,Accuracy Train,Validation
+0,1,7,0.070967376,Loss Television,Training
+0,1,7,1.0120028,Loss Television,Validation
+0,1,7,1.0,Accuracy Television,Training
+0,1,7,0.90425533,Accuracy Television,Validation
+0,1,8,0.04616822,Loss,Training
+0,1,8,1.5555202,Loss,Validation
+0,1,8,1.0,Accuracy,Training
+0,1,8,0.6164392,Accuracy,Validation
+0,1,8,0.041883454,Loss Airplane,Training
+0,1,8,1.6160648,Loss Airplane,Validation
+0,1,8,1.0,Accuracy Airplane,Training
+0,1,8,0.74462366,Accuracy Airplane,Validation
+0,1,8,0.037271257,Loss Bicycle,Training
+0,1,8,1.4046844,Loss Bicycle,Validation
+0,1,8,1.0,Accuracy Bicycle,Training
+0,1,8,0.6972973,Accuracy Bicycle,Validation
+0,1,8,0.04572353,Loss Bird,Training
+0,1,8,1.7665657,Loss Bird,Validation
+0,1,8,1.0,Accuracy Bird,Training
+0,1,8,0.5393795,Accuracy Bird,Validation
+0,1,8,0.06638901,Loss Boat,Training
+0,1,8,1.4107826,Loss Boat,Validation
+0,1,8,1.0,Accuracy Boat,Training
+0,1,8,0.75609756,Accuracy Boat,Validation
+0,1,8,0.041664645,Loss Bottle,Training
+0,1,8,1.3091532,Loss Bottle,Validation
+0,1,8,1.0,Accuracy Bottle,Training
+0,1,8,0.7987805,Accuracy Bottle,Validation
+0,1,8,0.043990742,Loss Bus,Training
+0,1,8,0.89115244,Loss Bus,Validation
+0,1,8,1.0,Accuracy Bus,Training
+0,1,8,0.8892308,Accuracy Bus,Validation
+0,1,8,0.061757244,Loss Car,Training
+0,1,8,1.9815662,Loss Car,Validation
+0,1,8,1.0,Accuracy Car,Training
+0,1,8,0.45772594,Accuracy Car,Validation
+0,1,8,0.045656744,Loss Cat,Training
+0,1,8,1.111234,Loss Cat,Validation
+0,1,8,1.0,Accuracy Cat,Training
+0,1,8,0.8459716,Accuracy Cat,Validation
+0,1,8,0.053957783,Loss Chair,Training
+0,1,8,2.3598168,Loss Chair,Validation
+0,1,8,1.0,Accuracy Chair,Training
+0,1,8,0.1736111,Accuracy Chair,Validation
+0,1,8,0.059953213,Loss Cow,Training
+0,1,8,1.331045,Loss Cow,Validation
+0,1,8,1.0,Accuracy Cow,Training
+0,1,8,0.51557094,Accuracy Cow,Validation
+0,1,8,0.021082683,Loss Dining Table,Training
+0,1,8,1.6202215,Loss Dining Table,Validation
+0,1,8,1.0,Accuracy Dining Table,Training
+0,1,8,0.5235602,Accuracy Dining Table,Validation
+0,1,8,0.045022517,Loss Dog,Training
+0,1,8,2.1185813,Loss Dog,Validation
+0,1,8,1.0,Accuracy Dog,Training
+0,1,8,0.31208792,Accuracy Dog,Validation
+0,1,8,0.044141863,Loss Horse,Training
+0,1,8,1.725947,Loss Horse,Validation
+0,1,8,1.0,Accuracy Horse,Training
+0,1,8,0.44923076,Accuracy Horse,Validation
+0,1,8,0.055214394,Loss Motorcycle,Training
+0,1,8,0.78139204,Loss Motorcycle,Validation
+0,1,8,1.0,Accuracy Motorcycle,Training
+0,1,8,0.95049506,Accuracy Motorcycle,Validation
+0,1,8,0.02702686,Loss Person,Training
+0,1,8,2.9522195,Loss Person,Validation
+0,1,8,1.0,Accuracy Person,Training
+0,1,8,0.12105799,Accuracy Person,Validation
+0,1,8,0.029346904,Loss Potted Plant,Training
+0,1,8,2.4956677,Loss Potted Plant,Validation
+0,1,8,1.0,Accuracy Potted Plant,Training
+0,1,8,0.29545453,Accuracy Potted Plant,Validation
+0,1,8,0.06244673,Loss Sheep,Training
+0,1,8,0.7874125,Loss Sheep,Validation
+0,1,8,1.0,Accuracy Sheep,Training
+0,1,8,0.8202765,Accuracy Sheep,Validation
+0,1,8,0.036192726,Loss Sofa,Training
+0,1,8,1.36531,Loss Sofa,Validation
+0,1,8,1.0,Accuracy Sofa,Training
+0,1,8,0.6721854,Accuracy Sofa,Validation
+0,1,8,0.045278415,Loss Train,Training
+0,1,8,1.0855473,Loss Train,Validation
+0,1,8,1.0,Accuracy Train,Training
+0,1,8,0.89772725,Accuracy Train,Validation
+0,1,8,0.059363663,Loss Television,Training
+0,1,8,0.9960387,Loss Television,Validation
+0,1,8,1.0,Accuracy Television,Training
+0,1,8,0.8684211,Accuracy Television,Validation
+0,1,9,0.036986478,Loss,Training
+0,1,9,1.5205426,Loss,Validation
+0,1,9,1.0,Accuracy,Training
+0,1,9,0.6281188,Accuracy,Validation
+0,1,9,0.034712635,Loss Airplane,Training
+0,1,9,1.531664,Loss Airplane,Validation
+0,1,9,1.0,Accuracy Airplane,Training
+0,1,9,0.82687926,Accuracy Airplane,Validation
+0,1,9,0.023989711,Loss Bicycle,Training
+0,1,9,1.5158681,Loss Bicycle,Validation
+0,1,9,1.0,Accuracy Bicycle,Training
+0,1,9,0.6242424,Accuracy Bicycle,Validation
+0,1,9,0.0410484,Loss Bird,Training
+0,1,9,1.7296362,Loss Bird,Validation
+0,1,9,1.0,Accuracy Bird,Training
+0,1,9,0.5303738,Accuracy Bird,Validation
+0,1,9,0.061645728,Loss Boat,Training
+0,1,9,1.3701589,Loss Boat,Validation
+0,1,9,1.0,Accuracy Boat,Training
+0,1,9,0.78175896,Accuracy Boat,Validation
+0,1,9,0.029721621,Loss Bottle,Training
+0,1,9,1.2421821,Loss Bottle,Validation
+0,1,9,1.0,Accuracy Bottle,Training
+0,1,9,0.8105263,Accuracy Bottle,Validation
+0,1,9,0.035896517,Loss Bus,Training
+0,1,9,0.7477583,Loss Bus,Validation
+0,1,9,1.0,Accuracy Bus,Training
+0,1,9,0.9347826,Accuracy Bus,Validation
+0,1,9,0.04908915,Loss Car,Training
+0,1,9,1.8849089,Loss Car,Validation
+0,1,9,1.0,Accuracy Car,Training
+0,1,9,0.5033784,Accuracy Car,Validation
+0,1,9,0.032425392,Loss Cat,Training
+0,1,9,1.0317705,Loss Cat,Validation
+0,1,9,1.0,Accuracy Cat,Training
+0,1,9,0.83092785,Accuracy Cat,Validation
+0,1,9,0.04203674,Loss Chair,Training
+0,1,9,2.1697583,Loss Chair,Validation
+0,1,9,1.0,Accuracy Chair,Training
+0,1,9,0.34640524,Accuracy Chair,Validation
+0,1,9,0.042312,Loss Cow,Training
+0,1,9,1.3170552,Loss Cow,Validation
+0,1,9,1.0,Accuracy Cow,Training
+0,1,9,0.4832714,Accuracy Cow,Validation
+0,1,9,0.020469794,Loss Dining Table,Training
+0,1,9,1.6247706,Loss Dining Table,Validation
+0,1,9,1.0,Accuracy Dining Table,Training
+0,1,9,0.4431818,Accuracy Dining Table,Validation
+0,1,9,0.037518077,Loss Dog,Training
+0,1,9,2.031888,Loss Dog,Validation
+0,1,9,1.0,Accuracy Dog,Training
+0,1,9,0.35321102,Accuracy Dog,Validation
+0,1,9,0.036580525,Loss Horse,Training
+0,1,9,1.6157018,Loss Horse,Validation
+0,1,9,1.0,Accuracy Horse,Training
+0,1,9,0.51446944,Accuracy Horse,Validation
+0,1,9,0.04076718,Loss Motorcycle,Training
+0,1,9,0.70680606,Loss Motorcycle,Validation
+0,1,9,1.0,Accuracy Motorcycle,Training
+0,1,9,0.9330986,Accuracy Motorcycle,Validation
+0,1,9,0.024219211,Loss Person,Training
+0,1,9,2.959203,Loss Person,Validation
+0,1,9,1.0,Accuracy Person,Training
+0,1,9,0.11383709,Accuracy Person,Validation
+0,1,9,0.023222657,Loss Potted Plant,Training
+0,1,9,2.7868152,Loss Potted Plant,Validation
+0,1,9,1.0,Accuracy Potted Plant,Training
+0,1,9,0.24242425,Accuracy Potted Plant,Validation
+0,1,9,0.049039308,Loss Sheep,Training
+0,1,9,0.7420913,Loss Sheep,Validation
+0,1,9,1.0,Accuracy Sheep,Training
+0,1,9,0.8584475,Accuracy Sheep,Validation
+0,1,9,0.032846205,Loss Sofa,Training
+0,1,9,1.38823,Loss Sofa,Validation
+0,1,9,1.0,Accuracy Sofa,Training
+0,1,9,0.6809211,Accuracy Sofa,Validation
+0,1,9,0.035520658,Loss Train,Training
+0,1,9,1.0519857,Loss Train,Validation
+0,1,9,1.0,Accuracy Train,Training
+0,1,9,0.89880955,Accuracy Train,Validation
+0,1,9,0.046668027,Loss Television,Training
+0,1,9,0.9625982,Loss Television,Validation
+0,1,9,1.0,Accuracy Television,Training
+0,1,9,0.85142857,Accuracy Television,Validation
+0,1,10,0.030439248,Loss,Training
+0,1,10,1.5049374,Loss,Validation
+0,1,10,1.0,Accuracy,Training
+0,1,10,0.6356409,Accuracy,Validation
+0,1,10,0.030352687,Loss Airplane,Training
+0,1,10,1.5400969,Loss Airplane,Validation
+0,1,10,1.0,Accuracy Airplane,Training
+0,1,10,0.80697674,Accuracy Airplane,Validation
+0,1,10,0.02204452,Loss Bicycle,Training
+0,1,10,1.4276558,Loss Bicycle,Validation
+0,1,10,1.0,Accuracy Bicycle,Training
+0,1,10,0.70987654,Accuracy Bicycle,Validation
+0,1,10,0.03291742,Loss Bird,Training
+0,1,10,1.7850027,Loss Bird,Validation
+0,1,10,1.0,Accuracy Bird,Training
+0,1,10,0.519802,Accuracy Bird,Validation
+0,1,10,0.03968771,Loss Boat,Training
+0,1,10,1.2710336,Loss Boat,Validation
+0,1,10,1.0,Accuracy Boat,Training
+0,1,10,0.83617747,Accuracy Boat,Validation
+0,1,10,0.026892733,Loss Bottle,Training
+0,1,10,1.316226,Loss Bottle,Validation
+0,1,10,1.0,Accuracy Bottle,Training
+0,1,10,0.7912088,Accuracy Bottle,Validation
+0,1,10,0.029914543,Loss Bus,Training
+0,1,10,0.72166693,Loss Bus,Validation
+0,1,10,1.0,Accuracy Bus,Training
+0,1,10,0.93594307,Accuracy Bus,Validation
+0,1,10,0.041722223,Loss Car,Training
+0,1,10,1.9118359,Loss Car,Validation
+0,1,10,1.0,Accuracy Car,Training
+0,1,10,0.44217688,Accuracy Car,Validation
+0,1,10,0.02838429,Loss Cat,Training
+0,1,10,1.0313718,Loss Cat,Validation
+0,1,10,1.0,Accuracy Cat,Training
+0,1,10,0.8165939,Accuracy Cat,Validation
+0,1,10,0.03667105,Loss Chair,Training
+0,1,10,2.3303003,Loss Chair,Validation
+0,1,10,1.0,Accuracy Chair,Training
+0,1,10,0.25531915,Accuracy Chair,Validation
+0,1,10,0.03412123,Loss Cow,Training
+0,1,10,1.3679328,Loss Cow,Validation
+0,1,10,1.0,Accuracy Cow,Training
+0,1,10,0.46666667,Accuracy Cow,Validation
+0,1,10,0.016702771,Loss Dining Table,Training
+0,1,10,1.4967465,Loss Dining Table,Validation
+0,1,10,1.0,Accuracy Dining Table,Training
+0,1,10,0.55494505,Accuracy Dining Table,Validation
+0,1,10,0.029997727,Loss Dog,Training
+0,1,10,2.021638,Loss Dog,Validation
+0,1,10,1.0,Accuracy Dog,Training
+0,1,10,0.32079646,Accuracy Dog,Validation
+0,1,10,0.030745436,Loss Horse,Training
+0,1,10,1.5946283,Loss Horse,Validation
+0,1,10,1.0,Accuracy Horse,Training
+0,1,10,0.50609756,Accuracy Horse,Validation
+0,1,10,0.032727875,Loss Motorcycle,Training
+0,1,10,0.7333118,Loss Motorcycle,Validation
+0,1,10,1.0,Accuracy Motorcycle,Training
+0,1,10,0.95185184,Accuracy Motorcycle,Validation
+0,1,10,0.022436129,Loss Person,Training
+0,1,10,2.9890883,Loss Person,Validation
+0,1,10,1.0,Accuracy Person,Training
+0,1,10,0.12559468,Accuracy Person,Validation
+0,1,10,0.01774484,Loss Potted Plant,Training
+0,1,10,2.5097628,Loss Potted Plant,Validation
+0,1,10,1.0,Accuracy Potted Plant,Training
+0,1,10,0.33846155,Accuracy Potted Plant,Validation
+0,1,10,0.043410085,Loss Sheep,Training
+0,1,10,0.75238115,Loss Sheep,Validation
+0,1,10,1.0,Accuracy Sheep,Training
+0,1,10,0.8803419,Accuracy Sheep,Validation
+0,1,10,0.024318386,Loss Sofa,Training
+0,1,10,1.352618,Loss Sofa,Validation
+0,1,10,1.0,Accuracy Sofa,Training
+0,1,10,0.668942,Accuracy Sofa,Validation
+0,1,10,0.029780129,Loss Train,Training
+0,1,10,0.982754,Loss Train,Validation
+0,1,10,1.0,Accuracy Train,Training
+0,1,10,0.9214092,Accuracy Train,Validation
+0,1,10,0.038213216,Loss Television,Training
+0,1,10,0.9626974,Loss Television,Validation
+0,1,10,1.0,Accuracy Television,Training
+0,1,10,0.8636364,Accuracy Television,Validation
+0,1,11,0.025571857,Loss,Training
+0,1,11,1.4816357,Loss,Validation
+0,1,11,1.0,Accuracy,Training
+0,1,11,0.63420564,Accuracy,Validation
+0,1,11,0.02115387,Loss Airplane,Training
+0,1,11,1.5139239,Loss Airplane,Validation
+0,1,11,1.0,Accuracy Airplane,Training
+0,1,11,0.7352941,Accuracy Airplane,Validation
+0,1,11,0.021598497,Loss Bicycle,Training
+0,1,11,1.3009106,Loss Bicycle,Validation
+0,1,11,1.0,Accuracy Bicycle,Training
+0,1,11,0.6818182,Accuracy Bicycle,Validation
+0,1,11,0.026576804,Loss Bird,Training
+0,1,11,1.8555899,Loss Bird,Validation
+0,1,11,1.0,Accuracy Bird,Training
+0,1,11,0.47477064,Accuracy Bird,Validation
+0,1,11,0.044446904,Loss Boat,Training
+0,1,11,1.2097607,Loss Boat,Validation
+0,1,11,1.0,Accuracy Boat,Training
+0,1,11,0.8251748,Accuracy Boat,Validation
+0,1,11,0.021230044,Loss Bottle,Training
+0,1,11,1.1886817,Loss Bottle,Validation
+0,1,11,1.0,Accuracy Bottle,Training
+0,1,11,0.8447205,Accuracy Bottle,Validation
+0,1,11,0.024354272,Loss Bus,Training
+0,1,11,0.72907424,Loss Bus,Validation
+0,1,11,1.0,Accuracy Bus,Training
+0,1,11,0.8965517,Accuracy Bus,Validation
+0,1,11,0.032664098,Loss Car,Training
+0,1,11,1.9136034,Loss Car,Validation
+0,1,11,1.0,Accuracy Car,Training
+0,1,11,0.46917808,Accuracy Car,Validation
+0,1,11,0.024434727,Loss Cat,Training
+0,1,11,0.9921948,Loss Cat,Validation
+0,1,11,1.0,Accuracy Cat,Training
+0,1,11,0.86788154,Accuracy Cat,Validation
+0,1,11,0.028156837,Loss Chair,Training
+0,1,11,2.2315135,Loss Chair,Validation
+0,1,11,1.0,Accuracy Chair,Training
+0,1,11,0.2857143,Accuracy Chair,Validation
+0,1,11,0.033580463,Loss Cow,Training
+0,1,11,1.2672993,Loss Cow,Validation
+0,1,11,1.0,Accuracy Cow,Training
+0,1,11,0.50877196,Accuracy Cow,Validation
+0,1,11,0.012307546,Loss Dining Table,Training
+0,1,11,1.4845021,Loss Dining Table,Validation
+0,1,11,1.0,Accuracy Dining Table,Training
+0,1,11,0.5873786,Accuracy Dining Table,Validation
+0,1,11,0.024641622,Loss Dog,Training
+0,1,11,2.0279045,Loss Dog,Validation
+0,1,11,1.0,Accuracy Dog,Training
+0,1,11,0.31947485,Accuracy Dog,Validation
+0,1,11,0.024024483,Loss Horse,Training
+0,1,11,1.6472852,Loss Horse,Validation
+0,1,11,1.0,Accuracy Horse,Training
+0,1,11,0.49425286,Accuracy Horse,Validation
+0,1,11,0.034331065,Loss Motorcycle,Training
+0,1,11,0.69183755,Loss Motorcycle,Validation
+0,1,11,1.0,Accuracy Motorcycle,Training
+0,1,11,0.9444444,Accuracy Motorcycle,Validation
+0,1,11,0.015338264,Loss Person,Training
+0,1,11,2.923564,Loss Person,Validation
+0,1,11,1.0,Accuracy Person,Training
+0,1,11,0.123791106,Accuracy Person,Validation
+0,1,11,0.0134723075,Loss Potted Plant,Training
+0,1,11,2.5260644,Loss Potted Plant,Validation
+0,1,11,1.0,Accuracy Potted Plant,Training
+0,1,11,0.33606556,Accuracy Potted Plant,Validation
+0,1,11,0.03085618,Loss Sheep,Training
+0,1,11,0.7456889,Loss Sheep,Validation
+0,1,11,1.0,Accuracy Sheep,Training
+0,1,11,0.90625,Accuracy Sheep,Validation
+0,1,11,0.021822063,Loss Sofa,Training
+0,1,11,1.460872,Loss Sofa,Validation
+0,1,11,1.0,Accuracy Sofa,Training
+0,1,11,0.6483871,Accuracy Sofa,Validation
+0,1,11,0.024955312,Loss Train,Training
+0,1,11,1.0279483,Loss Train,Validation
+0,1,11,1.0,Accuracy Train,Training
+0,1,11,0.85795456,Accuracy Train,Validation
+0,1,11,0.031491753,Loss Television,Training
+0,1,11,0.89449316,Loss Television,Validation
+0,1,11,1.0,Accuracy Television,Training
+0,1,11,0.87623763,Accuracy Television,Validation
+0,1,12,0.021237515,Loss,Training
+0,1,12,1.4930845,Loss,Validation
+0,1,12,1.0,Accuracy,Training
+0,1,12,0.6201489,Accuracy,Validation
+0,1,12,0.019602675,Loss Airplane,Training
+0,1,12,1.5465074,Loss Airplane,Validation
+0,1,12,1.0,Accuracy Airplane,Training
+0,1,12,0.7328767,Accuracy Airplane,Validation
+0,1,12,0.012309601,Loss Bicycle,Training
+0,1,12,1.3506968,Loss Bicycle,Validation
+0,1,12,1.0,Accuracy Bicycle,Training
+0,1,12,0.6467066,Accuracy Bicycle,Validation
+0,1,12,0.02479785,Loss Bird,Training
+0,1,12,1.6460685,Loss Bird,Validation
+0,1,12,1.0,Accuracy Bird,Training
+0,1,12,0.53753024,Accuracy Bird,Validation
+0,1,12,0.037291903,Loss Boat,Training
+0,1,12,1.1900036,Loss Boat,Validation
+0,1,12,1.0,Accuracy Boat,Training
+0,1,12,0.82935154,Accuracy Boat,Validation
+0,1,12,0.01974447,Loss Bottle,Training
+0,1,12,1.1548789,Loss Bottle,Validation
+0,1,12,1.0,Accuracy Bottle,Training
+0,1,12,0.9047619,Accuracy Bottle,Validation
+0,1,12,0.019739073,Loss Bus,Training
+0,1,12,0.7024722,Loss Bus,Validation
+0,1,12,1.0,Accuracy Bus,Training
+0,1,12,0.89788735,Accuracy Bus,Validation
+0,1,12,0.026979268,Loss Car,Training
+0,1,12,2.1083677,Loss Car,Validation
+0,1,12,1.0,Accuracy Car,Training
+0,1,12,0.43984962,Accuracy Car,Validation
+0,1,12,0.020831311,Loss Cat,Training
+0,1,12,0.95921814,Loss Cat,Validation
+0,1,12,1.0,Accuracy Cat,Training
+0,1,12,0.84151787,Accuracy Cat,Validation
+0,1,12,0.024753539,Loss Chair,Training
+0,1,12,2.261026,Loss Chair,Validation
+0,1,12,1.0,Accuracy Chair,Training
+0,1,12,0.2260274,Accuracy Chair,Validation
+0,1,12,0.02901472,Loss Cow,Training
+0,1,12,1.321578,Loss Cow,Validation
+0,1,12,1.0,Accuracy Cow,Training
+0,1,12,0.49025974,Accuracy Cow,Validation
+0,1,12,0.009885723,Loss Dining Table,Training
+0,1,12,1.604068,Loss Dining Table,Validation
+0,1,12,1.0,Accuracy Dining Table,Training
+0,1,12,0.5229885,Accuracy Dining Table,Validation
+0,1,12,0.020455169,Loss Dog,Training
+0,1,12,2.1092885,Loss Dog,Validation
+0,1,12,1.0,Accuracy Dog,Training
+0,1,12,0.33405173,Accuracy Dog,Validation
+0,1,12,0.019452967,Loss Horse,Training
+0,1,12,1.6780535,Loss Horse,Validation
+0,1,12,1.0,Accuracy Horse,Training
+0,1,12,0.51446944,Accuracy Horse,Validation
+0,1,12,0.02399132,Loss Motorcycle,Training
+0,1,12,0.7471641,Loss Motorcycle,Validation
+0,1,12,1.0,Accuracy Motorcycle,Training
+0,1,12,0.877193,Accuracy Motorcycle,Validation
+0,1,12,0.013323653,Loss Person,Training
+0,1,12,2.9618287,Loss Person,Validation
+0,1,12,1.0,Accuracy Person,Training
+0,1,12,0.13796477,Accuracy Person,Validation
+0,1,12,0.0133501375,Loss Potted Plant,Training
+0,1,12,2.546079,Loss Potted Plant,Validation
+0,1,12,1.0,Accuracy Potted Plant,Training
+0,1,12,0.25384617,Accuracy Potted Plant,Validation
+0,1,12,0.025899297,Loss Sheep,Training
+0,1,12,0.7210594,Loss Sheep,Validation
+0,1,12,1.0,Accuracy Sheep,Training
+0,1,12,0.87109375,Accuracy Sheep,Validation
+0,1,12,0.014854592,Loss Sofa,Training
+0,1,12,1.47236,Loss Sofa,Validation
+0,1,12,1.0,Accuracy Sofa,Training
+0,1,12,0.6049822,Accuracy Sofa,Validation
+0,1,12,0.021911046,Loss Train,Training
+0,1,12,0.86826545,Loss Train,Validation
+0,1,12,1.0,Accuracy Train,Training
+0,1,12,0.9139785,Accuracy Train,Validation
+0,1,12,0.02656201,Loss Television,Training
+0,1,12,0.91270715,Loss Television,Validation
+0,1,12,1.0,Accuracy Television,Training
+0,1,12,0.82564104,Accuracy Television,Validation
+0,1,13,0.018029276,Loss,Training
+0,1,13,1.4555082,Loss,Validation
+0,1,13,1.0,Accuracy,Training
+0,1,13,0.63469255,Accuracy,Validation
+0,1,13,0.01678959,Loss Airplane,Training
+0,1,13,1.4468384,Loss Airplane,Validation
+0,1,13,1.0,Accuracy Airplane,Training
+0,1,13,0.8155844,Accuracy Airplane,Validation
+0,1,13,0.013914879,Loss Bicycle,Training
+0,1,13,1.3071342,Loss Bicycle,Validation
+0,1,13,1.0,Accuracy Bicycle,Training
+0,1,13,0.6988636,Accuracy Bicycle,Validation
+0,1,13,0.016798917,Loss Bird,Training
+0,1,13,1.7386833,Loss Bird,Validation
+0,1,13,1.0,Accuracy Bird,Training
+0,1,13,0.45609757,Accuracy Bird,Validation
+0,1,13,0.029363964,Loss Boat,Training
+0,1,13,1.0671482,Loss Boat,Validation
+0,1,13,1.0,Accuracy Boat,Training
+0,1,13,0.8766234,Accuracy Boat,Validation
+0,1,13,0.015180918,Loss Bottle,Training
+0,1,13,1.152754,Loss Bottle,Validation
+0,1,13,1.0,Accuracy Bottle,Training
+0,1,13,0.8187134,Accuracy Bottle,Validation
+0,1,13,0.016958393,Loss Bus,Training
+0,1,13,0.6161092,Loss Bus,Validation
+0,1,13,1.0,Accuracy Bus,Training
+0,1,13,0.9298246,Accuracy Bus,Validation
+0,1,13,0.02371525,Loss Car,Training
+0,1,13,2.0848334,Loss Car,Validation
+0,1,13,1.0,Accuracy Car,Training
+0,1,13,0.3945783,Accuracy Car,Validation
+0,1,13,0.017643979,Loss Cat,Training
+0,1,13,0.9176884,Loss Cat,Validation
+0,1,13,1.0,Accuracy Cat,Training
+0,1,13,0.87593055,Accuracy Cat,Validation
+0,1,13,0.018978521,Loss Chair,Training
+0,1,13,2.2825043,Loss Chair,Validation
+0,1,13,1.0,Accuracy Chair,Training
+0,1,13,0.24223602,Accuracy Chair,Validation
+0,1,13,0.023851631,Loss Cow,Training
+0,1,13,1.2610736,Loss Cow,Validation
+0,1,13,1.0,Accuracy Cow,Training
+0,1,13,0.5103448,Accuracy Cow,Validation
+0,1,13,0.007514675,Loss Dining Table,Training
+0,1,13,1.4115272,Loss Dining Table,Validation
+0,1,13,1.0,Accuracy Dining Table,Training
+0,1,13,0.5388601,Accuracy Dining Table,Validation
+0,1,13,0.017807562,Loss Dog,Training
+0,1,13,1.9925932,Loss Dog,Validation
+0,1,13,1.0,Accuracy Dog,Training
+0,1,13,0.3557047,Accuracy Dog,Validation
+0,1,13,0.018495804,Loss Horse,Training
+0,1,13,1.6753503,Loss Horse,Validation
+0,1,13,1.0,Accuracy Horse,Training
+0,1,13,0.56369424,Accuracy Horse,Validation
+0,1,13,0.021776333,Loss Motorcycle,Training
+0,1,13,0.6319371,Loss Motorcycle,Validation
+0,1,13,1.0,Accuracy Motorcycle,Training
+0,1,13,0.90996784,Accuracy Motorcycle,Validation
+0,1,13,0.012791182,Loss Person,Training
+0,1,13,3.0883226,Loss Person,Validation
+0,1,13,1.0,Accuracy Person,Training
+0,1,13,0.10921843,Accuracy Person,Validation
+0,1,13,0.011219818,Loss Potted Plant,Training
+0,1,13,2.6299217,Loss Potted Plant,Validation
+0,1,13,1.0,Accuracy Potted Plant,Training
+0,1,13,0.29285714,Accuracy Potted Plant,Validation
+0,1,13,0.02248411,Loss Sheep,Training
+0,1,13,0.72479117,Loss Sheep,Validation
+0,1,13,1.0,Accuracy Sheep,Training
+0,1,13,0.8552036,Accuracy Sheep,Validation
+0,1,13,0.014998582,Loss Sofa,Training
+0,1,13,1.3266205,Loss Sofa,Validation
+0,1,13,1.0,Accuracy Sofa,Training
+0,1,13,0.69550174,Accuracy Sofa,Validation
+0,1,13,0.018366551,Loss Train,Training
+0,1,13,0.80841047,Loss Train,Validation
+0,1,13,1.0,Accuracy Train,Training
+0,1,13,0.9368421,Accuracy Train,Validation
+0,1,13,0.021934872,Loss Television,Training
+0,1,13,0.9459239,Loss Television,Validation
+0,1,13,1.0,Accuracy Television,Training
+0,1,13,0.8172043,Accuracy Television,Validation
+0,1,14,0.016387966,Loss,Training
+0,1,14,1.4412327,Loss,Validation
+0,1,14,1.0,Accuracy,Training
+0,1,14,0.6366457,Accuracy,Validation
+0,1,14,0.013477309,Loss Airplane,Training
+0,1,14,1.4354893,Loss Airplane,Validation
+0,1,14,1.0,Accuracy Airplane,Training
+0,1,14,0.83378017,Accuracy Airplane,Validation
+0,1,14,0.013715857,Loss Bicycle,Training
+0,1,14,1.4296463,Loss Bicycle,Validation
+0,1,14,1.0,Accuracy Bicycle,Training
+0,1,14,0.6041667,Accuracy Bicycle,Validation
+0,1,14,0.019268015,Loss Bird,Training
+0,1,14,1.693962,Loss Bird,Validation
+0,1,14,1.0,Accuracy Bird,Training
+0,1,14,0.5321782,Accuracy Bird,Validation
+0,1,14,0.032822747,Loss Boat,Training
+0,1,14,0.9956951,Loss Boat,Validation
+0,1,14,1.0,Accuracy Boat,Training
+0,1,14,0.897281,Accuracy Boat,Validation
+0,1,14,0.013405957,Loss Bottle,Training
+0,1,14,1.105797,Loss Bottle,Validation
+0,1,14,1.0,Accuracy Bottle,Training
+0,1,14,0.7962963,Accuracy Bottle,Validation
+0,1,14,0.015347561,Loss Bus,Training
+0,1,14,0.6567717,Loss Bus,Validation
+0,1,14,1.0,Accuracy Bus,Training
+0,1,14,0.9183673,Accuracy Bus,Validation
+0,1,14,0.02105511,Loss Car,Training
+0,1,14,2.0180354,Loss Car,Validation
+0,1,14,1.0,Accuracy Car,Training
+0,1,14,0.44954127,Accuracy Car,Validation
+0,1,14,0.016358828,Loss Cat,Training
+0,1,14,0.9104222,Loss Cat,Validation
+0,1,14,1.0,Accuracy Cat,Training
+0,1,14,0.8806306,Accuracy Cat,Validation
+0,1,14,0.017770546,Loss Chair,Training
+0,1,14,2.3798966,Loss Chair,Validation
+0,1,14,1.0,Accuracy Chair,Training
+0,1,14,0.2662722,Accuracy Chair,Validation
+0,1,14,0.018304514,Loss Cow,Training
+0,1,14,1.2567673,Loss Cow,Validation
+0,1,14,1.0,Accuracy Cow,Training
+0,1,14,0.5135135,Accuracy Cow,Validation
+0,1,14,0.008439001,Loss Dining Table,Training
+0,1,14,1.4364768,Loss Dining Table,Validation
+0,1,14,1.0,Accuracy Dining Table,Training
+0,1,14,0.55932206,Accuracy Dining Table,Validation
+0,1,14,0.014553359,Loss Dog,Training
+0,1,14,1.9281937,Loss Dog,Validation
+0,1,14,1.0,Accuracy Dog,Training
+0,1,14,0.38428876,Accuracy Dog,Validation
+0,1,14,0.014816429,Loss Horse,Training
+0,1,14,1.6952664,Loss Horse,Validation
+0,1,14,1.0,Accuracy Horse,Training
+0,1,14,0.45779222,Accuracy Horse,Validation
+0,1,14,0.019032598,Loss Motorcycle,Training
+0,1,14,0.629222,Loss Motorcycle,Validation
+0,1,14,1.0,Accuracy Motorcycle,Training
+0,1,14,0.9142857,Accuracy Motorcycle,Validation
+0,1,14,0.010901494,Loss Person,Training
+0,1,14,3.0374348,Loss Person,Validation
+0,1,14,1.0,Accuracy Person,Training
+0,1,14,0.13017154,Accuracy Person,Validation
+0,1,14,0.009001324,Loss Potted Plant,Training
+0,1,14,2.591279,Loss Potted Plant,Validation
+0,1,14,1.0,Accuracy Potted Plant,Training
+0,1,14,0.31506848,Accuracy Potted Plant,Validation
+0,1,14,0.019680282,Loss Sheep,Training
+0,1,14,0.67871964,Loss Sheep,Validation
+0,1,14,1.0,Accuracy Sheep,Training
+0,1,14,0.81960785,Accuracy Sheep,Validation
+0,1,14,0.014170766,Loss Sofa,Training
+0,1,14,1.2588795,Loss Sofa,Validation
+0,1,14,1.0,Accuracy Sofa,Training
+0,1,14,0.6809211,Accuracy Sofa,Validation
+0,1,14,0.016289309,Loss Train,Training
+0,1,14,0.87362653,Loss Train,Validation
+0,1,14,1.0,Accuracy Train,Training
+0,1,14,0.9096386,Accuracy Train,Validation
+0,1,14,0.019348335,Loss Television,Training
+0,1,14,0.8130715,Loss Television,Validation
+0,1,14,1.0,Accuracy Television,Training
+0,1,14,0.8697917,Accuracy Television,Validation
+0,1,15,0.013358034,Loss,Training
+0,1,15,1.4384159,Loss,Validation
+0,1,15,1.0,Accuracy,Training
+0,1,15,0.6323906,Accuracy,Validation
+0,1,15,0.011693697,Loss Airplane,Training
+0,1,15,1.3831741,Loss Airplane,Validation
+0,1,15,1.0,Accuracy Airplane,Training
+0,1,15,0.8126649,Accuracy Airplane,Validation
+0,1,15,0.0106831305,Loss Bicycle,Training
+0,1,15,1.1718771,Loss Bicycle,Validation
+0,1,15,1.0,Accuracy Bicycle,Training
+0,1,15,0.7398844,Accuracy Bicycle,Validation
+0,1,15,0.014796321,Loss Bird,Training
+0,1,15,1.6974658,Loss Bird,Validation
+0,1,15,1.0,Accuracy Bird,Training
+0,1,15,0.5090909,Accuracy Bird,Validation
+0,1,15,0.019329278,Loss Boat,Training
+0,1,15,1.0464673,Loss Boat,Validation
+0,1,15,1.0,Accuracy Boat,Training
+0,1,15,0.87096775,Accuracy Boat,Validation
+0,1,15,0.011387765,Loss Bottle,Training
+0,1,15,1.1151952,Loss Bottle,Validation
+0,1,15,1.0,Accuracy Bottle,Training
+0,1,15,0.80701756,Accuracy Bottle,Validation
+0,1,15,0.011842579,Loss Bus,Training
+0,1,15,0.64606196,Loss Bus,Validation
+0,1,15,1.0,Accuracy Bus,Training
+0,1,15,0.9201389,Accuracy Bus,Validation
+0,1,15,0.016549258,Loss Car,Training
+0,1,15,1.9761109,Loss Car,Validation
+0,1,15,1.0,Accuracy Car,Training
+0,1,15,0.4613003,Accuracy Car,Validation
+0,1,15,0.011022009,Loss Cat,Training
+0,1,15,0.9554328,Loss Cat,Validation
+0,1,15,1.0,Accuracy Cat,Training
+0,1,15,0.8478747,Accuracy Cat,Validation
+0,1,15,0.01422695,Loss Chair,Training
+0,1,15,2.4369018,Loss Chair,Validation
+0,1,15,1.0,Accuracy Chair,Training
+0,1,15,0.20253165,Accuracy Chair,Validation
+0,1,15,0.017881993,Loss Cow,Training
+0,1,15,1.2069232,Loss Cow,Validation
+0,1,15,1.0,Accuracy Cow,Training
+0,1,15,0.55409837,Accuracy Cow,Validation
+0,1,15,0.0073128347,Loss Dining Table,Training
+0,1,15,1.4633685,Loss Dining Table,Validation
+0,1,15,1.0,Accuracy Dining Table,Training
+0,1,15,0.52020204,Accuracy Dining Table,Validation
+0,1,15,0.012784125,Loss Dog,Training
+0,1,15,2.0475776,Loss Dog,Validation
+0,1,15,1.0,Accuracy Dog,Training
+0,1,15,0.34285715,Accuracy Dog,Validation
+0,1,15,0.013009731,Loss Horse,Training
+0,1,15,1.6972901,Loss Horse,Validation
+0,1,15,1.0,Accuracy Horse,Training
+0,1,15,0.48407644,Accuracy Horse,Validation
+0,1,15,0.018176075,Loss Motorcycle,Training
+0,1,15,0.6250747,Loss Motorcycle,Validation
+0,1,15,1.0,Accuracy Motorcycle,Training
+0,1,15,0.8892617,Accuracy Motorcycle,Validation
+0,1,15,0.009295853,Loss Person,Training
+0,1,15,3.1293755,Loss Person,Validation
+0,1,15,1.0,Accuracy Person,Training
+0,1,15,0.11485775,Accuracy Person,Validation
+0,1,15,0.008274439,Loss Potted Plant,Training
+0,1,15,2.4951758,Loss Potted Plant,Validation
+0,1,15,1.0,Accuracy Potted Plant,Training
+0,1,15,0.3586207,Accuracy Potted Plant,Validation
+0,1,15,0.015894726,Loss Sheep,Training
+0,1,15,0.7054058,Loss Sheep,Validation
+0,1,15,1.0,Accuracy Sheep,Training
+0,1,15,0.8016529,Accuracy Sheep,Validation
+0,1,15,0.011560559,Loss Sofa,Training
+0,1,15,1.2611293,Loss Sofa,Validation
+0,1,15,1.0,Accuracy Sofa,Training
+0,1,15,0.6599327,Accuracy Sofa,Validation
+0,1,15,0.01435697,Loss Train,Training
+0,1,15,0.83851415,Loss Train,Validation
+0,1,15,1.0,Accuracy Train,Training
+0,1,15,0.90633607,Accuracy Train,Validation
+0,1,15,0.017082386,Loss Television,Training
+0,1,15,0.8697971,Loss Television,Validation
+0,1,15,1.0,Accuracy Television,Training
+0,1,15,0.84444445,Accuracy Television,Validation
+0,1,16,0.012163311,Loss,Training
+0,1,16,1.3772869,Loss,Validation
+0,1,16,1.0,Accuracy,Training
+0,1,16,0.63900095,Accuracy,Validation
+0,1,16,0.011207139,Loss Airplane,Training
+0,1,16,1.3132647,Loss Airplane,Validation
+0,1,16,1.0,Accuracy Airplane,Training
+0,1,16,0.83950615,Accuracy Airplane,Validation
+0,1,16,0.008210539,Loss Bicycle,Training
+0,1,16,1.1662527,Loss Bicycle,Validation
+0,1,16,1.0,Accuracy Bicycle,Training
+0,1,16,0.7157895,Accuracy Bicycle,Validation
+0,1,16,0.014803563,Loss Bird,Training
+0,1,16,1.6137409,Loss Bird,Validation
+0,1,16,1.0,Accuracy Bird,Training
+0,1,16,0.5188679,Accuracy Bird,Validation
+0,1,16,0.022765813,Loss Boat,Training
+0,1,16,1.0121002,Loss Boat,Validation
+0,1,16,1.0,Accuracy Boat,Training
+0,1,16,0.86577183,Accuracy Boat,Validation
+0,1,16,0.00990663,Loss Bottle,Training
+0,1,16,1.0588654,Loss Bottle,Validation
+0,1,16,1.0,Accuracy Bottle,Training
+0,1,16,0.7908497,Accuracy Bottle,Validation
+0,1,16,0.011057281,Loss Bus,Training
+0,1,16,0.5836704,Loss Bus,Validation
+0,1,16,1.0,Accuracy Bus,Training
+0,1,16,0.9352518,Accuracy Bus,Validation
+0,1,16,0.015406385,Loss Car,Training
+0,1,16,1.8763521,Loss Car,Validation
+0,1,16,1.0,Accuracy Car,Training
+0,1,16,0.53333336,Accuracy Car,Validation
+0,1,16,0.0112570925,Loss Cat,Training
+0,1,16,0.88528484,Loss Cat,Validation
+0,1,16,1.0,Accuracy Cat,Training
+0,1,16,0.8517699,Accuracy Cat,Validation
+0,1,16,0.012976865,Loss Chair,Training
+0,1,16,2.211057,Loss Chair,Validation
+0,1,16,1.0,Accuracy Chair,Training
+0,1,16,0.31578946,Accuracy Chair,Validation
+0,1,16,0.016159281,Loss Cow,Training
+0,1,16,1.3016014,Loss Cow,Validation
+0,1,16,1.0,Accuracy Cow,Training
+0,1,16,0.5,Accuracy Cow,Validation
+0,1,16,0.0067278417,Loss Dining Table,Training
+0,1,16,1.5444379,Loss Dining Table,Validation
+0,1,16,1.0,Accuracy Dining Table,Training
+0,1,16,0.475,Accuracy Dining Table,Validation
+0,1,16,0.009415125,Loss Dog,Training
+0,1,16,2.009674,Loss Dog,Validation
+0,1,16,1.0,Accuracy Dog,Training
+0,1,16,0.31346577,Accuracy Dog,Validation
+0,1,16,0.012408067,Loss Horse,Training
+0,1,16,1.6010319,Loss Horse,Validation
+0,1,16,1.0,Accuracy Horse,Training
+0,1,16,0.49044585,Accuracy Horse,Validation
+0,1,16,0.01502506,Loss Motorcycle,Training
+0,1,16,0.56854165,Loss Motorcycle,Validation
+0,1,16,1.0,Accuracy Motorcycle,Training
+0,1,16,0.9230769,Accuracy Motorcycle,Validation
+0,1,16,0.008302213,Loss Person,Training
+0,1,16,2.897526,Loss Person,Validation
+0,1,16,1.0,Accuracy Person,Training
+0,1,16,0.16350211,Accuracy Person,Validation
+0,1,16,0.0065309037,Loss Potted Plant,Training
+0,1,16,2.4903648,Loss Potted Plant,Validation
+0,1,16,1.0,Accuracy Potted Plant,Training
+0,1,16,0.27972028,Accuracy Potted Plant,Validation
+0,1,16,0.017015547,Loss Sheep,Training
+0,1,16,0.6754354,Loss Sheep,Validation
+0,1,16,1.0,Accuracy Sheep,Training
+0,1,16,0.80241936,Accuracy Sheep,Validation
+0,1,16,0.00929409,Loss Sofa,Training
+0,1,16,1.1437143,Loss Sofa,Validation
+0,1,16,1.0,Accuracy Sofa,Training
+0,1,16,0.7411003,Accuracy Sofa,Validation
+0,1,16,0.010091877,Loss Train,Training
+0,1,16,0.8074504,Loss Train,Validation
+0,1,16,1.0,Accuracy Train,Training
+0,1,16,0.8833333,Accuracy Train,Validation
+0,1,16,0.01470492,Loss Television,Training
+0,1,16,0.7853701,Loss Television,Validation
+0,1,16,1.0,Accuracy Television,Training
+0,1,16,0.84102565,Accuracy Television,Validation
+0,1,17,0.010636276,Loss,Training
+0,1,17,1.3816359,Loss,Validation
+0,1,17,1.0,Accuracy,Training
+0,1,17,0.6298533,Accuracy,Validation
+0,1,17,0.010315968,Loss Airplane,Training
+0,1,17,1.4211138,Loss Airplane,Validation
+0,1,17,1.0,Accuracy Airplane,Training
+0,1,17,0.7429306,Accuracy Airplane,Validation
+0,1,17,0.008121978,Loss Bicycle,Training
+0,1,17,1.1755232,Loss Bicycle,Validation
+0,1,17,1.0,Accuracy Bicycle,Training
+0,1,17,0.6755319,Accuracy Bicycle,Validation
+0,1,17,0.010401341,Loss Bird,Training
+0,1,17,1.5598432,Loss Bird,Validation
+0,1,17,1.0,Accuracy Bird,Training
+0,1,17,0.54137117,Accuracy Bird,Validation
+0,1,17,0.018785067,Loss Boat,Training
+0,1,17,0.980247,Loss Boat,Validation
+0,1,17,1.0,Accuracy Boat,Training
+0,1,17,0.87055016,Accuracy Boat,Validation
+0,1,17,0.009318185,Loss Bottle,Training
+0,1,17,0.9880087,Loss Bottle,Validation
+0,1,17,1.0,Accuracy Bottle,Training
+0,1,17,0.82312924,Accuracy Bottle,Validation
+0,1,17,0.010138471,Loss Bus,Training
+0,1,17,0.62176526,Loss Bus,Validation
+0,1,17,1.0,Accuracy Bus,Training
+0,1,17,0.9125874,Accuracy Bus,Validation
+0,1,17,0.013226521,Loss Car,Training
+0,1,17,1.9939132,Loss Car,Validation
+0,1,17,1.0,Accuracy Car,Training
+0,1,17,0.4276923,Accuracy Car,Validation
+0,1,17,0.00954845,Loss Cat,Training
+0,1,17,0.8292761,Loss Cat,Validation
+0,1,17,1.0,Accuracy Cat,Training
+0,1,17,0.88536584,Accuracy Cat,Validation
+0,1,17,0.011079326,Loss Chair,Training
+0,1,17,2.3132665,Loss Chair,Validation
+0,1,17,1.0,Accuracy Chair,Training
+0,1,17,0.24528302,Accuracy Chair,Validation
+0,1,17,0.014243573,Loss Cow,Training
+0,1,17,1.1964467,Loss Cow,Validation
+0,1,17,1.0,Accuracy Cow,Training
+0,1,17,0.46905538,Accuracy Cow,Validation
+0,1,17,0.004383351,Loss Dining Table,Training
+0,1,17,1.4339542,Loss Dining Table,Validation
+0,1,17,1.0,Accuracy Dining Table,Training
+0,1,17,0.49468085,Accuracy Dining Table,Validation
+0,1,17,0.009785227,Loss Dog,Training
+0,1,17,1.98245,Loss Dog,Validation
+0,1,17,1.0,Accuracy Dog,Training
+0,1,17,0.33809525,Accuracy Dog,Validation
+0,1,17,0.011127936,Loss Horse,Training
+0,1,17,1.4483896,Loss Horse,Validation
+0,1,17,1.0,Accuracy Horse,Training
+0,1,17,0.5652174,Accuracy Horse,Validation
+0,1,17,0.012088416,Loss Motorcycle,Training
+0,1,17,0.5808377,Loss Motorcycle,Validation
+0,1,17,1.0,Accuracy Motorcycle,Training
+0,1,17,0.9072165,Accuracy Motorcycle,Validation
+0,1,17,0.007998266,Loss Person,Training
+0,1,17,3.0060358,Loss Person,Validation
+0,1,17,1.0,Accuracy Person,Training
+0,1,17,0.125502,Accuracy Person,Validation
+0,1,17,0.006198584,Loss Potted Plant,Training
+0,1,17,2.5913825,Loss Potted Plant,Validation
+0,1,17,1.0,Accuracy Potted Plant,Training
+0,1,17,0.2867647,Accuracy Potted Plant,Validation
+0,1,17,0.014794567,Loss Sheep,Training
+0,1,17,0.66367215,Loss Sheep,Validation
+0,1,17,1.0,Accuracy Sheep,Training
+0,1,17,0.8518519,Accuracy Sheep,Validation
+0,1,17,0.00794514,Loss Sofa,Training
+0,1,17,1.2309797,Loss Sofa,Validation
+0,1,17,1.0,Accuracy Sofa,Training
+0,1,17,0.70153844,Accuracy Sofa,Validation
+0,1,17,0.010228436,Loss Train,Training
+0,1,17,0.7664961,Loss Train,Validation
+0,1,17,1.0,Accuracy Train,Training
+0,1,17,0.88611114,Accuracy Train,Validation
+0,1,17,0.0129967,Loss Television,Training
+0,1,17,0.8491184,Loss Television,Validation
+0,1,17,1.0,Accuracy Television,Training
+0,1,17,0.84659094,Accuracy Television,Validation
+0,1,18,0.008566887,Loss,Training
+0,1,18,1.3897115,Loss,Validation
+0,1,18,1.0,Accuracy,Training
+0,1,18,0.64196056,Accuracy,Validation
+0,1,18,0.007785874,Loss Airplane,Training
+0,1,18,1.3841256,Loss Airplane,Validation
+0,1,18,1.0,Accuracy Airplane,Training
+0,1,18,0.77380955,Accuracy Airplane,Validation
+0,1,18,0.0062471395,Loss Bicycle,Training
+0,1,18,1.1626606,Loss Bicycle,Validation
+0,1,18,1.0,Accuracy Bicycle,Training
+0,1,18,0.7162162,Accuracy Bicycle,Validation
+0,1,18,0.009830639,Loss Bird,Training
+0,1,18,1.5624065,Loss Bird,Validation
+0,1,18,1.0,Accuracy Bird,Training
+0,1,18,0.5362319,Accuracy Bird,Validation
+0,1,18,0.008523419,Loss Boat,Training
+0,1,18,0.94318306,Loss Boat,Validation
+0,1,18,1.0,Accuracy Boat,Training
+0,1,18,0.8745981,Accuracy Boat,Validation
+0,1,18,0.007798912,Loss Bottle,Training
+0,1,18,0.98973227,Loss Bottle,Validation
+0,1,18,1.0,Accuracy Bottle,Training
+0,1,18,0.88950276,Accuracy Bottle,Validation
+0,1,18,0.008386119,Loss Bus,Training
+0,1,18,0.5536083,Loss Bus,Validation
+0,1,18,1.0,Accuracy Bus,Training
+0,1,18,0.92334497,Accuracy Bus,Validation
+0,1,18,0.011767692,Loss Car,Training
+0,1,18,2.102419,Loss Car,Validation
+0,1,18,1.0,Accuracy Car,Training
+0,1,18,0.39542484,Accuracy Car,Validation
+0,1,18,0.007168125,Loss Cat,Training
+0,1,18,0.8469029,Loss Cat,Validation
+0,1,18,1.0,Accuracy Cat,Training
+0,1,18,0.8901602,Accuracy Cat,Validation
+0,1,18,0.010957576,Loss Chair,Training
+0,1,18,2.3111494,Loss Chair,Validation
+0,1,18,1.0,Accuracy Chair,Training
+0,1,18,0.24025974,Accuracy Chair,Validation
+0,1,18,0.0119080655,Loss Cow,Training
+0,1,18,1.3389834,Loss Cow,Validation
+0,1,18,1.0,Accuracy Cow,Training
+0,1,18,0.48398575,Accuracy Cow,Validation
+0,1,18,0.0037917572,Loss Dining Table,Training
+0,1,18,1.3408705,Loss Dining Table,Validation
+0,1,18,1.0,Accuracy Dining Table,Training
+0,1,18,0.5989011,Accuracy Dining Table,Validation
+0,1,18,0.008711614,Loss Dog,Training
+0,1,18,2.122168,Loss Dog,Validation
+0,1,18,1.0,Accuracy Dog,Training
+0,1,18,0.29723993,Accuracy Dog,Validation
+0,1,18,0.008831405,Loss Horse,Training
+0,1,18,1.5104038,Loss Horse,Validation
+0,1,18,1.0,Accuracy Horse,Training
+0,1,18,0.5555556,Accuracy Horse,Validation
+0,1,18,0.010619458,Loss Motorcycle,Training
+0,1,18,0.5724034,Loss Motorcycle,Validation
+0,1,18,1.0,Accuracy Motorcycle,Training
+0,1,18,0.92170817,Accuracy Motorcycle,Validation
+0,1,18,0.0055417144,Loss Person,Training
+0,1,18,2.9556525,Loss Person,Validation
+0,1,18,1.0,Accuracy Person,Training
+0,1,18,0.13645224,Accuracy Person,Validation
+0,1,18,0.0050805486,Loss Potted Plant,Training
+0,1,18,2.6871178,Loss Potted Plant,Validation
+0,1,18,1.0,Accuracy Potted Plant,Training
+0,1,18,0.23622048,Accuracy Potted Plant,Validation
+0,1,18,0.011435207,Loss Sheep,Training
+0,1,18,0.5712185,Loss Sheep,Validation
+0,1,18,1.0,Accuracy Sheep,Training
+0,1,18,0.89495796,Accuracy Sheep,Validation
+0,1,18,0.007223323,Loss Sofa,Training
+0,1,18,1.2429677,Loss Sofa,Validation
+0,1,18,1.0,Accuracy Sofa,Training
+0,1,18,0.72527474,Accuracy Sofa,Validation
+0,1,18,0.008670706,Loss Train,Training
+0,1,18,0.8232021,Loss Train,Validation
+0,1,18,1.0,Accuracy Train,Training
+0,1,18,0.88990825,Accuracy Train,Validation
+0,1,18,0.011058439,Loss Television,Training
+0,1,18,0.7730554,Loss Television,Validation
+0,1,18,1.0,Accuracy Television,Training
+0,1,18,0.85945946,Accuracy Television,Validation
+0,1,19,0.008054139,Loss,Training
+0,1,19,1.3619788,Loss,Validation
+0,1,19,1.0,Accuracy,Training
+0,1,19,0.6433259,Accuracy,Validation
+0,1,19,0.0065853265,Loss Airplane,Training
+0,1,19,1.3242905,Loss Airplane,Validation
+0,1,19,1.0,Accuracy Airplane,Training
+0,1,19,0.79187816,Accuracy Airplane,Validation
+0,1,19,0.005732836,Loss Bicycle,Training
+0,1,19,1.1559198,Loss Bicycle,Validation
+0,1,19,1.0,Accuracy Bicycle,Training
+0,1,19,0.7202381,Accuracy Bicycle,Validation
+0,1,19,0.008200036,Loss Bird,Training
+0,1,19,1.558921,Loss Bird,Validation
+0,1,19,1.0,Accuracy Bird,Training
+0,1,19,0.54126215,Accuracy Bird,Validation
+0,1,19,0.015190493,Loss Boat,Training
+0,1,19,0.8631326,Loss Boat,Validation
+0,1,19,1.0,Accuracy Boat,Training
+0,1,19,0.90262175,Accuracy Boat,Validation
+0,1,19,0.0066253645,Loss Bottle,Training
+0,1,19,0.9500268,Loss Bottle,Validation
+0,1,19,1.0,Accuracy Bottle,Training
+0,1,19,0.8131868,Accuracy Bottle,Validation
+0,1,19,0.00817259,Loss Bus,Training
+0,1,19,0.5373613,Loss Bus,Validation
+0,1,19,1.0,Accuracy Bus,Training
+0,1,19,0.89788735,Accuracy Bus,Validation
+0,1,19,0.010000447,Loss Car,Training
+0,1,19,1.792903,Loss Car,Validation
+0,1,19,1.0,Accuracy Car,Training
+0,1,19,0.556196,Accuracy Car,Validation
+0,1,19,0.007868208,Loss Cat,Training
+0,1,19,0.7866878,Loss Cat,Validation
+0,1,19,1.0,Accuracy Cat,Training
+0,1,19,0.90233546,Accuracy Cat,Validation
+0,1,19,0.009762963,Loss Chair,Training
+0,1,19,2.3115814,Loss Chair,Validation
+0,1,19,1.0,Accuracy Chair,Training
+0,1,19,0.27659574,Accuracy Chair,Validation
+0,1,19,0.01007412,Loss Cow,Training
+0,1,19,1.2839799,Loss Cow,Validation
+0,1,19,1.0,Accuracy Cow,Training
+0,1,19,0.47840533,Accuracy Cow,Validation
+0,1,19,0.0035324513,Loss Dining Table,Training
+0,1,19,1.4752156,Loss Dining Table,Validation
+0,1,19,1.0,Accuracy Dining Table,Training
+0,1,19,0.5084746,Accuracy Dining Table,Validation
+0,1,19,0.0068949354,Loss Dog,Training
+0,1,19,2.0468965,Loss Dog,Validation
+0,1,19,1.0,Accuracy Dog,Training
+0,1,19,0.3080357,Accuracy Dog,Validation
+0,1,19,0.007721427,Loss Horse,Training
+0,1,19,1.4644815,Loss Horse,Validation
+0,1,19,1.0,Accuracy Horse,Training
+0,1,19,0.5936508,Accuracy Horse,Validation
+0,1,19,0.009562681,Loss Motorcycle,Training
+0,1,19,0.47383597,Loss Motorcycle,Validation
+0,1,19,1.0,Accuracy Motorcycle,Training
+0,1,19,0.9391892,Accuracy Motorcycle,Validation
+0,1,19,0.0052031153,Loss Person,Training
+0,1,19,3.0346978,Loss Person,Validation
+0,1,19,1.0,Accuracy Person,Training
+0,1,19,0.16106014,Accuracy Person,Validation
+0,1,19,0.0040534115,Loss Potted Plant,Training
+0,1,19,2.8729012,Loss Potted Plant,Validation
+0,1,19,1.0,Accuracy Potted Plant,Training
+0,1,19,0.20300752,Accuracy Potted Plant,Validation
+0,1,19,0.010493487,Loss Sheep,Training
+0,1,19,0.53955644,Loss Sheep,Validation
+0,1,19,1.0,Accuracy Sheep,Training
+0,1,19,0.852459,Accuracy Sheep,Validation
+0,1,19,0.0072066425,Loss Sofa,Training
+0,1,19,1.1806211,Loss Sofa,Validation
+0,1,19,1.0,Accuracy Sofa,Training
+0,1,19,0.6923077,Accuracy Sofa,Validation
+0,1,19,0.008276865,Loss Train,Training
+0,1,19,0.7424537,Loss Train,Validation
+0,1,19,1.0,Accuracy Train,Training
+0,1,19,0.9132948,Accuracy Train,Validation
+0,1,19,0.009925361,Loss Television,Training
+0,1,19,0.84411395,Loss Television,Validation
+0,1,19,1.0,Accuracy Television,Training
+0,1,19,0.814433,Accuracy Television,Validation
+0,1,20,0.0070527345,Loss,Training
+0,1,20,1.3731544,Loss,Validation
+0,1,20,1.0,Accuracy,Training
+0,1,20,0.628888,Accuracy,Validation
+0,1,20,0.0066135824,Loss Airplane,Training
+0,1,20,1.3078082,Loss Airplane,Validation
+0,1,20,1.0,Accuracy Airplane,Training
+0,1,20,0.7793296,Accuracy Airplane,Validation
+0,1,20,0.0051278356,Loss Bicycle,Training
+0,1,20,1.1135963,Loss Bicycle,Validation
+0,1,20,1.0,Accuracy Bicycle,Training
+0,1,20,0.71165645,Accuracy Bicycle,Validation
+0,1,20,0.008212956,Loss Bird,Training
+0,1,20,1.6058345,Loss Bird,Validation
+0,1,20,1.0,Accuracy Bird,Training
+0,1,20,0.5589744,Accuracy Bird,Validation
+0,1,20,0.0091769695,Loss Boat,Training
+0,1,20,0.8482365,Loss Boat,Validation
+0,1,20,1.0,Accuracy Boat,Training
+0,1,20,0.8819444,Accuracy Boat,Validation
+0,1,20,0.0054366654,Loss Bottle,Training
+0,1,20,1.0160018,Loss Bottle,Validation
+0,1,20,1.0,Accuracy Bottle,Training
+0,1,20,0.83687943,Accuracy Bottle,Validation
+0,1,20,0.0064996365,Loss Bus,Training
+0,1,20,0.58577186,Loss Bus,Validation
+0,1,20,1.0,Accuracy Bus,Training
+0,1,20,0.8903654,Accuracy Bus,Validation
+0,1,20,0.009021697,Loss Car,Training
+0,1,20,2.0763547,Loss Car,Validation
+0,1,20,1.0,Accuracy Car,Training
+0,1,20,0.41786742,Accuracy Car,Validation
+0,1,20,0.0070415777,Loss Cat,Training
+0,1,20,0.90180993,Loss Cat,Validation
+0,1,20,1.0,Accuracy Cat,Training
+0,1,20,0.8356481,Accuracy Cat,Validation
+0,1,20,0.008379422,Loss Chair,Training
+0,1,20,2.3788056,Loss Chair,Validation
+0,1,20,1.0,Accuracy Chair,Training
+0,1,20,0.26490065,Accuracy Chair,Validation
+0,1,20,0.008778183,Loss Cow,Training
+0,1,20,1.3564882,Loss Cow,Validation
+0,1,20,1.0,Accuracy Cow,Training
+0,1,20,0.43703705,Accuracy Cow,Validation
+0,1,20,0.002941933,Loss Dining Table,Training
+0,1,20,1.3797907,Loss Dining Table,Validation
+0,1,20,1.0,Accuracy Dining Table,Training
+0,1,20,0.49751243,Accuracy Dining Table,Validation
+0,1,20,0.0063690133,Loss Dog,Training
+0,1,20,2.024648,Loss Dog,Validation
+0,1,20,1.0,Accuracy Dog,Training
+0,1,20,0.35112935,Accuracy Dog,Validation
+0,1,20,0.0074084443,Loss Horse,Training
+0,1,20,1.5658647,Loss Horse,Validation
+0,1,20,1.0,Accuracy Horse,Training
+0,1,20,0.54202896,Accuracy Horse,Validation
+0,1,20,0.008815052,Loss Motorcycle,Training
+0,1,20,0.56147695,Loss Motorcycle,Validation
+0,1,20,1.0,Accuracy Motorcycle,Training
+0,1,20,0.9175627,Accuracy Motorcycle,Validation
+0,1,20,0.0049737864,Loss Person,Training
+0,1,20,3.026138,Loss Person,Validation
+0,1,20,1.0,Accuracy Person,Training
+0,1,20,0.15005036,Accuracy Person,Validation
+0,1,20,0.004314885,Loss Potted Plant,Training
+0,1,20,2.3714738,Loss Potted Plant,Validation
+0,1,20,1.0,Accuracy Potted Plant,Training
+0,1,20,0.29411766,Accuracy Potted Plant,Validation
+0,1,20,0.010013993,Loss Sheep,Training
+0,1,20,0.60291755,Loss Sheep,Validation
+0,1,20,1.0,Accuracy Sheep,Training
+0,1,20,0.85882354,Accuracy Sheep,Validation
+0,1,20,0.0061934814,Loss Sofa,Training
+0,1,20,1.2677444,Loss Sofa,Validation
+0,1,20,1.0,Accuracy Sofa,Training
+0,1,20,0.6286645,Accuracy Sofa,Validation
+0,1,20,0.007501559,Loss Train,Training
+0,1,20,0.7479851,Loss Train,Validation
+0,1,20,1.0,Accuracy Train,Training
+0,1,20,0.8847262,Accuracy Train,Validation
+0,1,20,0.008234031,Loss Television,Training
+0,1,20,0.72434086,Loss Television,Validation
+0,1,20,1.0,Accuracy Television,Training
+0,1,20,0.8385417,Accuracy Television,Validation
+0,1,21,0.006113986,Loss,Training
+0,1,21,1.3694165,Loss,Validation
+0,1,21,1.0,Accuracy,Training
+0,1,21,0.6286627,Accuracy,Validation
+0,1,21,0.0050982633,Loss Airplane,Training
+0,1,21,1.3416495,Loss Airplane,Validation
+0,1,21,1.0,Accuracy Airplane,Training
+0,1,21,0.780303,Accuracy Airplane,Validation
+0,1,21,0.004397534,Loss Bicycle,Training
+0,1,21,1.2276797,Loss Bicycle,Validation
+0,1,21,1.0,Accuracy Bicycle,Training
+0,1,21,0.6956522,Accuracy Bicycle,Validation
+0,1,21,0.0065632076,Loss Bird,Training
+0,1,21,1.6167943,Loss Bird,Validation
+0,1,21,1.0,Accuracy Bird,Training
+0,1,21,0.53258425,Accuracy Bird,Validation
+0,1,21,0.0088377055,Loss Boat,Training
+0,1,21,0.90993917,Loss Boat,Validation
+0,1,21,1.0,Accuracy Boat,Training
+0,1,21,0.8436482,Accuracy Boat,Validation
+0,1,21,0.0050006444,Loss Bottle,Training
+0,1,21,1.0050814,Loss Bottle,Validation
+0,1,21,1.0,Accuracy Bottle,Training
+0,1,21,0.8363636,Accuracy Bottle,Validation
+0,1,21,0.0053029275,Loss Bus,Training
+0,1,21,0.53705484,Loss Bus,Validation
+0,1,21,1.0,Accuracy Bus,Training
+0,1,21,0.9112628,Accuracy Bus,Validation
+0,1,21,0.008364107,Loss Car,Training
+0,1,21,2.0533793,Loss Car,Validation
+0,1,21,1.0,Accuracy Car,Training
+0,1,21,0.4551495,Accuracy Car,Validation
+0,1,21,0.005639285,Loss Cat,Training
+0,1,21,0.85708314,Loss Cat,Validation
+0,1,21,1.0,Accuracy Cat,Training
+0,1,21,0.8340909,Accuracy Cat,Validation
+0,1,21,0.0077515794,Loss Chair,Training
+0,1,21,2.2607384,Loss Chair,Validation
+0,1,21,1.0,Accuracy Chair,Training
+0,1,21,0.2804878,Accuracy Chair,Validation
+0,1,21,0.009182707,Loss Cow,Training
+0,1,21,1.2753309,Loss Cow,Validation
+0,1,21,1.0,Accuracy Cow,Training
+0,1,21,0.45126355,Accuracy Cow,Validation
+0,1,21,0.0026411982,Loss Dining Table,Training
+0,1,21,1.4786243,Loss Dining Table,Validation
+0,1,21,1.0,Accuracy Dining Table,Training
+0,1,21,0.47029704,Accuracy Dining Table,Validation
+0,1,21,0.0057230066,Loss Dog,Training
+0,1,21,2.0347798,Loss Dog,Validation
+0,1,21,1.0,Accuracy Dog,Training
+0,1,21,0.3088553,Accuracy Dog,Validation
+0,1,21,0.0060311444,Loss Horse,Training
+0,1,21,1.6603076,Loss Horse,Validation
+0,1,21,1.0,Accuracy Horse,Training
+0,1,21,0.45962733,Accuracy Horse,Validation
+0,1,21,0.007203516,Loss Motorcycle,Training
+0,1,21,0.4725677,Loss Motorcycle,Validation
+0,1,21,1.0,Accuracy Motorcycle,Training
+0,1,21,0.9464286,Accuracy Motorcycle,Validation
+0,1,21,0.004098984,Loss Person,Training
+0,1,21,3.0761619,Loss Person,Validation
+0,1,21,1.0,Accuracy Person,Training
+0,1,21,0.14959016,Accuracy Person,Validation
+0,1,21,0.0035993217,Loss Potted Plant,Training
+0,1,21,2.4134517,Loss Potted Plant,Validation
+0,1,21,1.0,Accuracy Potted Plant,Training
+0,1,21,0.40875912,Accuracy Potted Plant,Validation
+0,1,21,0.008072819,Loss Sheep,Training
+0,1,21,0.6041422,Loss Sheep,Validation
+0,1,21,1.0,Accuracy Sheep,Training
+0,1,21,0.7822222,Accuracy Sheep,Validation
+0,1,21,0.0049572415,Loss Sofa,Training
+0,1,21,1.1567056,Loss Sofa,Validation
+0,1,21,1.0,Accuracy Sofa,Training
+0,1,21,0.6721311,Accuracy Sofa,Validation
+0,1,21,0.00603079,Loss Train,Training
+0,1,21,0.67611563,Loss Train,Validation
+0,1,21,1.0,Accuracy Train,Training
+0,1,21,0.9303621,Accuracy Train,Validation
+0,1,21,0.007783739,Loss Television,Training
+0,1,21,0.73074424,Loss Television,Validation
+0,1,21,1.0,Accuracy Television,Training
+0,1,21,0.82417583,Accuracy Television,Validation
+0,1,22,0.005430857,Loss,Training
+0,1,22,1.367717,Loss,Validation
+0,1,22,1.0,Accuracy,Training
+0,1,22,0.64798486,Accuracy,Validation
+0,1,22,0.004803039,Loss Airplane,Training
+0,1,22,1.2848445,Loss Airplane,Validation
+0,1,22,1.0,Accuracy Airplane,Training
+0,1,22,0.7809524,Accuracy Airplane,Validation
+0,1,22,0.0038285486,Loss Bicycle,Training
+0,1,22,1.2554585,Loss Bicycle,Validation
+0,1,22,1.0,Accuracy Bicycle,Training
+0,1,22,0.6647399,Accuracy Bicycle,Validation
+0,1,22,0.005830402,Loss Bird,Training
+0,1,22,1.6362214,Loss Bird,Validation
+0,1,22,1.0,Accuracy Bird,Training
+0,1,22,0.50877196,Accuracy Bird,Validation
+0,1,22,0.0071286545,Loss Boat,Training
+0,1,22,0.80199105,Loss Boat,Validation
+0,1,22,1.0,Accuracy Boat,Training
+0,1,22,0.93856657,Accuracy Boat,Validation
+0,1,22,0.004755379,Loss Bottle,Training
+0,1,22,0.97491306,Loss Bottle,Validation
+0,1,22,1.0,Accuracy Bottle,Training
+0,1,22,0.8888889,Accuracy Bottle,Validation
+0,1,22,0.0046747676,Loss Bus,Training
+0,1,22,0.50752515,Loss Bus,Validation
+0,1,22,1.0,Accuracy Bus,Training
+0,1,22,0.91821563,Accuracy Bus,Validation
+0,1,22,0.0077362834,Loss Car,Training
+0,1,22,2.069943,Loss Car,Validation
+0,1,22,1.0,Accuracy Car,Training
+0,1,22,0.4625,Accuracy Car,Validation
+0,1,22,0.0054608146,Loss Cat,Training
+0,1,22,0.83549243,Loss Cat,Validation
+0,1,22,1.0,Accuracy Cat,Training
+0,1,22,0.8589109,Accuracy Cat,Validation
+0,1,22,0.0068252673,Loss Chair,Training
+0,1,22,2.3562047,Loss Chair,Validation
+0,1,22,1.0,Accuracy Chair,Training
+0,1,22,0.2982456,Accuracy Chair,Validation
+0,1,22,0.007086481,Loss Cow,Training
+0,1,22,1.3991531,Loss Cow,Validation
+0,1,22,1.0,Accuracy Cow,Training
+0,1,22,0.4861111,Accuracy Cow,Validation
+0,1,22,0.0021579617,Loss Dining Table,Training
+0,1,22,1.3150331,Loss Dining Table,Validation
+0,1,22,1.0,Accuracy Dining Table,Training
+0,1,22,0.5470852,Accuracy Dining Table,Validation
+0,1,22,0.004509307,Loss Dog,Training
+0,1,22,2.0052423,Loss Dog,Validation
+0,1,22,1.0,Accuracy Dog,Training
+0,1,22,0.33259913,Accuracy Dog,Validation
+0,1,22,0.0056178374,Loss Horse,Training
+0,1,22,1.6664938,Loss Horse,Validation
+0,1,22,1.0,Accuracy Horse,Training
+0,1,22,0.48407644,Accuracy Horse,Validation
+0,1,22,0.0068070088,Loss Motorcycle,Training
+0,1,22,0.39538446,Loss Motorcycle,Validation
+0,1,22,1.0,Accuracy Motorcycle,Training
+0,1,22,0.9698113,Accuracy Motorcycle,Validation
+0,1,22,0.0035842906,Loss Person,Training
+0,1,22,3.2142377,Loss Person,Validation
+0,1,22,1.0,Accuracy Person,Training
+0,1,22,0.1493776,Accuracy Person,Validation
+0,1,22,0.0031207565,Loss Potted Plant,Training
+0,1,22,2.472043,Loss Potted Plant,Validation
+0,1,22,1.0,Accuracy Potted Plant,Training
+0,1,22,0.30872482,Accuracy Potted Plant,Validation
+0,1,22,0.007898277,Loss Sheep,Training
+0,1,22,0.46985492,Loss Sheep,Validation
+0,1,22,1.0,Accuracy Sheep,Training
+0,1,22,0.9350649,Accuracy Sheep,Validation
+0,1,22,0.0048505105,Loss Sofa,Training
+0,1,22,1.2423352,Loss Sofa,Validation
+0,1,22,1.0,Accuracy Sofa,Training
+0,1,22,0.70689654,Accuracy Sofa,Validation
+0,1,22,0.0051046456,Loss Train,Training
+0,1,22,0.7681019,Loss Train,Validation
+0,1,22,1.0,Accuracy Train,Training
+0,1,22,0.88352275,Accuracy Train,Validation
+0,1,22,0.006836909,Loss Television,Training
+0,1,22,0.68386596,Loss Television,Validation
+0,1,22,1.0,Accuracy Television,Training
+0,1,22,0.8366337,Accuracy Television,Validation
+0,1,23,0.0051356987,Loss,Training
+0,1,23,1.3796432,Loss,Validation
+0,1,23,1.0,Accuracy,Training
+0,1,23,0.6377833,Accuracy,Validation
+0,1,23,0.0041403486,Loss Airplane,Training
+0,1,23,1.3120875,Loss Airplane,Validation
+0,1,23,1.0,Accuracy Airplane,Training
+0,1,23,0.739229,Accuracy Airplane,Validation
+0,1,23,0.003800929,Loss Bicycle,Training
+0,1,23,1.1512303,Loss Bicycle,Validation
+0,1,23,1.0,Accuracy Bicycle,Training
+0,1,23,0.65536726,Accuracy Bicycle,Validation
+0,1,23,0.0057542874,Loss Bird,Training
+0,1,23,1.5861,Loss Bird,Validation
+0,1,23,1.0,Accuracy Bird,Training
+0,1,23,0.53400505,Accuracy Bird,Validation
+0,1,23,0.008029338,Loss Boat,Training
+0,1,23,0.8252817,Loss Boat,Validation
+0,1,23,1.0,Accuracy Boat,Training
+0,1,23,0.9131833,Accuracy Boat,Validation
+0,1,23,0.0048013115,Loss Bottle,Training
+0,1,23,1.0434477,Loss Bottle,Validation
+0,1,23,1.0,Accuracy Bottle,Training
+0,1,23,0.83006537,Accuracy Bottle,Validation
+0,1,23,0.0040545557,Loss Bus,Training
+0,1,23,0.5169024,Loss Bus,Validation
+0,1,23,1.0,Accuracy Bus,Training
+0,1,23,0.89966553,Accuracy Bus,Validation
+0,1,23,0.0067809275,Loss Car,Training
+0,1,23,2.1243005,Loss Car,Validation
+0,1,23,1.0,Accuracy Car,Training
+0,1,23,0.4756447,Accuracy Car,Validation
+0,1,23,0.004823058,Loss Cat,Training
+0,1,23,0.80233884,Loss Cat,Validation
+0,1,23,1.0,Accuracy Cat,Training
+0,1,23,0.8488372,Accuracy Cat,Validation
+0,1,23,0.006417856,Loss Chair,Training
+0,1,23,2.717719,Loss Chair,Validation
+0,1,23,1.0,Accuracy Chair,Training
+0,1,23,0.17985612,Accuracy Chair,Validation
+0,1,23,0.00646282,Loss Cow,Training
+0,1,23,1.1552035,Loss Cow,Validation
+0,1,23,1.0,Accuracy Cow,Training
+0,1,23,0.55244756,Accuracy Cow,Validation
+0,1,23,0.0022434948,Loss Dining Table,Training
+0,1,23,1.3521467,Loss Dining Table,Validation
+0,1,23,1.0,Accuracy Dining Table,Training
+0,1,23,0.5885417,Accuracy Dining Table,Validation
+0,1,23,0.0046895323,Loss Dog,Training
+0,1,23,1.9771113,Loss Dog,Validation
+0,1,23,1.0,Accuracy Dog,Training
+0,1,23,0.36320755,Accuracy Dog,Validation
+0,1,23,0.005630163,Loss Horse,Training
+0,1,23,1.5548285,Loss Horse,Validation
+0,1,23,1.0,Accuracy Horse,Training
+0,1,23,0.56232685,Accuracy Horse,Validation
+0,1,23,0.0060720947,Loss Motorcycle,Training
+0,1,23,0.47461772,Loss Motorcycle,Validation
+0,1,23,1.0,Accuracy Motorcycle,Training
+0,1,23,0.9259259,Accuracy Motorcycle,Validation
+0,1,23,0.0038049365,Loss Person,Training
+0,1,23,3.1456876,Loss Person,Validation
+0,1,23,1.0,Accuracy Person,Training
+0,1,23,0.1570248,Accuracy Person,Validation
+0,1,23,0.0028452184,Loss Potted Plant,Training
+0,1,23,2.7305508,Loss Potted Plant,Validation
+0,1,23,1.0,Accuracy Potted Plant,Training
+0,1,23,0.33043477,Accuracy Potted Plant,Validation
+0,1,23,0.0067066452,Loss Sheep,Training
+0,1,23,0.5772636,Loss Sheep,Validation
+0,1,23,1.0,Accuracy Sheep,Training
+0,1,23,0.76724136,Accuracy Sheep,Validation
+0,1,23,0.003917973,Loss Sofa,Training
+0,1,23,1.1862684,Loss Sofa,Validation
+0,1,23,1.0,Accuracy Sofa,Training
+0,1,23,0.652439,Accuracy Sofa,Validation
+0,1,23,0.0056503024,Loss Train,Training
+0,1,23,0.6883102,Loss Train,Validation
+0,1,23,1.0,Accuracy Train,Training
+0,1,23,0.9046243,Accuracy Train,Validation
+0,1,23,0.006088179,Loss Television,Training
+0,1,23,0.67147076,Loss Television,Validation
+0,1,23,1.0,Accuracy Television,Training
+0,1,23,0.8755981,Accuracy Television,Validation
+0,1,24,0.0044023953,Loss,Training
+0,1,24,1.3707556,Loss,Validation
+0,1,24,1.0,Accuracy,Training
+0,1,24,0.6297652,Accuracy,Validation
+0,1,24,0.0038184281,Loss Airplane,Training
+0,1,24,1.2434106,Loss Airplane,Validation
+0,1,24,1.0,Accuracy Airplane,Training
+0,1,24,0.79586565,Accuracy Airplane,Validation
+0,1,24,0.0035071499,Loss Bicycle,Training
+0,1,24,1.265528,Loss Bicycle,Validation
+0,1,24,1.0,Accuracy Bicycle,Training
+0,1,24,0.6626506,Accuracy Bicycle,Validation
+0,1,24,0.0050138105,Loss Bird,Training
+0,1,24,1.5329293,Loss Bird,Validation
+0,1,24,1.0,Accuracy Bird,Training
+0,1,24,0.55,Accuracy Bird,Validation
+0,1,24,0.007865051,Loss Boat,Training
+0,1,24,0.82907665,Loss Boat,Validation
+0,1,24,1.0,Accuracy Boat,Training
+0,1,24,0.9056604,Accuracy Boat,Validation
+0,1,24,0.0038583165,Loss Bottle,Training
+0,1,24,0.90596104,Loss Bottle,Validation
+0,1,24,1.0,Accuracy Bottle,Training
+0,1,24,0.8875,Accuracy Bottle,Validation
+0,1,24,0.00401059,Loss Bus,Training
+0,1,24,0.545783,Loss Bus,Validation
+0,1,24,1.0,Accuracy Bus,Training
+0,1,24,0.91883117,Accuracy Bus,Validation
+0,1,24,0.0055417437,Loss Car,Training
+0,1,24,1.9356307,Loss Car,Validation
+0,1,24,1.0,Accuracy Car,Training
+0,1,24,0.4642857,Accuracy Car,Validation
+0,1,24,0.004207605,Loss Cat,Training
+0,1,24,0.85253906,Loss Cat,Validation
+0,1,24,1.0,Accuracy Cat,Training
+0,1,24,0.81935483,Accuracy Cat,Validation
+0,1,24,0.0049652224,Loss Chair,Training
+0,1,24,2.4151928,Loss Chair,Validation
+0,1,24,1.0,Accuracy Chair,Training
+0,1,24,0.22068965,Accuracy Chair,Validation
+0,1,24,0.0062781083,Loss Cow,Training
+0,1,24,1.3279383,Loss Cow,Validation
+0,1,24,1.0,Accuracy Cow,Training
+0,1,24,0.44755244,Accuracy Cow,Validation
+0,1,24,0.0016830703,Loss Dining Table,Training
+0,1,24,1.3873988,Loss Dining Table,Validation
+0,1,24,1.0,Accuracy Dining Table,Training
+0,1,24,0.5187166,Accuracy Dining Table,Validation
+0,1,24,0.003972267,Loss Dog,Training
+0,1,24,2.1829655,Loss Dog,Validation
+0,1,24,1.0,Accuracy Dog,Training
+0,1,24,0.2977273,Accuracy Dog,Validation
+0,1,24,0.004404243,Loss Horse,Training
+0,1,24,1.4486102,Loss Horse,Validation
+0,1,24,1.0,Accuracy Horse,Training
+0,1,24,0.53313255,Accuracy Horse,Validation
+0,1,24,0.005569063,Loss Motorcycle,Training
+0,1,24,0.4692004,Loss Motorcycle,Validation
+0,1,24,1.0,Accuracy Motorcycle,Training
+0,1,24,0.91481483,Accuracy Motorcycle,Validation
+0,1,24,0.0026339875,Loss Person,Training
+0,1,24,3.2152603,Loss Person,Validation
+0,1,24,1.0,Accuracy Person,Training
+0,1,24,0.12873326,Accuracy Person,Validation
+0,1,24,0.002500702,Loss Potted Plant,Training
+0,1,24,2.7367244,Loss Potted Plant,Validation
+0,1,24,1.0,Accuracy Potted Plant,Training
+0,1,24,0.24503312,Accuracy Potted Plant,Validation
+0,1,24,0.0053291605,Loss Sheep,Training
+0,1,24,0.59483665,Loss Sheep,Validation
+0,1,24,1.0,Accuracy Sheep,Training
+0,1,24,0.80497926,Accuracy Sheep,Validation
+0,1,24,0.0040124636,Loss Sofa,Training
+0,1,24,1.2185115,Loss Sofa,Validation
+0,1,24,1.0,Accuracy Sofa,Training
+0,1,24,0.67918086,Accuracy Sofa,Validation
+0,1,24,0.0038324066,Loss Train,Training
+0,1,24,0.67758924,Loss Train,Validation
+0,1,24,1.0,Accuracy Train,Training
+0,1,24,0.92021275,Accuracy Train,Validation
+0,1,24,0.0050445115,Loss Television,Training
+0,1,24,0.6300251,Loss Television,Validation
+0,1,24,1.0,Accuracy Television,Training
+0,1,24,0.8803828,Accuracy Television,Validation
+0,1,25,0.0037991297,Loss,Training
+0,1,25,1.3581427,Loss,Validation
+0,1,25,1.0,Accuracy,Training
+0,1,25,0.6353594,Accuracy,Validation
+0,1,25,0.0033820139,Loss Airplane,Training
+0,1,25,1.3047681,Loss Airplane,Validation
+0,1,25,1.0,Accuracy Airplane,Training
+0,1,25,0.7603093,Accuracy Airplane,Validation
+0,1,25,0.0032679078,Loss Bicycle,Training
+0,1,25,1.223002,Loss Bicycle,Validation
+0,1,25,1.0,Accuracy Bicycle,Training
+0,1,25,0.65,Accuracy Bicycle,Validation
+0,1,25,0.0045893486,Loss Bird,Training
+0,1,25,1.4561304,Loss Bird,Validation
+0,1,25,1.0,Accuracy Bird,Training
+0,1,25,0.56462586,Accuracy Bird,Validation
+0,1,25,0.0053380737,Loss Boat,Training
+0,1,25,0.81160885,Loss Boat,Validation
+0,1,25,1.0,Accuracy Boat,Training
+0,1,25,0.89891696,Accuracy Boat,Validation
+0,1,25,0.002934891,Loss Bottle,Training
+0,1,25,0.863475,Loss Bottle,Validation
+0,1,25,1.0,Accuracy Bottle,Training
+0,1,25,0.86627907,Accuracy Bottle,Validation
+0,1,25,0.0031630807,Loss Bus,Training
+0,1,25,0.5169471,Loss Bus,Validation
+0,1,25,1.0,Accuracy Bus,Training
+0,1,25,0.9050847,Accuracy Bus,Validation
+0,1,25,0.0050934413,Loss Car,Training
+0,1,25,2.0563211,Loss Car,Validation
+0,1,25,1.0,Accuracy Car,Training
+0,1,25,0.4622951,Accuracy Car,Validation
+0,1,25,0.004126299,Loss Cat,Training
+0,1,25,0.82601434,Loss Cat,Validation
+0,1,25,1.0,Accuracy Cat,Training
+0,1,25,0.8278867,Accuracy Cat,Validation
+0,1,25,0.0042871553,Loss Chair,Training
+0,1,25,2.3360965,Loss Chair,Validation
+0,1,25,1.0,Accuracy Chair,Training
+0,1,25,0.30612245,Accuracy Chair,Validation
+0,1,25,0.0052809413,Loss Cow,Training
+0,1,25,1.5805113,Loss Cow,Validation
+0,1,25,1.0,Accuracy Cow,Training
+0,1,25,0.3905724,Accuracy Cow,Validation
+0,1,25,0.0013777692,Loss Dining Table,Training
+0,1,25,1.407771,Loss Dining Table,Validation
+0,1,25,1.0,Accuracy Dining Table,Training
+0,1,25,0.52020204,Accuracy Dining Table,Validation
+0,1,25,0.003145145,Loss Dog,Training
+0,1,25,2.0345094,Loss Dog,Validation
+0,1,25,1.0,Accuracy Dog,Training
+0,1,25,0.3280899,Accuracy Dog,Validation
+0,1,25,0.0040856167,Loss Horse,Training
+0,1,25,1.5325155,Loss Horse,Validation
+0,1,25,1.0,Accuracy Horse,Training
+0,1,25,0.48867315,Accuracy Horse,Validation
+0,1,25,0.004785064,Loss Motorcycle,Training
+0,1,25,0.4749338,Loss Motorcycle,Validation
+0,1,25,1.0,Accuracy Motorcycle,Training
+0,1,25,0.9283019,Accuracy Motorcycle,Validation
+0,1,25,0.0027097687,Loss Person,Training
+0,1,25,3.0061243,Loss Person,Validation
+0,1,25,1.0,Accuracy Person,Training
+0,1,25,0.16491596,Accuracy Person,Validation
+0,1,25,0.002293732,Loss Potted Plant,Training
+0,1,25,2.7137463,Loss Potted Plant,Validation
+0,1,25,1.0,Accuracy Potted Plant,Training
+0,1,25,0.2955975,Accuracy Potted Plant,Validation
+0,1,25,0.005167869,Loss Sheep,Training
+0,1,25,0.51064885,Loss Sheep,Validation
+0,1,25,1.0,Accuracy Sheep,Training
+0,1,25,0.8504273,Accuracy Sheep,Validation
+0,1,25,0.0030961356,Loss Sofa,Training
+0,1,25,1.1341339,Loss Sofa,Validation
+0,1,25,1.0,Accuracy Sofa,Training
+0,1,25,0.7080537,Accuracy Sofa,Validation
+0,1,25,0.0033771729,Loss Train,Training
+0,1,25,0.74247026,Loss Train,Validation
+0,1,25,1.0,Accuracy Train,Training
+0,1,25,0.9123288,Accuracy Train,Validation
+0,1,25,0.004481165,Loss Television,Training
+0,1,25,0.63112706,Loss Television,Validation
+0,1,25,1.0,Accuracy Television,Training
+0,1,25,0.8785047,Accuracy Television,Validation
+0,1,26,0.0034909793,Loss,Training
+0,1,26,1.3422598,Loss,Validation
+0,1,26,1.0,Accuracy,Training
+0,1,26,0.6420561,Accuracy,Validation
+0,1,26,0.0031392798,Loss Airplane,Training
+0,1,26,1.2228059,Loss Airplane,Validation
+0,1,26,1.0,Accuracy Airplane,Training
+0,1,26,0.83658534,Accuracy Airplane,Validation
+0,1,26,0.0026519478,Loss Bicycle,Training
+0,1,26,1.0402377,Loss Bicycle,Validation
+0,1,26,1.0,Accuracy Bicycle,Training
+0,1,26,0.7621951,Accuracy Bicycle,Validation
+0,1,26,0.0039839116,Loss Bird,Training
+0,1,26,1.5153487,Loss Bird,Validation
+0,1,26,1.0,Accuracy Bird,Training
+0,1,26,0.53424656,Accuracy Bird,Validation
+0,1,26,0.0042818566,Loss Boat,Training
+0,1,26,0.7763926,Loss Boat,Validation
+0,1,26,1.0,Accuracy Boat,Training
+0,1,26,0.9139073,Accuracy Boat,Validation
+0,1,26,0.002864912,Loss Bottle,Training
+0,1,26,1.0589875,Loss Bottle,Validation
+0,1,26,1.0,Accuracy Bottle,Training
+0,1,26,0.8181818,Accuracy Bottle,Validation
+0,1,26,0.0029827242,Loss Bus,Training
+0,1,26,0.48857012,Loss Bus,Validation
+0,1,26,1.0,Accuracy Bus,Training
+0,1,26,0.93454546,Accuracy Bus,Validation
+0,1,26,0.0046841847,Loss Car,Training
+0,1,26,2.2278347,Loss Car,Validation
+0,1,26,1.0,Accuracy Car,Training
+0,1,26,0.3911672,Accuracy Car,Validation
+0,1,26,0.003157854,Loss Cat,Training
+0,1,26,0.7986824,Loss Cat,Validation
+0,1,26,1.0,Accuracy Cat,Training
+0,1,26,0.8286385,Accuracy Cat,Validation
+0,1,26,0.004664388,Loss Chair,Training
+0,1,26,2.444402,Loss Chair,Validation
+0,1,26,1.0,Accuracy Chair,Training
+0,1,26,0.2147651,Accuracy Chair,Validation
+0,1,26,0.004854266,Loss Cow,Training
+0,1,26,1.1408641,Loss Cow,Validation
+0,1,26,1.0,Accuracy Cow,Training
+0,1,26,0.5,Accuracy Cow,Validation
+0,1,26,0.0015016719,Loss Dining Table,Training
+0,1,26,1.2952557,Loss Dining Table,Validation
+0,1,26,1.0,Accuracy Dining Table,Training
+0,1,26,0.54591835,Accuracy Dining Table,Validation
+0,1,26,0.0033115353,Loss Dog,Training
+0,1,26,1.9835862,Loss Dog,Validation
+0,1,26,1.0,Accuracy Dog,Training
+0,1,26,0.34920636,Accuracy Dog,Validation
+0,1,26,0.0035818731,Loss Horse,Training
+0,1,26,1.4933028,Loss Horse,Validation
+0,1,26,1.0,Accuracy Horse,Training
+0,1,26,0.5323077,Accuracy Horse,Validation
+0,1,26,0.004270671,Loss Motorcycle,Training
+0,1,26,0.44691956,Loss Motorcycle,Validation
+0,1,26,1.0,Accuracy Motorcycle,Training
+0,1,26,0.92727274,Accuracy Motorcycle,Validation
+0,1,26,0.0031129094,Loss Person,Training
+0,1,26,3.0595276,Loss Person,Validation
+0,1,26,1.0,Accuracy Person,Training
+0,1,26,0.143001,Accuracy Person,Validation
+0,1,26,0.0021908479,Loss Potted Plant,Training
+0,1,26,2.5493827,Loss Potted Plant,Validation
+0,1,26,1.0,Accuracy Potted Plant,Training
+0,1,26,0.4041096,Accuracy Potted Plant,Validation
+0,1,26,0.004238241,Loss Sheep,Training
+0,1,26,0.5684716,Loss Sheep,Validation
+0,1,26,1.0,Accuracy Sheep,Training
+0,1,26,0.8102767,Accuracy Sheep,Validation
+0,1,26,0.002878269,Loss Sofa,Training
+0,1,26,1.354268,Loss Sofa,Validation
+0,1,26,1.0,Accuracy Sofa,Training
+0,1,26,0.6509434,Accuracy Sofa,Validation
+0,1,26,0.0034115799,Loss Train,Training
+0,1,26,0.7668015,Loss Train,Validation
+0,1,26,1.0,Accuracy Train,Training
+0,1,26,0.875,Accuracy Train,Validation
+0,1,26,0.0040566614,Loss Television,Training
+0,1,26,0.61355543,Loss Television,Validation
+0,1,26,1.0,Accuracy Television,Training
+0,1,26,0.86885244,Accuracy Television,Validation
+0,1,27,0.003284037,Loss,Training
+0,1,27,1.388179,Loss,Validation
+0,1,27,1.0,Accuracy,Training
+0,1,27,0.6317991,Accuracy,Validation
+0,1,27,0.0027112085,Loss Airplane,Training
+0,1,27,1.2913082,Loss Airplane,Validation
+0,1,27,1.0,Accuracy Airplane,Training
+0,1,27,0.7913486,Accuracy Airplane,Validation
+0,1,27,0.0027125245,Loss Bicycle,Training
+0,1,27,1.1389612,Loss Bicycle,Validation
+0,1,27,1.0,Accuracy Bicycle,Training
+0,1,27,0.6971831,Accuracy Bicycle,Validation
+0,1,27,0.0035585552,Loss Bird,Training
+0,1,27,1.5879594,Loss Bird,Validation
+0,1,27,1.0,Accuracy Bird,Training
+0,1,27,0.519084,Accuracy Bird,Validation
+0,1,27,0.005446505,Loss Boat,Training
+0,1,27,0.782532,Loss Boat,Validation
+0,1,27,1.0,Accuracy Boat,Training
+0,1,27,0.9010989,Accuracy Boat,Validation
+0,1,27,0.0027833418,Loss Bottle,Training
+0,1,27,1.0449727,Loss Bottle,Validation
+0,1,27,1.0,Accuracy Bottle,Training
+0,1,27,0.7633136,Accuracy Bottle,Validation
+0,1,27,0.002598258,Loss Bus,Training
+0,1,27,0.518756,Loss Bus,Validation
+0,1,27,1.0,Accuracy Bus,Training
+0,1,27,0.9017544,Accuracy Bus,Validation
+0,1,27,0.004151876,Loss Car,Training
+0,1,27,2.1845822,Loss Car,Validation
+0,1,27,1.0,Accuracy Car,Training
+0,1,27,0.4371069,Accuracy Car,Validation
+0,1,27,0.004589459,Loss Cat,Training
+0,1,27,0.76076,Loss Cat,Validation
+0,1,27,1.0,Accuracy Cat,Training
+0,1,27,0.84761906,Accuracy Cat,Validation
+0,1,27,0.0039298823,Loss Chair,Training
+0,1,27,2.5472689,Loss Chair,Validation
+0,1,27,1.0,Accuracy Chair,Training
+0,1,27,0.24342105,Accuracy Chair,Validation
+0,1,27,0.004330528,Loss Cow,Training
+0,1,27,1.2902825,Loss Cow,Validation
+0,1,27,1.0,Accuracy Cow,Training
+0,1,27,0.4587156,Accuracy Cow,Validation
+0,1,27,0.0012186029,Loss Dining Table,Training
+0,1,27,1.3141671,Loss Dining Table,Validation
+0,1,27,1.0,Accuracy Dining Table,Training
+0,1,27,0.57,Accuracy Dining Table,Validation
+0,1,27,0.0029376675,Loss Dog,Training
+0,1,27,2.0565083,Loss Dog,Validation
+0,1,27,1.0,Accuracy Dog,Training
+0,1,27,0.32493702,Accuracy Dog,Validation
+0,1,27,0.0034644993,Loss Horse,Training
+0,1,27,1.6162035,Loss Horse,Validation
+0,1,27,1.0,Accuracy Horse,Training
+0,1,27,0.52887535,Accuracy Horse,Validation
+0,1,27,0.0037840235,Loss Motorcycle,Training
+0,1,27,0.4329947,Loss Motorcycle,Validation
+0,1,27,1.0,Accuracy Motorcycle,Training
+0,1,27,0.9575972,Accuracy Motorcycle,Validation
+0,1,27,0.0019280256,Loss Person,Training
+0,1,27,3.214416,Loss Person,Validation
+0,1,27,1.0,Accuracy Person,Training
+0,1,27,0.1536232,Accuracy Person,Validation
+0,1,27,0.0018975404,Loss Potted Plant,Training
+0,1,27,2.947736,Loss Potted Plant,Validation
+0,1,27,1.0,Accuracy Potted Plant,Training
+0,1,27,0.26875,Accuracy Potted Plant,Validation
+0,1,27,0.004105184,Loss Sheep,Training
+0,1,27,0.50772184,Loss Sheep,Validation
+0,1,27,1.0,Accuracy Sheep,Training
+0,1,27,0.8612245,Accuracy Sheep,Validation
+0,1,27,0.0024614157,Loss Sofa,Training
+0,1,27,1.3335248,Loss Sofa,Validation
+0,1,27,1.0,Accuracy Sofa,Training
+0,1,27,0.6227758,Accuracy Sofa,Validation
+0,1,27,0.00332066,Loss Train,Training
+0,1,27,0.637082,Loss Train,Validation
+0,1,27,1.0,Accuracy Train,Training
+0,1,27,0.89646465,Accuracy Train,Validation
+0,1,27,0.0037509806,Loss Television,Training
+0,1,27,0.5558436,Loss Television,Validation
+0,1,27,1.0,Accuracy Television,Training
+0,1,27,0.8910891,Accuracy Television,Validation
+0,1,28,0.002739345,Loss,Training
+0,1,28,1.3664749,Loss,Validation
+0,1,28,1.0,Accuracy,Training
+0,1,28,0.63072574,Accuracy,Validation
+0,1,28,0.0025682026,Loss Airplane,Training
+0,1,28,1.2673724,Loss Airplane,Validation
+0,1,28,1.0,Accuracy Airplane,Training
+0,1,28,0.8018648,Accuracy Airplane,Validation
+0,1,28,0.0018427708,Loss Bicycle,Training
+0,1,28,1.137651,Loss Bicycle,Validation
+0,1,28,1.0,Accuracy Bicycle,Training
+0,1,28,0.7090909,Accuracy Bicycle,Validation
+0,1,28,0.0028876148,Loss Bird,Training
+0,1,28,1.5740461,Loss Bird,Validation
+0,1,28,1.0,Accuracy Bird,Training
+0,1,28,0.49367088,Accuracy Bird,Validation
+0,1,28,0.003437531,Loss Boat,Training
+0,1,28,0.73360753,Loss Boat,Validation
+0,1,28,1.0,Accuracy Boat,Training
+0,1,28,0.91515154,Accuracy Boat,Validation
+0,1,28,0.0025295343,Loss Bottle,Training
+0,1,28,0.8891406,Loss Bottle,Validation
+0,1,28,1.0,Accuracy Bottle,Training
+0,1,28,0.8719512,Accuracy Bottle,Validation
+0,1,28,0.0027114125,Loss Bus,Training
+0,1,28,0.5210107,Loss Bus,Validation
+0,1,28,1.0,Accuracy Bus,Training
+0,1,28,0.9111111,Accuracy Bus,Validation
+0,1,28,0.0034619956,Loss Car,Training
+0,1,28,2.1214461,Loss Car,Validation
+0,1,28,1.0,Accuracy Car,Training
+0,1,28,0.44514108,Accuracy Car,Validation
+0,1,28,0.0021048442,Loss Cat,Training
+0,1,28,0.7724543,Loss Cat,Validation
+0,1,28,1.0,Accuracy Cat,Training
+0,1,28,0.8816964,Accuracy Cat,Validation
+0,1,28,0.00356214,Loss Chair,Training
+0,1,28,2.4346855,Loss Chair,Validation
+0,1,28,1.0,Accuracy Chair,Training
+0,1,28,0.1958042,Accuracy Chair,Validation
+0,1,28,0.0041830484,Loss Cow,Training
+0,1,28,1.1849033,Loss Cow,Validation
+0,1,28,1.0,Accuracy Cow,Training
+0,1,28,0.5,Accuracy Cow,Validation
+0,1,28,0.0012300235,Loss Dining Table,Training
+0,1,28,1.5092024,Loss Dining Table,Validation
+0,1,28,1.0,Accuracy Dining Table,Training
+0,1,28,0.46534654,Accuracy Dining Table,Validation
+0,1,28,0.0023978066,Loss Dog,Training
+0,1,28,2.0731046,Loss Dog,Validation
+0,1,28,1.0,Accuracy Dog,Training
+0,1,28,0.3318584,Accuracy Dog,Validation
+0,1,28,0.0034170581,Loss Horse,Training
+0,1,28,1.4428699,Loss Horse,Validation
+0,1,28,1.0,Accuracy Horse,Training
+0,1,28,0.5772871,Accuracy Horse,Validation
+0,1,28,0.0034020427,Loss Motorcycle,Training
+0,1,28,0.44695735,Loss Motorcycle,Validation
+0,1,28,1.0,Accuracy Motorcycle,Training
+0,1,28,0.90839696,Accuracy Motorcycle,Validation
+0,1,28,0.0017108113,Loss Person,Training
+0,1,28,3.2239485,Loss Person,Validation
+0,1,28,1.0,Accuracy Person,Training
+0,1,28,0.13568376,Accuracy Person,Validation
+0,1,28,0.0015587386,Loss Potted Plant,Training
+0,1,28,2.7778957,Loss Potted Plant,Validation
+0,1,28,1.0,Accuracy Potted Plant,Training
+0,1,28,0.23664123,Accuracy Potted Plant,Validation
+0,1,28,0.0037016037,Loss Sheep,Training
+0,1,28,0.5100133,Loss Sheep,Validation
+0,1,28,1.0,Accuracy Sheep,Training
+0,1,28,0.877551,Accuracy Sheep,Validation
+0,1,28,0.002388546,Loss Sofa,Training
+0,1,28,1.2866204,Loss Sofa,Validation
+0,1,28,1.0,Accuracy Sofa,Training
+0,1,28,0.6541096,Accuracy Sofa,Validation
+0,1,28,0.0025903664,Loss Train,Training
+0,1,28,0.6718206,Loss Train,Validation
+0,1,28,1.0,Accuracy Train,Training
+0,1,28,0.8933333,Accuracy Train,Validation
+0,1,28,0.0031008099,Loss Television,Training
+0,1,28,0.75074744,Loss Television,Validation
+0,1,28,1.0,Accuracy Television,Training
+0,1,28,0.8088235,Accuracy Television,Validation
+0,1,29,0.002593557,Loss,Training
+0,1,29,1.3393853,Loss,Validation
+0,1,29,1.0,Accuracy,Training
+0,1,29,0.63406813,Accuracy,Validation
+0,1,29,0.0023668876,Loss Airplane,Training
+0,1,29,1.2300594,Loss Airplane,Validation
+0,1,29,1.0,Accuracy Airplane,Training
+0,1,29,0.76635516,Accuracy Airplane,Validation
+0,1,29,0.0020121553,Loss Bicycle,Training
+0,1,29,1.2280958,Loss Bicycle,Validation
+0,1,29,1.0,Accuracy Bicycle,Training
+0,1,29,0.66071427,Accuracy Bicycle,Validation
+0,1,29,0.0023964867,Loss Bird,Training
+0,1,29,1.5889399,Loss Bird,Validation
+0,1,29,1.0,Accuracy Bird,Training
+0,1,29,0.53056234,Accuracy Bird,Validation
+0,1,29,0.004467972,Loss Boat,Training
+0,1,29,0.68202204,Loss Boat,Validation
+0,1,29,1.0,Accuracy Boat,Training
+0,1,29,0.90614885,Accuracy Boat,Validation
+0,1,29,0.0025831684,Loss Bottle,Training
+0,1,29,0.8584785,Loss Bottle,Validation
+0,1,29,1.0,Accuracy Bottle,Training
+0,1,29,0.8218391,Accuracy Bottle,Validation
+0,1,29,0.0023618997,Loss Bus,Training
+0,1,29,0.47377542,Loss Bus,Validation
+0,1,29,1.0,Accuracy Bus,Training
+0,1,29,0.914557,Accuracy Bus,Validation
+0,1,29,0.0028743786,Loss Car,Training
+0,1,29,2.1962025,Loss Car,Validation
+0,1,29,1.0,Accuracy Car,Training
+0,1,29,0.3967742,Accuracy Car,Validation
+0,1,29,0.002202799,Loss Cat,Training
+0,1,29,0.7610038,Loss Cat,Validation
+0,1,29,1.0,Accuracy Cat,Training
+0,1,29,0.82481754,Accuracy Cat,Validation
+0,1,29,0.0028281033,Loss Chair,Training
+0,1,29,2.568201,Loss Chair,Validation
+0,1,29,1.0,Accuracy Chair,Training
+0,1,29,0.21232876,Accuracy Chair,Validation
+0,1,29,0.0043854094,Loss Cow,Training
+0,1,29,1.3788161,Loss Cow,Validation
+0,1,29,1.0,Accuracy Cow,Training
+0,1,29,0.4983165,Accuracy Cow,Validation
+0,1,29,0.0009483236,Loss Dining Table,Training
+0,1,29,1.3458824,Loss Dining Table,Validation
+0,1,29,1.0,Accuracy Dining Table,Training
+0,1,29,0.54545456,Accuracy Dining Table,Validation
+0,1,29,0.0022290675,Loss Dog,Training
+0,1,29,2.032912,Loss Dog,Validation
+0,1,29,1.0,Accuracy Dog,Training
+0,1,29,0.35791758,Accuracy Dog,Validation
+0,1,29,0.0027568373,Loss Horse,Training
+0,1,29,1.46003,Loss Horse,Validation
+0,1,29,1.0,Accuracy Horse,Training
+0,1,29,0.5466667,Accuracy Horse,Validation
+0,1,29,0.0030154476,Loss Motorcycle,Training
+0,1,29,0.43910584,Loss Motorcycle,Validation
+0,1,29,1.0,Accuracy Motorcycle,Training
+0,1,29,0.9130435,Accuracy Motorcycle,Validation
+0,1,29,0.0017201009,Loss Person,Training
+0,1,29,3.2847695,Loss Person,Validation
+0,1,29,1.0,Accuracy Person,Training
+0,1,29,0.14257228,Accuracy Person,Validation
+0,1,29,0.0014745987,Loss Potted Plant,Training
+0,1,29,2.2545009,Loss Potted Plant,Validation
+0,1,29,1.0,Accuracy Potted Plant,Training
+0,1,29,0.42657343,Accuracy Potted Plant,Validation
+0,1,29,0.0037766832,Loss Sheep,Training
+0,1,29,0.46625555,Loss Sheep,Validation
+0,1,29,1.0,Accuracy Sheep,Training
+0,1,29,0.8418605,Accuracy Sheep,Validation
+0,1,29,0.002106813,Loss Sofa,Training
+0,1,29,1.1969311,Loss Sofa,Validation
+0,1,29,1.0,Accuracy Sofa,Training
+0,1,29,0.6372549,Accuracy Sofa,Validation
+0,1,29,0.0025548018,Loss Train,Training
+0,1,29,0.7467339,Loss Train,Validation
+0,1,29,1.0,Accuracy Train,Training
+0,1,29,0.8606811,Accuracy Train,Validation
+0,1,29,0.0028092074,Loss Television,Training
+0,1,29,0.59498984,Loss Television,Validation
+0,1,29,1.0,Accuracy Television,Training
+0,1,29,0.8769231,Accuracy Television,Validation
+0,1,30,0.0023484705,Loss,Training
+0,1,30,1.3538619,Loss,Validation
+0,1,30,1.0,Accuracy,Training
+0,1,30,0.63307035,Accuracy,Validation
+0,1,30,0.002096367,Loss Airplane,Training
+0,1,30,1.2545141,Loss Airplane,Validation
+0,1,30,1.0,Accuracy Airplane,Training
+0,1,30,0.76233184,Accuracy Airplane,Validation
+0,1,30,0.0020319072,Loss Bicycle,Training
+0,1,30,1.1301125,Loss Bicycle,Validation
+0,1,30,1.0,Accuracy Bicycle,Training
+0,1,30,0.65384614,Accuracy Bicycle,Validation
+0,1,30,0.0025958319,Loss Bird,Training
+0,1,30,1.4521865,Loss Bird,Validation
+0,1,30,1.0,Accuracy Bird,Training
+0,1,30,0.5452381,Accuracy Bird,Validation
+0,1,30,0.002859362,Loss Boat,Training
+0,1,30,0.7075143,Loss Boat,Validation
+0,1,30,1.0,Accuracy Boat,Training
+0,1,30,0.93454546,Accuracy Boat,Validation
+0,1,30,0.0022509156,Loss Bottle,Training
+0,1,30,0.80252254,Loss Bottle,Validation
+0,1,30,1.0,Accuracy Bottle,Training
+0,1,30,0.96153843,Accuracy Bottle,Validation
+0,1,30,0.0023315637,Loss Bus,Training
+0,1,30,0.43653065,Loss Bus,Validation
+0,1,30,1.0,Accuracy Bus,Training
+0,1,30,0.92248064,Accuracy Bus,Validation
+0,1,30,0.0030850756,Loss Car,Training
+0,1,30,2.369084,Loss Car,Validation
+0,1,30,1.0,Accuracy Car,Training
+0,1,30,0.4169279,Accuracy Car,Validation
+0,1,30,0.0025049543,Loss Cat,Training
+0,1,30,0.7625537,Loss Cat,Validation
+0,1,30,1.0,Accuracy Cat,Training
+0,1,30,0.7975904,Accuracy Cat,Validation
+0,1,30,0.002557916,Loss Chair,Training
+0,1,30,2.5583408,Loss Chair,Validation
+0,1,30,1.0,Accuracy Chair,Training
+0,1,30,0.20245399,Accuracy Chair,Validation
+0,1,30,0.0032020311,Loss Cow,Training
+0,1,30,1.3845426,Loss Cow,Validation
+0,1,30,1.0,Accuracy Cow,Training
+0,1,30,0.443769,Accuracy Cow,Validation
+0,1,30,0.000951267,Loss Dining Table,Training
+0,1,30,1.3026859,Loss Dining Table,Validation
+0,1,30,1.0,Accuracy Dining Table,Training
+0,1,30,0.5674157,Accuracy Dining Table,Validation
+0,1,30,0.0021032998,Loss Dog,Training
+0,1,30,2.0197663,Loss Dog,Validation
+0,1,30,1.0,Accuracy Dog,Training
+0,1,30,0.3510204,Accuracy Dog,Validation
+0,1,30,0.0021498704,Loss Horse,Training
+0,1,30,1.7015363,Loss Horse,Validation
+0,1,30,1.0,Accuracy Horse,Training
+0,1,30,0.4939759,Accuracy Horse,Validation
+0,1,30,0.0028279943,Loss Motorcycle,Training
+0,1,30,0.4143641,Loss Motorcycle,Validation
+0,1,30,1.0,Accuracy Motorcycle,Training
+0,1,30,0.90625,Accuracy Motorcycle,Validation
+0,1,30,0.0016319327,Loss Person,Training
+0,1,30,3.3222718,Loss Person,Validation
+0,1,30,1.0,Accuracy Person,Training
+0,1,30,0.14788005,Accuracy Person,Validation
+0,1,30,0.0013741477,Loss Potted Plant,Training
+0,1,30,2.367655,Loss Potted Plant,Validation
+0,1,30,1.0,Accuracy Potted Plant,Training
+0,1,30,0.30625,Accuracy Potted Plant,Validation
+0,1,30,0.0032951285,Loss Sheep,Training
+0,1,30,0.49137664,Loss Sheep,Validation
+0,1,30,1.0,Accuracy Sheep,Training
+0,1,30,0.85281384,Accuracy Sheep,Validation
+0,1,30,0.0020826107,Loss Sofa,Training
+0,1,30,1.2434716,Loss Sofa,Validation
+0,1,30,1.0,Accuracy Sofa,Training
+0,1,30,0.6421725,Accuracy Sofa,Validation
+0,1,30,0.002258762,Loss Train,Training
+0,1,30,0.71093637,Loss Train,Validation
+0,1,30,1.0,Accuracy Train,Training
+0,1,30,0.88951844,Accuracy Train,Validation
+0,1,30,0.002778472,Loss Television,Training
+0,1,30,0.6452725,Loss Television,Validation
+0,1,30,1.0,Accuracy Television,Training
+0,1,30,0.863388,Accuracy Television,Validation
+0,1,31,0.0020391436,Loss,Training
+0,1,31,1.3809366,Loss,Validation
+0,1,31,1.0,Accuracy,Training
+0,1,31,0.62774974,Accuracy,Validation
+0,1,31,0.0018894742,Loss Airplane,Training
+0,1,31,1.258257,Loss Airplane,Validation
+0,1,31,1.0,Accuracy Airplane,Training
+0,1,31,0.7638191,Accuracy Airplane,Validation
+0,1,31,0.0017668323,Loss Bicycle,Training
+0,1,31,1.0546818,Loss Bicycle,Validation
+0,1,31,1.0,Accuracy Bicycle,Training
+0,1,31,0.68944097,Accuracy Bicycle,Validation
+0,1,31,0.0024959187,Loss Bird,Training
+0,1,31,1.5436813,Loss Bird,Validation
+0,1,31,1.0,Accuracy Bird,Training
+0,1,31,0.5229358,Accuracy Bird,Validation
+0,1,31,0.0028809058,Loss Boat,Training
+0,1,31,0.6682202,Loss Boat,Validation
+0,1,31,1.0,Accuracy Boat,Training
+0,1,31,0.9166667,Accuracy Boat,Validation
+0,1,31,0.0015776065,Loss Bottle,Training
+0,1,31,0.77086097,Loss Bottle,Validation
+0,1,31,1.0,Accuracy Bottle,Training
+0,1,31,0.86585367,Accuracy Bottle,Validation
+0,1,31,0.0017822926,Loss Bus,Training
+0,1,31,0.38717437,Loss Bus,Validation
+0,1,31,1.0,Accuracy Bus,Training
+0,1,31,0.94207317,Accuracy Bus,Validation
+0,1,31,0.0026243392,Loss Car,Training
+0,1,31,2.267294,Loss Car,Validation
+0,1,31,1.0,Accuracy Car,Training
+0,1,31,0.4506579,Accuracy Car,Validation
+0,1,31,0.0019387037,Loss Cat,Training
+0,1,31,0.76003855,Loss Cat,Validation
+0,1,31,1.0,Accuracy Cat,Training
+0,1,31,0.81674206,Accuracy Cat,Validation
+0,1,31,0.002500605,Loss Chair,Training
+0,1,31,2.7776582,Loss Chair,Validation
+0,1,31,1.0,Accuracy Chair,Training
+0,1,31,0.17567568,Accuracy Chair,Validation
+0,1,31,0.002555661,Loss Cow,Training
+0,1,31,1.3313818,Loss Cow,Validation
+0,1,31,1.0,Accuracy Cow,Training
+0,1,31,0.471519,Accuracy Cow,Validation
+0,1,31,0.0009696374,Loss Dining Table,Training
+0,1,31,1.4042802,Loss Dining Table,Validation
+0,1,31,1.0,Accuracy Dining Table,Training
+0,1,31,0.5473684,Accuracy Dining Table,Validation
+0,1,31,0.0018153585,Loss Dog,Training
+0,1,31,2.0566983,Loss Dog,Validation
+0,1,31,1.0,Accuracy Dog,Training
+0,1,31,0.3264368,Accuracy Dog,Validation
+0,1,31,0.001953656,Loss Horse,Training
+0,1,31,1.6721071,Loss Horse,Validation
+0,1,31,1.0,Accuracy Horse,Training
+0,1,31,0.48765433,Accuracy Horse,Validation
+0,1,31,0.0024724044,Loss Motorcycle,Training
+0,1,31,0.40131238,Loss Motorcycle,Validation
+0,1,31,1.0,Accuracy Motorcycle,Training
+0,1,31,0.92619926,Accuracy Motorcycle,Validation
+0,1,31,0.0012118276,Loss Person,Training
+0,1,31,3.2304106,Loss Person,Validation
+0,1,31,1.0,Accuracy Person,Training
+0,1,31,0.16071428,Accuracy Person,Validation
+0,1,31,0.0012172692,Loss Potted Plant,Training
+0,1,31,3.079548,Loss Potted Plant,Validation
+0,1,31,1.0,Accuracy Potted Plant,Training
+0,1,31,0.21088435,Accuracy Potted Plant,Validation
+0,1,31,0.002649253,Loss Sheep,Training
+0,1,31,0.52194834,Loss Sheep,Validation
+0,1,31,1.0,Accuracy Sheep,Training
+0,1,31,0.8369099,Accuracy Sheep,Validation
+0,1,31,0.0017280772,Loss Sofa,Training
+0,1,31,1.1618198,Loss Sofa,Validation
+0,1,31,1.0,Accuracy Sofa,Training
+0,1,31,0.67741936,Accuracy Sofa,Validation
+0,1,31,0.0022643663,Loss Train,Training
+0,1,31,0.6139205,Loss Train,Validation
+0,1,31,1.0,Accuracy Train,Training
+0,1,31,0.9039548,Accuracy Train,Validation
+0,1,31,0.0024886841,Loss Television,Training
+0,1,31,0.6574397,Loss Television,Validation
+0,1,31,1.0,Accuracy Television,Training
+0,1,31,0.86206895,Accuracy Television,Validation
+0,1,32,0.0018141652,Loss,Training
+0,1,32,1.331175,Loss,Validation
+0,1,32,1.0,Accuracy,Training
+0,1,32,0.6339161,Accuracy,Validation
+0,1,32,0.0018581966,Loss Airplane,Training
+0,1,32,1.131952,Loss Airplane,Validation
+0,1,32,1.0,Accuracy Airplane,Training
+0,1,32,0.78054863,Accuracy Airplane,Validation
+0,1,32,0.0014082008,Loss Bicycle,Training
+0,1,32,1.1601133,Loss Bicycle,Validation
+0,1,32,1.0,Accuracy Bicycle,Training
+0,1,32,0.6632653,Accuracy Bicycle,Validation
+0,1,32,0.0021808345,Loss Bird,Training
+0,1,32,1.5450816,Loss Bird,Validation
+0,1,32,1.0,Accuracy Bird,Training
+0,1,32,0.5012285,Accuracy Bird,Validation
+0,1,32,0.002561919,Loss Boat,Training
+0,1,32,0.7040947,Loss Boat,Validation
+0,1,32,1.0,Accuracy Boat,Training
+0,1,32,0.8731884,Accuracy Boat,Validation
+0,1,32,0.0014930423,Loss Bottle,Training
+0,1,32,0.9328698,Loss Bottle,Validation
+0,1,32,1.0,Accuracy Bottle,Training
+0,1,32,0.80794704,Accuracy Bottle,Validation
+0,1,32,0.0017929286,Loss Bus,Training
+0,1,32,0.5131432,Loss Bus,Validation
+0,1,32,1.0,Accuracy Bus,Training
+0,1,32,0.90068495,Accuracy Bus,Validation
+0,1,32,0.0021842127,Loss Car,Training
+0,1,32,1.9772022,Loss Car,Validation
+0,1,32,1.0,Accuracy Car,Training
+0,1,32,0.47138965,Accuracy Car,Validation
+0,1,32,0.0015867144,Loss Cat,Training
+0,1,32,0.690518,Loss Cat,Validation
+0,1,32,1.0,Accuracy Cat,Training
+0,1,32,0.86056644,Accuracy Cat,Validation
+0,1,32,0.0020375745,Loss Chair,Training
+0,1,32,2.4486341,Loss Chair,Validation
+0,1,32,1.0,Accuracy Chair,Training
+0,1,32,0.31034482,Accuracy Chair,Validation
+0,1,32,0.0025861012,Loss Cow,Training
+0,1,32,1.3876004,Loss Cow,Validation
+0,1,32,1.0,Accuracy Cow,Training
+0,1,32,0.44522968,Accuracy Cow,Validation
+0,1,32,0.0008607699,Loss Dining Table,Training
+0,1,32,1.432274,Loss Dining Table,Validation
+0,1,32,1.0,Accuracy Dining Table,Training
+0,1,32,0.5231481,Accuracy Dining Table,Validation
+0,1,32,0.0017052273,Loss Dog,Training
+0,1,32,2.0238807,Loss Dog,Validation
+0,1,32,1.0,Accuracy Dog,Training
+0,1,32,0.2960373,Accuracy Dog,Validation
+0,1,32,0.002046247,Loss Horse,Training
+0,1,32,1.5312591,Loss Horse,Validation
+0,1,32,1.0,Accuracy Horse,Training
+0,1,32,0.53697747,Accuracy Horse,Validation
+0,1,32,0.0021777423,Loss Motorcycle,Training
+0,1,32,0.3940243,Loss Motorcycle,Validation
+0,1,32,1.0,Accuracy Motorcycle,Training
+0,1,32,0.936255,Accuracy Motorcycle,Validation
+0,1,32,0.0013812149,Loss Person,Training
+0,1,32,3.1116896,Loss Person,Validation
+0,1,32,1.0,Accuracy Person,Training
+0,1,32,0.1814475,Accuracy Person,Validation
+0,1,32,0.0011027679,Loss Potted Plant,Training
+0,1,32,2.7038882,Loss Potted Plant,Validation
+0,1,32,1.0,Accuracy Potted Plant,Training
+0,1,32,0.33802816,Accuracy Potted Plant,Validation
+0,1,32,0.0020148663,Loss Sheep,Training
+0,1,32,0.4714815,Loss Sheep,Validation
+0,1,32,1.0,Accuracy Sheep,Training
+0,1,32,0.79565215,Accuracy Sheep,Validation
+0,1,32,0.0015384598,Loss Sofa,Training
+0,1,32,1.181414,Loss Sofa,Validation
+0,1,32,1.0,Accuracy Sofa,Training
+0,1,32,0.7112676,Accuracy Sofa,Validation
+0,1,32,0.0017656152,Loss Train,Training
+0,1,32,0.7442148,Loss Train,Validation
+0,1,32,1.0,Accuracy Train,Training
+0,1,32,0.8762626,Accuracy Train,Validation
+0,1,32,0.0020006662,Loss Television,Training
+0,1,32,0.5381634,Loss Television,Validation
+0,1,32,1.0,Accuracy Television,Training
+0,1,32,0.86885244,Accuracy Television,Validation
+0,1,33,0.0016777875,Loss,Training
+0,1,33,1.3848375,Loss,Validation
+0,1,33,1.0,Accuracy,Training
+0,1,33,0.62805665,Accuracy,Validation
+0,1,33,0.0015353269,Loss Airplane,Training
+0,1,33,1.239864,Loss Airplane,Validation
+0,1,33,1.0,Accuracy Airplane,Training
+0,1,33,0.792,Accuracy Airplane,Validation
+0,1,33,0.0013202337,Loss Bicycle,Training
+0,1,33,1.2158672,Loss Bicycle,Validation
+0,1,33,1.0,Accuracy Bicycle,Training
+0,1,33,0.6086956,Accuracy Bicycle,Validation
+0,1,33,0.001902671,Loss Bird,Training
+0,1,33,1.4728003,Loss Bird,Validation
+0,1,33,1.0,Accuracy Bird,Training
+0,1,33,0.5701358,Accuracy Bird,Validation
+0,1,33,0.002306205,Loss Boat,Training
+0,1,33,0.64876467,Loss Boat,Validation
+0,1,33,1.0,Accuracy Boat,Training
+0,1,33,0.9352751,Accuracy Boat,Validation
+0,1,33,0.0014469908,Loss Bottle,Training
+0,1,33,0.8958133,Loss Bottle,Validation
+0,1,33,1.0,Accuracy Bottle,Training
+0,1,33,0.7615894,Accuracy Bottle,Validation
+0,1,33,0.001683021,Loss Bus,Training
+0,1,33,0.48002672,Loss Bus,Validation
+0,1,33,1.0,Accuracy Bus,Training
+0,1,33,0.8819876,Accuracy Bus,Validation
+0,1,33,0.002086659,Loss Car,Training
+0,1,33,2.3290317,Loss Car,Validation
+0,1,33,1.0,Accuracy Car,Training
+0,1,33,0.4417178,Accuracy Car,Validation
+0,1,33,0.001941762,Loss Cat,Training
+0,1,33,0.763734,Loss Cat,Validation
+0,1,33,1.0,Accuracy Cat,Training
+0,1,33,0.83878505,Accuracy Cat,Validation
+0,1,33,0.0017910775,Loss Chair,Training
+0,1,33,2.5947697,Loss Chair,Validation
+0,1,33,1.0,Accuracy Chair,Training
+0,1,33,0.21264368,Accuracy Chair,Validation
+0,1,33,0.0021399227,Loss Cow,Training
+0,1,33,1.4083219,Loss Cow,Validation
+0,1,33,1.0,Accuracy Cow,Training
+0,1,33,0.4107744,Accuracy Cow,Validation
+0,1,33,0.0007603895,Loss Dining Table,Training
+0,1,33,1.3159677,Loss Dining Table,Validation
+0,1,33,1.0,Accuracy Dining Table,Training
+0,1,33,0.5532995,Accuracy Dining Table,Validation
+0,1,33,0.0014073394,Loss Dog,Training
+0,1,33,1.9714653,Loss Dog,Validation
+0,1,33,1.0,Accuracy Dog,Training
+0,1,33,0.36008677,Accuracy Dog,Validation
+0,1,33,0.0017710252,Loss Horse,Training
+0,1,33,1.5303096,Loss Horse,Validation
+0,1,33,1.0,Accuracy Horse,Training
+0,1,33,0.5382263,Accuracy Horse,Validation
+0,1,33,0.002226936,Loss Motorcycle,Training
+0,1,33,0.3808072,Loss Motorcycle,Validation
+0,1,33,1.0,Accuracy Motorcycle,Training
+0,1,33,0.9608541,Accuracy Motorcycle,Validation
+0,1,33,0.0010179648,Loss Person,Training
+0,1,33,3.406106,Loss Person,Validation
+0,1,33,1.0,Accuracy Person,Training
+0,1,33,0.13396624,Accuracy Person,Validation
+0,1,33,0.0009944272,Loss Potted Plant,Training
+0,1,33,3.074815,Loss Potted Plant,Validation
+0,1,33,1.0,Accuracy Potted Plant,Training
+0,1,33,0.2635135,Accuracy Potted Plant,Validation
+0,1,33,0.0023976336,Loss Sheep,Training
+0,1,33,0.5597184,Loss Sheep,Validation
+0,1,33,1.0,Accuracy Sheep,Training
+0,1,33,0.83027524,Accuracy Sheep,Validation
+0,1,33,0.0012938903,Loss Sofa,Training
+0,1,33,1.1240708,Loss Sofa,Validation
+0,1,33,1.0,Accuracy Sofa,Training
+0,1,33,0.71088433,Accuracy Sofa,Validation
+0,1,33,0.0015173681,Loss Train,Training
+0,1,33,0.64926434,Loss Train,Validation
+0,1,33,1.0,Accuracy Train,Training
+0,1,33,0.9082569,Accuracy Train,Validation
+0,1,33,0.0020149038,Loss Television,Training
+0,1,33,0.6352312,Loss Television,Validation
+0,1,33,1.0,Accuracy Television,Training
+0,1,33,0.84816754,Accuracy Television,Validation
+0,1,34,0.0015138556,Loss,Training
+0,1,34,1.3380599,Loss,Validation
+0,1,34,1.0,Accuracy,Training
+0,1,34,0.63190114,Accuracy,Validation
+0,1,34,0.0014747443,Loss Airplane,Training
+0,1,34,1.2074089,Loss Airplane,Validation
+0,1,34,1.0,Accuracy Airplane,Training
+0,1,34,0.76,Accuracy Airplane,Validation
+0,1,34,0.0012643775,Loss Bicycle,Training
+0,1,34,1.0780731,Loss Bicycle,Validation
+0,1,34,1.0,Accuracy Bicycle,Training
+0,1,34,0.69078946,Accuracy Bicycle,Validation
+0,1,34,0.0016526239,Loss Bird,Training
+0,1,34,1.4325327,Loss Bird,Validation
+0,1,34,1.0,Accuracy Bird,Training
+0,1,34,0.5448718,Accuracy Bird,Validation
+0,1,34,0.0025330845,Loss Boat,Training
+0,1,34,0.6270076,Loss Boat,Validation
+0,1,34,1.0,Accuracy Boat,Training
+0,1,34,0.9305994,Accuracy Boat,Validation
+0,1,34,0.0011459991,Loss Bottle,Training
+0,1,34,0.88918436,Loss Bottle,Validation
+0,1,34,1.0,Accuracy Bottle,Training
+0,1,34,0.86451614,Accuracy Bottle,Validation
+0,1,34,0.0015001284,Loss Bus,Training
+0,1,34,0.43758133,Loss Bus,Validation
+0,1,34,1.0,Accuracy Bus,Training
+0,1,34,0.9183006,Accuracy Bus,Validation
+0,1,34,0.00197423,Loss Car,Training
+0,1,34,2.0696845,Loss Car,Validation
+0,1,34,1.0,Accuracy Car,Training
+0,1,34,0.47019866,Accuracy Car,Validation
+0,1,34,0.0013822701,Loss Cat,Training
+0,1,34,0.73929405,Loss Cat,Validation
+0,1,34,1.0,Accuracy Cat,Training
+0,1,34,0.86374694,Accuracy Cat,Validation
+0,1,34,0.0015585549,Loss Chair,Training
+0,1,34,2.5608115,Loss Chair,Validation
+0,1,34,1.0,Accuracy Chair,Training
+0,1,34,0.2361111,Accuracy Chair,Validation
+0,1,34,0.0022461065,Loss Cow,Training
+0,1,34,1.3297297,Loss Cow,Validation
+0,1,34,1.0,Accuracy Cow,Training
+0,1,34,0.45787546,Accuracy Cow,Validation
+0,1,34,0.0007115863,Loss Dining Table,Training
+0,1,34,1.4548584,Loss Dining Table,Validation
+0,1,34,1.0,Accuracy Dining Table,Training
+0,1,34,0.49763033,Accuracy Dining Table,Validation
+0,1,34,0.0014014837,Loss Dog,Training
+0,1,34,2.0258918,Loss Dog,Validation
+0,1,34,1.0,Accuracy Dog,Training
+0,1,34,0.35714287,Accuracy Dog,Validation
+0,1,34,0.0014942294,Loss Horse,Training
+0,1,34,1.4688724,Loss Horse,Validation
+0,1,34,1.0,Accuracy Horse,Training
+0,1,34,0.57714283,Accuracy Horse,Validation
+0,1,34,0.0017564173,Loss Motorcycle,Training
+0,1,34,0.4517648,Loss Motorcycle,Validation
+0,1,34,1.0,Accuracy Motorcycle,Training
+0,1,34,0.88235295,Accuracy Motorcycle,Validation
+0,1,34,0.0010191022,Loss Person,Training
+0,1,34,3.1773517,Loss Person,Validation
+0,1,34,1.0,Accuracy Person,Training
+0,1,34,0.18048269,Accuracy Person,Validation
+0,1,34,0.0009366557,Loss Potted Plant,Training
+0,1,34,2.6223648,Loss Potted Plant,Validation
+0,1,34,1.0,Accuracy Potted Plant,Training
+0,1,34,0.27131784,Accuracy Potted Plant,Validation
+0,1,34,0.0019952687,Loss Sheep,Training
+0,1,34,0.5498845,Loss Sheep,Validation
+0,1,34,1.0,Accuracy Sheep,Training
+0,1,34,0.84016395,Accuracy Sheep,Validation
+0,1,34,0.0012121476,Loss Sofa,Training
+0,1,34,1.3105491,Loss Sofa,Validation
+0,1,34,1.0,Accuracy Sofa,Training
+0,1,34,0.6275862,Accuracy Sofa,Validation
+0,1,34,0.001305398,Loss Train,Training
+0,1,34,0.71510905,Loss Train,Validation
+0,1,34,1.0,Accuracy Train,Training
+0,1,34,0.85638297,Accuracy Train,Validation
+0,1,34,0.0017127047,Loss Television,Training
+0,1,34,0.6132433,Loss Television,Validation
+0,1,34,1.0,Accuracy Television,Training
+0,1,34,0.8108108,Accuracy Television,Validation
+0,1,35,0.0013645364,Loss,Training
+0,1,35,1.323626,Loss,Validation
+0,1,35,1.0,Accuracy,Training
+0,1,35,0.64412135,Accuracy,Validation
+0,1,35,0.0013746829,Loss Airplane,Training
+0,1,35,1.1377399,Loss Airplane,Validation
+0,1,35,1.0,Accuracy Airplane,Training
+0,1,35,0.7758621,Accuracy Airplane,Validation
+0,1,35,0.0010307933,Loss Bicycle,Training
+0,1,35,1.1500206,Loss Bicycle,Validation
+0,1,35,1.0,Accuracy Bicycle,Training
+0,1,35,0.71686745,Accuracy Bicycle,Validation
+0,1,35,0.0017834115,Loss Bird,Training
+0,1,35,1.4166751,Loss Bird,Validation
+0,1,35,1.0,Accuracy Bird,Training
+0,1,35,0.53940886,Accuracy Bird,Validation
+0,1,35,0.0022967458,Loss Boat,Training
+0,1,35,0.6222317,Loss Boat,Validation
+0,1,35,1.0,Accuracy Boat,Training
+0,1,35,0.9189189,Accuracy Boat,Validation
+0,1,35,0.0012778144,Loss Bottle,Training
+0,1,35,0.7768621,Loss Bottle,Validation
+0,1,35,1.0,Accuracy Bottle,Training
+0,1,35,0.8707483,Accuracy Bottle,Validation
+0,1,35,0.0012554168,Loss Bus,Training
+0,1,35,0.44432923,Loss Bus,Validation
+0,1,35,1.0,Accuracy Bus,Training
+0,1,35,0.8958333,Accuracy Bus,Validation
+0,1,35,0.0016890025,Loss Car,Training
+0,1,35,2.004791,Loss Car,Validation
+0,1,35,1.0,Accuracy Car,Training
+0,1,35,0.4863222,Accuracy Car,Validation
+0,1,35,0.0011251381,Loss Cat,Training
+0,1,35,0.74721235,Loss Cat,Validation
+0,1,35,1.0,Accuracy Cat,Training
+0,1,35,0.817757,Accuracy Cat,Validation
+0,1,35,0.0016534583,Loss Chair,Training
+0,1,35,2.6613204,Loss Chair,Validation
+0,1,35,1.0,Accuracy Chair,Training
+0,1,35,0.25,Accuracy Chair,Validation
+0,1,35,0.0017798943,Loss Cow,Training
+0,1,35,1.079291,Loss Cow,Validation
+0,1,35,1.0,Accuracy Cow,Training
+0,1,35,0.5638298,Accuracy Cow,Validation
+0,1,35,0.0005102229,Loss Dining Table,Training
+0,1,35,1.1706523,Loss Dining Table,Validation
+0,1,35,1.0,Accuracy Dining Table,Training
+0,1,35,0.5776699,Accuracy Dining Table,Validation
+0,1,35,0.0011844689,Loss Dog,Training
+0,1,35,2.0372026,Loss Dog,Validation
+0,1,35,1.0,Accuracy Dog,Training
+0,1,35,0.3280899,Accuracy Dog,Validation
+0,1,35,0.0012861554,Loss Horse,Training
+0,1,35,1.8301544,Loss Horse,Validation
+0,1,35,1.0,Accuracy Horse,Training
+0,1,35,0.45659164,Accuracy Horse,Validation
+0,1,35,0.0016150064,Loss Motorcycle,Training
+0,1,35,0.38475096,Loss Motorcycle,Validation
+0,1,35,1.0,Accuracy Motorcycle,Training
+0,1,35,0.936803,Accuracy Motorcycle,Validation
+0,1,35,0.0008370355,Loss Person,Training
+0,1,35,3.4512424,Loss Person,Validation
+0,1,35,1.0,Accuracy Person,Training
+0,1,35,0.13547759,Accuracy Person,Validation
+0,1,35,0.00088559865,Loss Potted Plant,Training
+0,1,35,2.7913435,Loss Potted Plant,Validation
+0,1,35,1.0,Accuracy Potted Plant,Training
+0,1,35,0.278481,Accuracy Potted Plant,Validation
+0,1,35,0.0017197104,Loss Sheep,Training
+0,1,35,0.47466174,Loss Sheep,Validation
+0,1,35,1.0,Accuracy Sheep,Training
+0,1,35,0.84518826,Accuracy Sheep,Validation
+0,1,35,0.0011023968,Loss Sofa,Training
+0,1,35,1.0987363,Loss Sofa,Validation
+0,1,35,1.0,Accuracy Sofa,Training
+0,1,35,0.73630136,Accuracy Sofa,Validation
+0,1,35,0.0013602759,Loss Train,Training
+0,1,35,0.66116613,Loss Train,Validation
+0,1,35,1.0,Accuracy Train,Training
+0,1,35,0.8888889,Accuracy Train,Validation
+0,1,35,0.0015234974,Loss Television,Training
+0,1,35,0.5321387,Loss Television,Validation
+0,1,35,1.0,Accuracy Television,Training
+0,1,35,0.863388,Accuracy Television,Validation
+0,1,36,0.0013715437,Loss,Training
+0,1,36,1.3249009,Loss,Validation
+0,1,36,1.0,Accuracy,Training
+0,1,36,0.640534,Accuracy,Validation
+0,1,36,0.0011693471,Loss Airplane,Training
+0,1,36,1.2070882,Loss Airplane,Validation
+0,1,36,1.0,Accuracy Airplane,Training
+0,1,36,0.7600897,Accuracy Airplane,Validation
+0,1,36,0.0010971638,Loss Bicycle,Training
+0,1,36,1.007599,Loss Bicycle,Validation
+0,1,36,1.0,Accuracy Bicycle,Training
+0,1,36,0.72677594,Accuracy Bicycle,Validation
+0,1,36,0.0016072904,Loss Bird,Training
+0,1,36,1.349014,Loss Bird,Validation
+0,1,36,1.0,Accuracy Bird,Training
+0,1,36,0.6034063,Accuracy Bird,Validation
+0,1,36,0.002546123,Loss Boat,Training
+0,1,36,0.6103156,Loss Boat,Validation
+0,1,36,1.0,Accuracy Boat,Training
+0,1,36,0.9115854,Accuracy Boat,Validation
+0,1,36,0.001141097,Loss Bottle,Training
+0,1,36,0.9531381,Loss Bottle,Validation
+0,1,36,1.0,Accuracy Bottle,Training
+0,1,36,0.8394161,Accuracy Bottle,Validation
+0,1,36,0.0012383873,Loss Bus,Training
+0,1,36,0.38160804,Loss Bus,Validation
+0,1,36,1.0,Accuracy Bus,Training
+0,1,36,0.93968254,Accuracy Bus,Validation
+0,1,36,0.001571898,Loss Car,Training
+0,1,36,2.1961517,Loss Car,Validation
+0,1,36,1.0,Accuracy Car,Training
+0,1,36,0.4281525,Accuracy Car,Validation
+0,1,36,0.0013505218,Loss Cat,Training
+0,1,36,0.7396205,Loss Cat,Validation
+0,1,36,1.0,Accuracy Cat,Training
+0,1,36,0.85365856,Accuracy Cat,Validation
+0,1,36,0.001318405,Loss Chair,Training
+0,1,36,2.6219969,Loss Chair,Validation
+0,1,36,1.0,Accuracy Chair,Training
+0,1,36,0.23841059,Accuracy Chair,Validation
+0,1,36,0.0019045885,Loss Cow,Training
+0,1,36,1.3869454,Loss Cow,Validation
+0,1,36,1.0,Accuracy Cow,Training
+0,1,36,0.4710145,Accuracy Cow,Validation
+0,1,36,0.0005726587,Loss Dining Table,Training
+0,1,36,1.1745107,Loss Dining Table,Validation
+0,1,36,1.0,Accuracy Dining Table,Training
+0,1,36,0.57416266,Accuracy Dining Table,Validation
+0,1,36,0.0010449485,Loss Dog,Training
+0,1,36,2.0515392,Loss Dog,Validation
+0,1,36,1.0,Accuracy Dog,Training
+0,1,36,0.3442623,Accuracy Dog,Validation
+0,1,36,0.0015289822,Loss Horse,Training
+0,1,36,1.5263073,Loss Horse,Validation
+0,1,36,1.0,Accuracy Horse,Training
+0,1,36,0.5802048,Accuracy Horse,Validation
+0,1,36,0.0013980108,Loss Motorcycle,Training
+0,1,36,0.39228997,Loss Motorcycle,Validation
+0,1,36,1.0,Accuracy Motorcycle,Training
+0,1,36,0.9113475,Accuracy Motorcycle,Validation
+0,1,36,0.0009824473,Loss Person,Training
+0,1,36,3.0694988,Loss Person,Validation
+0,1,36,1.0,Accuracy Person,Training
+0,1,36,0.19569673,Accuracy Person,Validation
+0,1,36,0.00080936006,Loss Potted Plant,Training
+0,1,36,2.808074,Loss Potted Plant,Validation
+0,1,36,1.0,Accuracy Potted Plant,Training
+0,1,36,0.3146853,Accuracy Potted Plant,Validation
+0,1,36,0.00192647,Loss Sheep,Training
+0,1,36,0.5412401,Loss Sheep,Validation
+0,1,36,1.0,Accuracy Sheep,Training
+0,1,36,0.79752064,Accuracy Sheep,Validation
+0,1,36,0.001148549,Loss Sofa,Training
+0,1,36,1.2917705,Loss Sofa,Validation
+0,1,36,1.0,Accuracy Sofa,Training
+0,1,36,0.6097561,Accuracy Sofa,Validation
+0,1,36,0.0014220213,Loss Train,Training
+0,1,36,0.65052646,Loss Train,Validation
+0,1,36,1.0,Accuracy Train,Training
+0,1,36,0.85790884,Accuracy Train,Validation
+0,1,36,0.0016526034,Loss Television,Training
+0,1,36,0.5387841,Loss Television,Validation
+0,1,36,1.0,Accuracy Television,Training
+0,1,36,0.85294116,Accuracy Television,Validation
+0,1,37,0.001136094,Loss,Training
+0,1,37,1.3317373,Loss,Validation
+0,1,37,1.0,Accuracy,Training
+0,1,37,0.634867,Accuracy,Validation
+0,1,37,0.0009678773,Loss Airplane,Training
+0,1,37,1.1741002,Loss Airplane,Validation
+0,1,37,1.0,Accuracy Airplane,Training
+0,1,37,0.7990074,Accuracy Airplane,Validation
+0,1,37,0.0008497246,Loss Bicycle,Training
+0,1,37,1.0371248,Loss Bicycle,Validation
+0,1,37,1.0,Accuracy Bicycle,Training
+0,1,37,0.7173913,Accuracy Bicycle,Validation
+0,1,37,0.0015002154,Loss Bird,Training
+0,1,37,1.4458462,Loss Bird,Validation
+0,1,37,1.0,Accuracy Bird,Training
+0,1,37,0.5242967,Accuracy Bird,Validation
+0,1,37,0.0016368725,Loss Boat,Training
+0,1,37,0.55436736,Loss Boat,Validation
+0,1,37,1.0,Accuracy Boat,Training
+0,1,37,0.9319728,Accuracy Boat,Validation
+0,1,37,0.0009984092,Loss Bottle,Training
+0,1,37,0.7494265,Loss Bottle,Validation
+0,1,37,1.0,Accuracy Bottle,Training
+0,1,37,0.8604651,Accuracy Bottle,Validation
+0,1,37,0.0009848879,Loss Bus,Training
+0,1,37,0.41895,Loss Bus,Validation
+0,1,37,1.0,Accuracy Bus,Training
+0,1,37,0.91039425,Accuracy Bus,Validation
+0,1,37,0.0014918809,Loss Car,Training
+0,1,37,2.243007,Loss Car,Validation
+0,1,37,1.0,Accuracy Car,Training
+0,1,37,0.42474917,Accuracy Car,Validation
+0,1,37,0.0010041628,Loss Cat,Training
+0,1,37,0.70838755,Loss Cat,Validation
+0,1,37,1.0,Accuracy Cat,Training
+0,1,37,0.85714287,Accuracy Cat,Validation
+0,1,37,0.0013037922,Loss Chair,Training
+0,1,37,2.7831986,Loss Chair,Validation
+0,1,37,1.0,Accuracy Chair,Training
+0,1,37,0.16788322,Accuracy Chair,Validation
+0,1,37,0.001370226,Loss Cow,Training
+0,1,37,1.3202145,Loss Cow,Validation
+0,1,37,1.0,Accuracy Cow,Training
+0,1,37,0.47986576,Accuracy Cow,Validation
+0,1,37,0.0005439373,Loss Dining Table,Training
+0,1,37,1.3059404,Loss Dining Table,Validation
+0,1,37,1.0,Accuracy Dining Table,Training
+0,1,37,0.5025381,Accuracy Dining Table,Validation
+0,1,37,0.0009830496,Loss Dog,Training
+0,1,37,2.1499057,Loss Dog,Validation
+0,1,37,1.0,Accuracy Dog,Training
+0,1,37,0.28854626,Accuracy Dog,Validation
+0,1,37,0.00096994964,Loss Horse,Training
+0,1,37,1.6320161,Loss Horse,Validation
+0,1,37,1.0,Accuracy Horse,Training
+0,1,37,0.5364432,Accuracy Horse,Validation
+0,1,37,0.0013439056,Loss Motorcycle,Training
+0,1,37,0.42795652,Loss Motorcycle,Validation
+0,1,37,1.0,Accuracy Motorcycle,Training
+0,1,37,0.8864469,Accuracy Motorcycle,Validation
+0,1,37,0.0007975786,Loss Person,Training
+0,1,37,3.3234959,Loss Person,Validation
+0,1,37,1.0,Accuracy Person,Training
+0,1,37,0.15204081,Accuracy Person,Validation
+0,1,37,0.0007728727,Loss Potted Plant,Training
+0,1,37,2.5458167,Loss Potted Plant,Validation
+0,1,37,1.0,Accuracy Potted Plant,Training
+0,1,37,0.3267974,Accuracy Potted Plant,Validation
+0,1,37,0.0015032877,Loss Sheep,Training
+0,1,37,0.45088542,Loss Sheep,Validation
+0,1,37,1.0,Accuracy Sheep,Training
+0,1,37,0.89097744,Accuracy Sheep,Validation
+0,1,37,0.00089646137,Loss Sofa,Training
+0,1,37,1.0924679,Loss Sofa,Validation
+0,1,37,1.0,Accuracy Sofa,Training
+0,1,37,0.72786885,Accuracy Sofa,Validation
+0,1,37,0.0012912715,Loss Train,Training
+0,1,37,0.67867815,Loss Train,Validation
+0,1,37,1.0,Accuracy Train,Training
+0,1,37,0.8630491,Accuracy Train,Validation
+0,1,37,0.0015115183,Loss Television,Training
+0,1,37,0.59295756,Loss Television,Validation
+0,1,37,1.0,Accuracy Television,Training
+0,1,37,0.8494624,Accuracy Television,Validation
+0,1,38,0.0009971492,Loss,Training
+0,1,38,1.3437322,Loss,Validation
+0,1,38,1.0,Accuracy,Training
+0,1,38,0.63102335,Accuracy,Validation
+0,1,38,0.0009036657,Loss Airplane,Training
+0,1,38,1.202392,Loss Airplane,Validation
+0,1,38,1.0,Accuracy Airplane,Training
+0,1,38,0.7482353,Accuracy Airplane,Validation
+0,1,38,0.00087619317,Loss Bicycle,Training
+0,1,38,1.095656,Loss Bicycle,Validation
+0,1,38,1.0,Accuracy Bicycle,Training
+0,1,38,0.7569061,Accuracy Bicycle,Validation
+0,1,38,0.0011634565,Loss Bird,Training
+0,1,38,1.4716271,Loss Bird,Validation
+0,1,38,1.0,Accuracy Bird,Training
+0,1,38,0.5476773,Accuracy Bird,Validation
+0,1,38,0.0014771406,Loss Boat,Training
+0,1,38,0.5640592,Loss Boat,Validation
+0,1,38,1.0,Accuracy Boat,Training
+0,1,38,0.9158249,Accuracy Boat,Validation
+0,1,38,0.0008401125,Loss Bottle,Training
+0,1,38,0.8783159,Loss Bottle,Validation
+0,1,38,1.0,Accuracy Bottle,Training
+0,1,38,0.85142857,Accuracy Bottle,Validation
+0,1,38,0.00092081603,Loss Bus,Training
+0,1,38,0.4244514,Loss Bus,Validation
+0,1,38,1.0,Accuracy Bus,Training
+0,1,38,0.9100346,Accuracy Bus,Validation
+0,1,38,0.0013199978,Loss Car,Training
+0,1,38,2.3980181,Loss Car,Validation
+0,1,38,1.0,Accuracy Car,Training
+0,1,38,0.4049844,Accuracy Car,Validation
+0,1,38,0.00086641527,Loss Cat,Training
+0,1,38,0.7036839,Loss Cat,Validation
+0,1,38,1.0,Accuracy Cat,Training
+0,1,38,0.84869975,Accuracy Cat,Validation
+0,1,38,0.0010950915,Loss Chair,Training
+0,1,38,2.6693406,Loss Chair,Validation
+0,1,38,1.0,Accuracy Chair,Training
+0,1,38,0.23134328,Accuracy Chair,Validation
+0,1,38,0.0012503214,Loss Cow,Training
+0,1,38,1.3357525,Loss Cow,Validation
+0,1,38,1.0,Accuracy Cow,Training
+0,1,38,0.49221185,Accuracy Cow,Validation
+0,1,38,0.00044036077,Loss Dining Table,Training
+0,1,38,1.4182584,Loss Dining Table,Validation
+0,1,38,1.0,Accuracy Dining Table,Training
+0,1,38,0.46666667,Accuracy Dining Table,Validation
+0,1,38,0.000853224,Loss Dog,Training
+0,1,38,2.0024962,Loss Dog,Validation
+0,1,38,1.0,Accuracy Dog,Training
+0,1,38,0.35607675,Accuracy Dog,Validation
+0,1,38,0.0010703196,Loss Horse,Training
+0,1,38,1.5565692,Loss Horse,Validation
+0,1,38,1.0,Accuracy Horse,Training
+0,1,38,0.47413793,Accuracy Horse,Validation
+0,1,38,0.0012879993,Loss Motorcycle,Training
+0,1,38,0.35194033,Loss Motorcycle,Validation
+0,1,38,1.0,Accuracy Motorcycle,Training
+0,1,38,0.9338235,Accuracy Motorcycle,Validation
+0,1,38,0.0006776617,Loss Person,Training
+0,1,38,3.3341472,Loss Person,Validation
+0,1,38,1.0,Accuracy Person,Training
+0,1,38,0.15154639,Accuracy Person,Validation
+0,1,38,0.00064878224,Loss Potted Plant,Training
+0,1,38,2.7561567,Loss Potted Plant,Validation
+0,1,38,1.0,Accuracy Potted Plant,Training
+0,1,38,0.29411766,Accuracy Potted Plant,Validation
+0,1,38,0.0013198799,Loss Sheep,Training
+0,1,38,0.5221149,Loss Sheep,Validation
+0,1,38,1.0,Accuracy Sheep,Training
+0,1,38,0.8215768,Accuracy Sheep,Validation
+0,1,38,0.0007441903,Loss Sofa,Training
+0,1,38,1.0952985,Loss Sofa,Validation
+0,1,38,1.0,Accuracy Sofa,Training
+0,1,38,0.6819788,Accuracy Sofa,Validation
+0,1,38,0.00088295457,Loss Train,Training
+0,1,38,0.53370225,Loss Train,Validation
+0,1,38,1.0,Accuracy Train,Training
+0,1,38,0.89166665,Accuracy Train,Validation
+0,1,38,0.0013044004,Loss Television,Training
+0,1,38,0.56066376,Loss Television,Validation
+0,1,38,1.0,Accuracy Television,Training
+0,1,38,0.84153,Accuracy Television,Validation
+0,1,39,0.00088413496,Loss,Training
+0,1,39,1.3236564,Loss,Validation
+0,1,39,1.0,Accuracy,Training
+0,1,39,0.6459595,Accuracy,Validation
+0,1,39,0.0008418874,Loss Airplane,Training
+0,1,39,1.1535646,Loss Airplane,Validation
+0,1,39,1.0,Accuracy Airplane,Training
+0,1,39,0.8070652,Accuracy Airplane,Validation
+0,1,39,0.00066641264,Loss Bicycle,Training
+0,1,39,1.2809632,Loss Bicycle,Validation
+0,1,39,1.0,Accuracy Bicycle,Training
+0,1,39,0.6329114,Accuracy Bicycle,Validation
+0,1,39,0.0009934036,Loss Bird,Training
+0,1,39,1.4088902,Loss Bird,Validation
+0,1,39,1.0,Accuracy Bird,Training
+0,1,39,0.5294118,Accuracy Bird,Validation
+0,1,39,0.001216547,Loss Boat,Training
+0,1,39,0.57255834,Loss Boat,Validation
+0,1,39,1.0,Accuracy Boat,Training
+0,1,39,0.92923075,Accuracy Boat,Validation
+0,1,39,0.0008011822,Loss Bottle,Training
+0,1,39,0.7261746,Loss Bottle,Validation
+0,1,39,1.0,Accuracy Bottle,Training
+0,1,39,0.86470586,Accuracy Bottle,Validation
+0,1,39,0.0007709867,Loss Bus,Training
+0,1,39,0.37775046,Loss Bus,Validation
+0,1,39,1.0,Accuracy Bus,Training
+0,1,39,0.91929823,Accuracy Bus,Validation
+0,1,39,0.0010549162,Loss Car,Training
+0,1,39,2.2864516,Loss Car,Validation
+0,1,39,1.0,Accuracy Car,Training
+0,1,39,0.48909658,Accuracy Car,Validation
+0,1,39,0.0007939669,Loss Cat,Training
+0,1,39,0.6976327,Loss Cat,Validation
+0,1,39,1.0,Accuracy Cat,Training
+0,1,39,0.8394161,Accuracy Cat,Validation
+0,1,39,0.0010355666,Loss Chair,Training
+0,1,39,2.803168,Loss Chair,Validation
+0,1,39,1.0,Accuracy Chair,Training
+0,1,39,0.24161074,Accuracy Chair,Validation
+0,1,39,0.0010659051,Loss Cow,Training
+0,1,39,1.4014899,Loss Cow,Validation
+0,1,39,1.0,Accuracy Cow,Training
+0,1,39,0.47122303,Accuracy Cow,Validation
+0,1,39,0.0003796893,Loss Dining Table,Training
+0,1,39,1.3449694,Loss Dining Table,Validation
+0,1,39,1.0,Accuracy Dining Table,Training
+0,1,39,0.53669727,Accuracy Dining Table,Validation
+0,1,39,0.0008220858,Loss Dog,Training
+0,1,39,1.9804329,Loss Dog,Validation
+0,1,39,1.0,Accuracy Dog,Training
+0,1,39,0.3869565,Accuracy Dog,Validation
+0,1,39,0.00096648646,Loss Horse,Training
+0,1,39,1.6141013,Loss Horse,Validation
+0,1,39,1.0,Accuracy Horse,Training
+0,1,39,0.5292398,Accuracy Horse,Validation
+0,1,39,0.0011150823,Loss Motorcycle,Training
+0,1,39,0.34128878,Loss Motorcycle,Validation
+0,1,39,1.0,Accuracy Motorcycle,Training
+0,1,39,0.9111969,Accuracy Motorcycle,Validation
+0,1,39,0.0006676413,Loss Person,Training
+0,1,39,3.3007028,Loss Person,Validation
+0,1,39,1.0,Accuracy Person,Training
+0,1,39,0.15481986,Accuracy Person,Validation
+0,1,39,0.0005036503,Loss Potted Plant,Training
+0,1,39,2.4043894,Loss Potted Plant,Validation
+0,1,39,1.0,Accuracy Potted Plant,Training
+0,1,39,0.384,Accuracy Potted Plant,Validation
+0,1,39,0.0012162989,Loss Sheep,Training
+0,1,39,0.4334537,Loss Sheep,Validation
+0,1,39,1.0,Accuracy Sheep,Training
+0,1,39,0.87903225,Accuracy Sheep,Validation
+0,1,39,0.00077750953,Loss Sofa,Training
+0,1,39,1.1629523,Loss Sofa,Validation
+0,1,39,1.0,Accuracy Sofa,Training
+0,1,39,0.69736844,Accuracy Sofa,Validation
+0,1,39,0.00095574616,Loss Train,Training
+0,1,39,0.6365584,Loss Train,Validation
+0,1,39,1.0,Accuracy Train,Training
+0,1,39,0.875,Accuracy Train,Validation
+0,1,39,0.0010377355,Loss Television,Training
+0,1,39,0.5456373,Loss Television,Validation
+0,1,39,1.0,Accuracy Television,Training
+0,1,39,0.84090906,Accuracy Television,Validation
+0,1,40,0.0008161663,Loss,Training
+0,1,40,1.3546691,Loss,Validation
+0,1,40,1.0,Accuracy,Training
+0,1,40,0.6391578,Accuracy,Validation
+0,1,40,0.00085105177,Loss Airplane,Training
+0,1,40,1.165209,Loss Airplane,Validation
+0,1,40,1.0,Accuracy Airplane,Training
+0,1,40,0.7914692,Accuracy Airplane,Validation
+0,1,40,0.0006279824,Loss Bicycle,Training
+0,1,40,1.1644589,Loss Bicycle,Validation
+0,1,40,1.0,Accuracy Bicycle,Training
+0,1,40,0.68085104,Accuracy Bicycle,Validation
+0,1,40,0.00092480483,Loss Bird,Training
+0,1,40,1.3835561,Loss Bird,Validation
+0,1,40,1.0,Accuracy Bird,Training
+0,1,40,0.5531915,Accuracy Bird,Validation
+0,1,40,0.00079808425,Loss Boat,Training
+0,1,40,0.6062525,Loss Boat,Validation
+0,1,40,1.0,Accuracy Boat,Training
+0,1,40,0.93225807,Accuracy Boat,Validation
+0,1,40,0.00074993836,Loss Bottle,Training
+0,1,40,0.6032669,Loss Bottle,Validation
+0,1,40,1.0,Accuracy Bottle,Training
+0,1,40,0.8797814,Accuracy Bottle,Validation
+0,1,40,0.0006854841,Loss Bus,Training
+0,1,40,0.34696263,Loss Bus,Validation
+0,1,40,1.0,Accuracy Bus,Training
+0,1,40,0.9430605,Accuracy Bus,Validation
+0,1,40,0.0009951451,Loss Car,Training
+0,1,40,2.5815413,Loss Car,Validation
+0,1,40,1.0,Accuracy Car,Training
+0,1,40,0.35737705,Accuracy Car,Validation
+0,1,40,0.00074051047,Loss Cat,Training
+0,1,40,0.6955095,Loss Cat,Validation
+0,1,40,1.0,Accuracy Cat,Training
+0,1,40,0.8581907,Accuracy Cat,Validation
+0,1,40,0.0009955292,Loss Chair,Training
+0,1,40,2.8217385,Loss Chair,Validation
+0,1,40,1.0,Accuracy Chair,Training
+0,1,40,0.22941177,Accuracy Chair,Validation
+0,1,40,0.001061644,Loss Cow,Training
+0,1,40,1.4760627,Loss Cow,Validation
+0,1,40,1.0,Accuracy Cow,Training
+0,1,40,0.45214522,Accuracy Cow,Validation
+0,1,40,0.00046923992,Loss Dining Table,Training
+0,1,40,1.5077906,Loss Dining Table,Validation
+0,1,40,1.0,Accuracy Dining Table,Training
+0,1,40,0.5,Accuracy Dining Table,Validation
+0,1,40,0.0007076848,Loss Dog,Training
+0,1,40,1.9070313,Loss Dog,Validation
+0,1,40,1.0,Accuracy Dog,Training
+0,1,40,0.37704918,Accuracy Dog,Validation
+0,1,40,0.0009536305,Loss Horse,Training
+0,1,40,1.5419229,Loss Horse,Validation
+0,1,40,1.0,Accuracy Horse,Training
+0,1,40,0.55014324,Accuracy Horse,Validation
+0,1,40,0.0010111431,Loss Motorcycle,Training
+0,1,40,0.31360492,Loss Motorcycle,Validation
+0,1,40,1.0,Accuracy Motorcycle,Training
+0,1,40,0.9498328,Accuracy Motorcycle,Validation
+0,1,40,0.0005137497,Loss Person,Training
+0,1,40,3.4647686,Loss Person,Validation
+0,1,40,1.0,Accuracy Person,Training
+0,1,40,0.1673428,Accuracy Person,Validation
+0,1,40,0.00055848394,Loss Potted Plant,Training
+0,1,40,2.8995936,Loss Potted Plant,Validation
+0,1,40,1.0,Accuracy Potted Plant,Training
+0,1,40,0.30496454,Accuracy Potted Plant,Validation
+0,1,40,0.001095123,Loss Sheep,Training
+0,1,40,0.45385715,Loss Sheep,Validation
+0,1,40,1.0,Accuracy Sheep,Training
+0,1,40,0.8369099,Accuracy Sheep,Validation
+0,1,40,0.0007142719,Loss Sofa,Training
+0,1,40,0.99531364,Loss Sofa,Validation
+0,1,40,1.0,Accuracy Sofa,Training
+0,1,40,0.7253521,Accuracy Sofa,Validation
+0,1,40,0.00083049934,Loss Train,Training
+0,1,40,0.5616811,Loss Train,Validation
+0,1,40,1.0,Accuracy Train,Training
+0,1,40,0.8882682,Accuracy Train,Validation
+0,1,40,0.0010393244,Loss Television,Training
+0,1,40,0.6032575,Loss Television,Validation
+0,1,40,1.0,Accuracy Television,Training
+0,1,40,0.8055556,Accuracy Television,Validation
+0,1,41,0.00075940107,Loss,Training
+0,1,41,1.3420405,Loss,Validation
+0,1,41,1.0,Accuracy,Training
+0,1,41,0.63022137,Accuracy,Validation
+0,1,41,0.0008297542,Loss Airplane,Training
+0,1,41,1.1822717,Loss Airplane,Validation
+0,1,41,1.0,Accuracy Airplane,Training
+0,1,41,0.7307692,Accuracy Airplane,Validation
+0,1,41,0.0005879278,Loss Bicycle,Training
+0,1,41,1.0878873,Loss Bicycle,Validation
+0,1,41,1.0,Accuracy Bicycle,Training
+0,1,41,0.71257484,Accuracy Bicycle,Validation
+0,1,41,0.0006928981,Loss Bird,Training
+0,1,41,1.4038827,Loss Bird,Validation
+0,1,41,1.0,Accuracy Bird,Training
+0,1,41,0.53579175,Accuracy Bird,Validation
+0,1,41,0.00097499357,Loss Boat,Training
+0,1,41,0.5660523,Loss Boat,Validation
+0,1,41,1.0,Accuracy Boat,Training
+0,1,41,0.90657437,Accuracy Boat,Validation
+0,1,41,0.000675453,Loss Bottle,Training
+0,1,41,0.83050865,Loss Bottle,Validation
+0,1,41,1.0,Accuracy Bottle,Training
+0,1,41,0.836478,Accuracy Bottle,Validation
+0,1,41,0.00073046715,Loss Bus,Training
+0,1,41,0.40938807,Loss Bus,Validation
+0,1,41,1.0,Accuracy Bus,Training
+0,1,41,0.8932806,Accuracy Bus,Validation
+0,1,41,0.0009681777,Loss Car,Training
+0,1,41,2.11905,Loss Car,Validation
+0,1,41,1.0,Accuracy Car,Training
+0,1,41,0.4631902,Accuracy Car,Validation
+0,1,41,0.0006767631,Loss Cat,Training
+0,1,41,0.77722704,Loss Cat,Validation
+0,1,41,1.0,Accuracy Cat,Training
+0,1,41,0.812357,Accuracy Cat,Validation
+0,1,41,0.0008750983,Loss Chair,Training
+0,1,41,2.8215487,Loss Chair,Validation
+0,1,41,1.0,Accuracy Chair,Training
+0,1,41,0.23880596,Accuracy Chair,Validation
+0,1,41,0.0010294577,Loss Cow,Training
+0,1,41,1.3774606,Loss Cow,Validation
+0,1,41,1.0,Accuracy Cow,Training
+0,1,41,0.4548611,Accuracy Cow,Validation
+0,1,41,0.00030826768,Loss Dining Table,Training
+0,1,41,1.3330162,Loss Dining Table,Validation
+0,1,41,1.0,Accuracy Dining Table,Training
+0,1,41,0.53535354,Accuracy Dining Table,Validation
+0,1,41,0.0005863641,Loss Dog,Training
+0,1,41,2.1583486,Loss Dog,Validation
+0,1,41,1.0,Accuracy Dog,Training
+0,1,41,0.34375,Accuracy Dog,Validation
+0,1,41,0.000984208,Loss Horse,Training
+0,1,41,1.4651774,Loss Horse,Validation
+0,1,41,1.0,Accuracy Horse,Training
+0,1,41,0.5566038,Accuracy Horse,Validation
+0,1,41,0.0008895258,Loss Motorcycle,Training
+0,1,41,0.34466818,Loss Motorcycle,Validation
+0,1,41,1.0,Accuracy Motorcycle,Training
+0,1,41,0.92907804,Accuracy Motorcycle,Validation
+0,1,41,0.00047542207,Loss Person,Training
+0,1,41,3.424884,Loss Person,Validation
+0,1,41,1.0,Accuracy Person,Training
+0,1,41,0.14482759,Accuracy Person,Validation
+0,1,41,0.00046579557,Loss Potted Plant,Training
+0,1,41,2.6656928,Loss Potted Plant,Validation
+0,1,41,1.0,Accuracy Potted Plant,Training
+0,1,41,0.34507042,Accuracy Potted Plant,Validation
+0,1,41,0.0009743001,Loss Sheep,Training
+0,1,41,0.47720447,Loss Sheep,Validation
+0,1,41,1.0,Accuracy Sheep,Training
+0,1,41,0.7822581,Accuracy Sheep,Validation
+0,1,41,0.0006670546,Loss Sofa,Training
+0,1,41,1.3393515,Loss Sofa,Validation
+0,1,41,1.0,Accuracy Sofa,Training
+0,1,41,0.6294964,Accuracy Sofa,Validation
+0,1,41,0.0008296509,Loss Train,Training
+0,1,41,0.56613666,Loss Train,Validation
+0,1,41,1.0,Accuracy Train,Training
+0,1,41,0.875,Accuracy Train,Validation
+0,1,41,0.0009664424,Loss Television,Training
+0,1,41,0.49105275,Loss Television,Validation
+0,1,41,1.0,Accuracy Television,Training
+0,1,41,0.87830687,Accuracy Television,Validation
+0,1,42,0.0007030921,Loss,Training
+0,1,42,1.3389014,Loss,Validation
+0,1,42,1.0,Accuracy,Training
+0,1,42,0.6224661,Accuracy,Validation
+0,1,42,0.00061818614,Loss Airplane,Training
+0,1,42,1.1158803,Loss Airplane,Validation
+0,1,42,1.0,Accuracy Airplane,Training
+0,1,42,0.7839196,Accuracy Airplane,Validation
+0,1,42,0.00045735523,Loss Bicycle,Training
+0,1,42,1.0470896,Loss Bicycle,Validation
+0,1,42,1.0,Accuracy Bicycle,Training
+0,1,42,0.6745562,Accuracy Bicycle,Validation
+0,1,42,0.0007501114,Loss Bird,Training
+0,1,42,1.4229169,Loss Bird,Validation
+0,1,42,1.0,Accuracy Bird,Training
+0,1,42,0.5089058,Accuracy Bird,Validation
+0,1,42,0.0009363377,Loss Boat,Training
+0,1,42,0.6205821,Loss Boat,Validation
+0,1,42,1.0,Accuracy Boat,Training
+0,1,42,0.8815331,Accuracy Boat,Validation
+0,1,42,0.00066166103,Loss Bottle,Training
+0,1,42,0.70794636,Loss Bottle,Validation
+0,1,42,1.0,Accuracy Bottle,Training
+0,1,42,0.88439304,Accuracy Bottle,Validation
+0,1,42,0.0006027003,Loss Bus,Training
+0,1,42,0.42570376,Loss Bus,Validation
+0,1,42,1.0,Accuracy Bus,Training
+0,1,42,0.90753424,Accuracy Bus,Validation
+0,1,42,0.0009061329,Loss Car,Training
+0,1,42,2.2658706,Loss Car,Validation
+0,1,42,1.0,Accuracy Car,Training
+0,1,42,0.44408944,Accuracy Car,Validation
+0,1,42,0.00071651774,Loss Cat,Training
+0,1,42,0.7053827,Loss Cat,Validation
+0,1,42,1.0,Accuracy Cat,Training
+0,1,42,0.8250591,Accuracy Cat,Validation
+0,1,42,0.0008383159,Loss Chair,Training
+0,1,42,2.6128728,Loss Chair,Validation
+0,1,42,1.0,Accuracy Chair,Training
+0,1,42,0.2,Accuracy Chair,Validation
+0,1,42,0.000949112,Loss Cow,Training
+0,1,42,1.3797115,Loss Cow,Validation
+0,1,42,1.0,Accuracy Cow,Training
+0,1,42,0.4652778,Accuracy Cow,Validation
+0,1,42,0.00029443382,Loss Dining Table,Training
+0,1,42,1.6111227,Loss Dining Table,Validation
+0,1,42,1.0,Accuracy Dining Table,Training
+0,1,42,0.46733668,Accuracy Dining Table,Validation
+0,1,42,0.00063520874,Loss Dog,Training
+0,1,42,2.239296,Loss Dog,Validation
+0,1,42,1.0,Accuracy Dog,Training
+0,1,42,0.29284164,Accuracy Dog,Validation
+0,1,42,0.00083280547,Loss Horse,Training
+0,1,42,1.4083427,Loss Horse,Validation
+0,1,42,1.0,Accuracy Horse,Training
+0,1,42,0.5736677,Accuracy Horse,Validation
+0,1,42,0.00081213133,Loss Motorcycle,Training
+0,1,42,0.35134405,Loss Motorcycle,Validation
+0,1,42,1.0,Accuracy Motorcycle,Training
+0,1,42,0.9014599,Accuracy Motorcycle,Validation
+0,1,42,0.0004835017,Loss Person,Training
+0,1,42,3.1775987,Loss Person,Validation
+0,1,42,1.0,Accuracy Person,Training
+0,1,42,0.18691589,Accuracy Person,Validation
+0,1,42,0.0003812924,Loss Potted Plant,Training
+0,1,42,2.7973652,Loss Potted Plant,Validation
+0,1,42,1.0,Accuracy Potted Plant,Training
+0,1,42,0.29032257,Accuracy Potted Plant,Validation
+0,1,42,0.0010401527,Loss Sheep,Training
+0,1,42,0.49815658,Loss Sheep,Validation
+0,1,42,1.0,Accuracy Sheep,Training
+0,1,42,0.78512394,Accuracy Sheep,Validation
+0,1,42,0.0006851114,Loss Sofa,Training
+0,1,42,1.2798802,Loss Sofa,Validation
+0,1,42,1.0,Accuracy Sofa,Training
+0,1,42,0.6493902,Accuracy Sofa,Validation
+0,1,42,0.0006298975,Loss Train,Training
+0,1,42,0.56209266,Loss Train,Validation
+0,1,42,1.0,Accuracy Train,Training
+0,1,42,0.89709765,Accuracy Train,Validation
+0,1,42,0.00083087484,Loss Television,Training
+0,1,42,0.54887205,Loss Television,Validation
+0,1,42,1.0,Accuracy Television,Training
+0,1,42,0.8298969,Accuracy Television,Validation
+0,1,43,0.0005918379,Loss,Training
+0,1,43,1.3433856,Loss,Validation
+0,1,43,1.0,Accuracy,Training
+0,1,43,0.6257196,Accuracy,Validation
+0,1,43,0.00058603013,Loss Airplane,Training
+0,1,43,1.0768522,Loss Airplane,Validation
+0,1,43,1.0,Accuracy Airplane,Training
+0,1,43,0.7974359,Accuracy Airplane,Validation
+0,1,43,0.0004771835,Loss Bicycle,Training
+0,1,43,1.2950985,Loss Bicycle,Validation
+0,1,43,1.0,Accuracy Bicycle,Training
+0,1,43,0.64880955,Accuracy Bicycle,Validation
+0,1,43,0.0007159421,Loss Bird,Training
+0,1,43,1.5289719,Loss Bird,Validation
+0,1,43,1.0,Accuracy Bird,Training
+0,1,43,0.49144253,Accuracy Bird,Validation
+0,1,43,0.00076415326,Loss Boat,Training
+0,1,43,0.57532525,Loss Boat,Validation
+0,1,43,1.0,Accuracy Boat,Training
+0,1,43,0.8931034,Accuracy Boat,Validation
+0,1,43,0.0005175789,Loss Bottle,Training
+0,1,43,0.7803264,Loss Bottle,Validation
+0,1,43,1.0,Accuracy Bottle,Training
+0,1,43,0.82857144,Accuracy Bottle,Validation
+0,1,43,0.00052024226,Loss Bus,Training
+0,1,43,0.4208391,Loss Bus,Validation
+0,1,43,1.0,Accuracy Bus,Training
+0,1,43,0.9047619,Accuracy Bus,Validation
+0,1,43,0.00073279924,Loss Car,Training
+0,1,43,2.0346544,Loss Car,Validation
+0,1,43,1.0,Accuracy Car,Training
+0,1,43,0.5109034,Accuracy Car,Validation
+0,1,43,0.00055336516,Loss Cat,Training
+0,1,43,0.7603993,Loss Cat,Validation
+0,1,43,1.0,Accuracy Cat,Training
+0,1,43,0.79672897,Accuracy Cat,Validation
+0,1,43,0.0006994412,Loss Chair,Training
+0,1,43,2.6777215,Loss Chair,Validation
+0,1,43,1.0,Accuracy Chair,Training
+0,1,43,0.23976608,Accuracy Chair,Validation
+0,1,43,0.0008436756,Loss Cow,Training
+0,1,43,1.349033,Loss Cow,Validation
+0,1,43,1.0,Accuracy Cow,Training
+0,1,43,0.49315068,Accuracy Cow,Validation
+0,1,43,0.00025087342,Loss Dining Table,Training
+0,1,43,1.262843,Loss Dining Table,Validation
+0,1,43,1.0,Accuracy Dining Table,Training
+0,1,43,0.5392157,Accuracy Dining Table,Validation
+0,1,43,0.000504715,Loss Dog,Training
+0,1,43,2.109138,Loss Dog,Validation
+0,1,43,1.0,Accuracy Dog,Training
+0,1,43,0.32126698,Accuracy Dog,Validation
+0,1,43,0.00075461937,Loss Horse,Training
+0,1,43,1.5574589,Loss Horse,Validation
+0,1,43,1.0,Accuracy Horse,Training
+0,1,43,0.5504886,Accuracy Horse,Validation
+0,1,43,0.0006686899,Loss Motorcycle,Training
+0,1,43,0.39927226,Loss Motorcycle,Validation
+0,1,43,1.0,Accuracy Motorcycle,Training
+0,1,43,0.89849627,Accuracy Motorcycle,Validation
+0,1,43,0.00036429186,Loss Person,Training
+0,1,43,3.3664985,Loss Person,Validation
+0,1,43,1.0,Accuracy Person,Training
+0,1,43,0.14917696,Accuracy Person,Validation
+0,1,43,0.000337859,Loss Potted Plant,Training
+0,1,43,2.9320216,Loss Potted Plant,Validation
+0,1,43,1.0,Accuracy Potted Plant,Training
+0,1,43,0.29605263,Accuracy Potted Plant,Validation
+0,1,43,0.0007873064,Loss Sheep,Training
+0,1,43,0.52613217,Loss Sheep,Validation
+0,1,43,1.0,Accuracy Sheep,Training
+0,1,43,0.7651822,Accuracy Sheep,Validation
+0,1,43,0.00049391715,Loss Sofa,Training
+0,1,43,1.192644,Loss Sofa,Validation
+0,1,43,1.0,Accuracy Sofa,Training
+0,1,43,0.6369637,Accuracy Sofa,Validation
+0,1,43,0.0005745026,Loss Train,Training
+0,1,43,0.5223762,Loss Train,Validation
+0,1,43,1.0,Accuracy Train,Training
+0,1,43,0.8994709,Accuracy Train,Validation
+0,1,43,0.00068957225,Loss Television,Training
+0,1,43,0.50010496,Loss Television,Validation
+0,1,43,1.0,Accuracy Television,Training
+0,1,43,0.85340315,Accuracy Television,Validation
+0,1,44,0.0005351016,Loss,Training
+0,1,44,1.36568,Loss,Validation
+0,1,44,1.0,Accuracy,Training
+0,1,44,0.6321216,Accuracy,Validation
+0,1,44,0.0005253911,Loss Airplane,Training
+0,1,44,1.1277218,Loss Airplane,Validation
+0,1,44,1.0,Accuracy Airplane,Training
+0,1,44,0.7355769,Accuracy Airplane,Validation
+0,1,44,0.0003958115,Loss Bicycle,Training
+0,1,44,1.1959811,Loss Bicycle,Validation
+0,1,44,1.0,Accuracy Bicycle,Training
+0,1,44,0.7013889,Accuracy Bicycle,Validation
+0,1,44,0.0004900793,Loss Bird,Training
+0,1,44,1.4328591,Loss Bird,Validation
+0,1,44,1.0,Accuracy Bird,Training
+0,1,44,0.5373832,Accuracy Bird,Validation
+0,1,44,0.0006485401,Loss Boat,Training
+0,1,44,0.52762544,Loss Boat,Validation
+0,1,44,1.0,Accuracy Boat,Training
+0,1,44,0.903125,Accuracy Boat,Validation
+0,1,44,0.000473642,Loss Bottle,Training
+0,1,44,0.7775318,Loss Bottle,Validation
+0,1,44,1.0,Accuracy Bottle,Training
+0,1,44,0.8988764,Accuracy Bottle,Validation
+0,1,44,0.00044013732,Loss Bus,Training
+0,1,44,0.38997212,Loss Bus,Validation
+0,1,44,1.0,Accuracy Bus,Training
+0,1,44,0.9003115,Accuracy Bus,Validation
+0,1,44,0.0006829488,Loss Car,Training
+0,1,44,2.4227011,Loss Car,Validation
+0,1,44,1.0,Accuracy Car,Training
+0,1,44,0.43103448,Accuracy Car,Validation
+0,1,44,0.0004808579,Loss Cat,Training
+0,1,44,0.72406566,Loss Cat,Validation
+0,1,44,1.0,Accuracy Cat,Training
+0,1,44,0.8315335,Accuracy Cat,Validation
+0,1,44,0.00066415616,Loss Chair,Training
+0,1,44,2.7375948,Loss Chair,Validation
+0,1,44,1.0,Accuracy Chair,Training
+0,1,44,0.1986755,Accuracy Chair,Validation
+0,1,44,0.0008351208,Loss Cow,Training
+0,1,44,1.5974903,Loss Cow,Validation
+0,1,44,1.0,Accuracy Cow,Training
+0,1,44,0.43661973,Accuracy Cow,Validation
+0,1,44,0.00021503265,Loss Dining Table,Training
+0,1,44,1.3550587,Loss Dining Table,Validation
+0,1,44,1.0,Accuracy Dining Table,Training
+0,1,44,0.50292397,Accuracy Dining Table,Validation
+0,1,44,0.0004813324,Loss Dog,Training
+0,1,44,2.2376087,Loss Dog,Validation
+0,1,44,1.0,Accuracy Dog,Training
+0,1,44,0.30872482,Accuracy Dog,Validation
+0,1,44,0.00064971385,Loss Horse,Training
+0,1,44,1.529965,Loss Horse,Validation
+0,1,44,1.0,Accuracy Horse,Training
+0,1,44,0.5521127,Accuracy Horse,Validation
+0,1,44,0.0006461404,Loss Motorcycle,Training
+0,1,44,0.34030625,Loss Motorcycle,Validation
+0,1,44,1.0,Accuracy Motorcycle,Training
+0,1,44,0.93174064,Accuracy Motorcycle,Validation
+0,1,44,0.00036050068,Loss Person,Training
+0,1,44,3.3773143,Loss Person,Validation
+0,1,44,1.0,Accuracy Person,Training
+0,1,44,0.17965367,Accuracy Person,Validation
+0,1,44,0.00031107303,Loss Potted Plant,Training
+0,1,44,2.8852794,Loss Potted Plant,Validation
+0,1,44,1.0,Accuracy Potted Plant,Training
+0,1,44,0.2751678,Accuracy Potted Plant,Validation
+0,1,44,0.0007297385,Loss Sheep,Training
+0,1,44,0.4115631,Loss Sheep,Validation
+0,1,44,1.0,Accuracy Sheep,Training
+0,1,44,0.88744587,Accuracy Sheep,Validation
+0,1,44,0.0005009819,Loss Sofa,Training
+0,1,44,1.2540115,Loss Sofa,Validation
+0,1,44,1.0,Accuracy Sofa,Training
+0,1,44,0.66323024,Accuracy Sofa,Validation
+0,1,44,0.00050792354,Loss Train,Training
+0,1,44,0.5426295,Loss Train,Validation
+0,1,44,1.0,Accuracy Train,Training
+0,1,44,0.9027778,Accuracy Train,Validation
+0,1,44,0.00066290976,Loss Television,Training
+0,1,44,0.44631904,Loss Television,Validation
+0,1,44,1.0,Accuracy Television,Training
+0,1,44,0.86413044,Accuracy Television,Validation
+0,1,45,0.00053691457,Loss,Training
+0,1,45,1.3243942,Loss,Validation
+0,1,45,1.0,Accuracy,Training
+0,1,45,0.6546241,Accuracy,Validation
+0,1,45,0.0004918782,Loss Airplane,Training
+0,1,45,1.0585712,Loss Airplane,Validation
+0,1,45,1.0,Accuracy Airplane,Training
+0,1,45,0.8083538,Accuracy Airplane,Validation
+0,1,45,0.0004682637,Loss Bicycle,Training
+0,1,45,1.0000161,Loss Bicycle,Validation
+0,1,45,1.0,Accuracy Bicycle,Training
+0,1,45,0.74860334,Accuracy Bicycle,Validation
+0,1,45,0.0005671754,Loss Bird,Training
+0,1,45,1.34793,Loss Bird,Validation
+0,1,45,1.0,Accuracy Bird,Training
+0,1,45,0.5648352,Accuracy Bird,Validation
+0,1,45,0.00094848016,Loss Boat,Training
+0,1,45,0.48294583,Loss Boat,Validation
+0,1,45,1.0,Accuracy Boat,Training
+0,1,45,0.9425676,Accuracy Boat,Validation
+0,1,45,0.0004519573,Loss Bottle,Training
+0,1,45,0.6743201,Loss Bottle,Validation
+0,1,45,1.0,Accuracy Bottle,Training
+0,1,45,0.872093,Accuracy Bottle,Validation
+0,1,45,0.0004326358,Loss Bus,Training
+0,1,45,0.3244468,Loss Bus,Validation
+0,1,45,1.0,Accuracy Bus,Training
+0,1,45,0.9447853,Accuracy Bus,Validation
+0,1,45,0.0006076804,Loss Car,Training
+0,1,45,2.388837,Loss Car,Validation
+0,1,45,1.0,Accuracy Car,Training
+0,1,45,0.4625,Accuracy Car,Validation
+0,1,45,0.00051529397,Loss Cat,Training
+0,1,45,0.6632273,Loss Cat,Validation
+0,1,45,1.0,Accuracy Cat,Training
+0,1,45,0.85333335,Accuracy Cat,Validation
+0,1,45,0.0005396013,Loss Chair,Training
+0,1,45,2.7952816,Loss Chair,Validation
+0,1,45,1.0,Accuracy Chair,Training
+0,1,45,0.24161074,Accuracy Chair,Validation
+0,1,45,0.0007557951,Loss Cow,Training
+0,1,45,1.4453065,Loss Cow,Validation
+0,1,45,1.0,Accuracy Cow,Training
+0,1,45,0.43956044,Accuracy Cow,Validation
+0,1,45,0.00024639233,Loss Dining Table,Training
+0,1,45,1.1805636,Loss Dining Table,Validation
+0,1,45,1.0,Accuracy Dining Table,Training
+0,1,45,0.56989247,Accuracy Dining Table,Validation
+0,1,45,0.00044508715,Loss Dog,Training
+0,1,45,2.053489,Loss Dog,Validation
+0,1,45,1.0,Accuracy Dog,Training
+0,1,45,0.3712297,Accuracy Dog,Validation
+0,1,45,0.00068018626,Loss Horse,Training
+0,1,45,1.4143301,Loss Horse,Validation
+0,1,45,1.0,Accuracy Horse,Training
+0,1,45,0.54518074,Accuracy Horse,Validation
+0,1,45,0.00066162576,Loss Motorcycle,Training
+0,1,45,0.28316173,Loss Motorcycle,Validation
+0,1,45,1.0,Accuracy Motorcycle,Training
+0,1,45,0.964539,Accuracy Motorcycle,Validation
+0,1,45,0.00038261068,Loss Person,Training
+0,1,45,3.5461776,Loss Person,Validation
+0,1,45,1.0,Accuracy Person,Training
+0,1,45,0.1911447,Accuracy Person,Validation
+0,1,45,0.00029227004,Loss Potted Plant,Training
+0,1,45,3.1200676,Loss Potted Plant,Validation
+0,1,45,1.0,Accuracy Potted Plant,Training
+0,1,45,0.24060151,Accuracy Potted Plant,Validation
+0,1,45,0.00065188954,Loss Sheep,Training
+0,1,45,0.41837183,Loss Sheep,Validation
+0,1,45,1.0,Accuracy Sheep,Training
+0,1,45,0.8755556,Accuracy Sheep,Validation
+0,1,45,0.00047883487,Loss Sofa,Training
+0,1,45,1.1971279,Loss Sofa,Validation
+0,1,45,1.0,Accuracy Sofa,Training
+0,1,45,0.6910299,Accuracy Sofa,Validation
+0,1,45,0.00052862195,Loss Train,Training
+0,1,45,0.58460206,Loss Train,Validation
+0,1,45,1.0,Accuracy Train,Training
+0,1,45,0.9019074,Accuracy Train,Validation
+0,1,45,0.00059201114,Loss Television,Training
+0,1,45,0.50911134,Loss Television,Validation
+0,1,45,1.0,Accuracy Television,Training
+0,1,45,0.86315787,Accuracy Television,Validation
+0,1,46,0.0004305137,Loss,Training
+0,1,46,1.3305333,Loss,Validation
+0,1,46,1.0,Accuracy,Training
+0,1,46,0.6305586,Accuracy,Validation
+0,1,46,0.00038920518,Loss Airplane,Training
+0,1,46,1.1706712,Loss Airplane,Validation
+0,1,46,1.0,Accuracy Airplane,Training
+0,1,46,0.7275,Accuracy Airplane,Validation
+0,1,46,0.0003307454,Loss Bicycle,Training
+0,1,46,1.3328644,Loss Bicycle,Validation
+0,1,46,1.0,Accuracy Bicycle,Training
+0,1,46,0.64593303,Accuracy Bicycle,Validation
+0,1,46,0.00046928693,Loss Bird,Training
+0,1,46,1.394301,Loss Bird,Validation
+0,1,46,1.0,Accuracy Bird,Training
+0,1,46,0.52019,Accuracy Bird,Validation
+0,1,46,0.00060152274,Loss Boat,Training
+0,1,46,0.537945,Loss Boat,Validation
+0,1,46,1.0,Accuracy Boat,Training
+0,1,46,0.9339934,Accuracy Boat,Validation
+0,1,46,0.00042193988,Loss Bottle,Training
+0,1,46,0.7553103,Loss Bottle,Validation
+0,1,46,1.0,Accuracy Bottle,Training
+0,1,46,0.83146065,Accuracy Bottle,Validation
+0,1,46,0.00043560745,Loss Bus,Training
+0,1,46,0.35847986,Loss Bus,Validation
+0,1,46,1.0,Accuracy Bus,Training
+0,1,46,0.91883117,Accuracy Bus,Validation
+0,1,46,0.0005357475,Loss Car,Training
+0,1,46,2.2421966,Loss Car,Validation
+0,1,46,1.0,Accuracy Car,Training
+0,1,46,0.5,Accuracy Car,Validation
+0,1,46,0.0003705887,Loss Cat,Training
+0,1,46,0.6438052,Loss Cat,Validation
+0,1,46,1.0,Accuracy Cat,Training
+0,1,46,0.83715594,Accuracy Cat,Validation
+0,1,46,0.00048601098,Loss Chair,Training
+0,1,46,2.955316,Loss Chair,Validation
+0,1,46,1.0,Accuracy Chair,Training
+0,1,46,0.2112676,Accuracy Chair,Validation
+0,1,46,0.00064930983,Loss Cow,Training
+0,1,46,1.3141826,Loss Cow,Validation
+0,1,46,1.0,Accuracy Cow,Training
+0,1,46,0.44827586,Accuracy Cow,Validation
+0,1,46,0.00017879719,Loss Dining Table,Training
+0,1,46,1.2827411,Loss Dining Table,Validation
+0,1,46,1.0,Accuracy Dining Table,Training
+0,1,46,0.57843137,Accuracy Dining Table,Validation
+0,1,46,0.0003773553,Loss Dog,Training
+0,1,46,1.9939538,Loss Dog,Validation
+0,1,46,1.0,Accuracy Dog,Training
+0,1,46,0.34773663,Accuracy Dog,Validation
+0,1,46,0.00042991107,Loss Horse,Training
+0,1,46,1.5227287,Loss Horse,Validation
+0,1,46,1.0,Accuracy Horse,Training
+0,1,46,0.5063291,Accuracy Horse,Validation
+0,1,46,0.0005226495,Loss Motorcycle,Training
+0,1,46,0.32283688,Loss Motorcycle,Validation
+0,1,46,1.0,Accuracy Motorcycle,Training
+0,1,46,0.8875969,Accuracy Motorcycle,Validation
+0,1,46,0.00029727066,Loss Person,Training
+0,1,46,3.433821,Loss Person,Validation
+0,1,46,1.0,Accuracy Person,Training
+0,1,46,0.16911764,Accuracy Person,Validation
+0,1,46,0.0002460721,Loss Potted Plant,Training
+0,1,46,2.796461,Loss Potted Plant,Validation
+0,1,46,1.0,Accuracy Potted Plant,Training
+0,1,46,0.29545453,Accuracy Potted Plant,Validation
+0,1,46,0.0005748679,Loss Sheep,Training
+0,1,46,0.54193306,Loss Sheep,Validation
+0,1,46,1.0,Accuracy Sheep,Training
+0,1,46,0.75965667,Accuracy Sheep,Validation
+0,1,46,0.0003355146,Loss Sofa,Training
+0,1,46,1.0384994,Loss Sofa,Validation
+0,1,46,1.0,Accuracy Sofa,Training
+0,1,46,0.7,Accuracy Sofa,Validation
+0,1,46,0.0004109128,Loss Train,Training
+0,1,46,0.4944926,Loss Train,Validation
+0,1,46,1.0,Accuracy Train,Training
+0,1,46,0.9132948,Accuracy Train,Validation
+0,1,46,0.0005469586,Loss Television,Training
+0,1,46,0.47812453,Loss Television,Validation
+0,1,46,1.0,Accuracy Television,Training
+0,1,46,0.8789474,Accuracy Television,Validation
+0,1,47,0.00040935166,Loss,Training
+0,1,47,1.3319921,Loss,Validation
+0,1,47,1.0,Accuracy,Training
+0,1,47,0.64237845,Accuracy,Validation
+0,1,47,0.0003660941,Loss Airplane,Training
+0,1,47,1.0317947,Loss Airplane,Validation
+0,1,47,1.0,Accuracy Airplane,Training
+0,1,47,0.8137536,Accuracy Airplane,Validation
+0,1,47,0.0002881585,Loss Bicycle,Training
+0,1,47,1.1296816,Loss Bicycle,Validation
+0,1,47,1.0,Accuracy Bicycle,Training
+0,1,47,0.6378378,Accuracy Bicycle,Validation
+0,1,47,0.00045600304,Loss Bird,Training
+0,1,47,1.5026853,Loss Bird,Validation
+0,1,47,1.0,Accuracy Bird,Training
+0,1,47,0.51086956,Accuracy Bird,Validation
+0,1,47,0.0006863999,Loss Boat,Training
+0,1,47,0.4908549,Loss Boat,Validation
+0,1,47,1.0,Accuracy Boat,Training
+0,1,47,0.9217687,Accuracy Boat,Validation
+0,1,47,0.00037848458,Loss Bottle,Training
+0,1,47,0.6702812,Loss Bottle,Validation
+0,1,47,1.0,Accuracy Bottle,Training
+0,1,47,0.8418079,Accuracy Bottle,Validation
+0,1,47,0.00031100682,Loss Bus,Training
+0,1,47,0.3137369,Loss Bus,Validation
+0,1,47,1.0,Accuracy Bus,Training
+0,1,47,0.9256966,Accuracy Bus,Validation
+0,1,47,0.00052708265,Loss Car,Training
+0,1,47,2.376051,Loss Car,Validation
+0,1,47,1.0,Accuracy Car,Training
+0,1,47,0.46925566,Accuracy Car,Validation
+0,1,47,0.00031460176,Loss Cat,Training
+0,1,47,0.7199412,Loss Cat,Validation
+0,1,47,1.0,Accuracy Cat,Training
+0,1,47,0.8286385,Accuracy Cat,Validation
+0,1,47,0.0005004823,Loss Chair,Training
+0,1,47,2.8559878,Loss Chair,Validation
+0,1,47,1.0,Accuracy Chair,Training
+0,1,47,0.26056337,Accuracy Chair,Validation
+0,1,47,0.0005092156,Loss Cow,Training
+0,1,47,1.3269489,Loss Cow,Validation
+0,1,47,1.0,Accuracy Cow,Training
+0,1,47,0.5185185,Accuracy Cow,Validation
+0,1,47,0.00019850703,Loss Dining Table,Training
+0,1,47,1.4170872,Loss Dining Table,Validation
+0,1,47,1.0,Accuracy Dining Table,Training
+0,1,47,0.5113636,Accuracy Dining Table,Validation
+0,1,47,0.00031075234,Loss Dog,Training
+0,1,47,1.9696399,Loss Dog,Validation
+0,1,47,1.0,Accuracy Dog,Training
+0,1,47,0.39277652,Accuracy Dog,Validation
+0,1,47,0.00040409827,Loss Horse,Training
+0,1,47,1.6172012,Loss Horse,Validation
+0,1,47,1.0,Accuracy Horse,Training
+0,1,47,0.5645646,Accuracy Horse,Validation
+0,1,47,0.0004925231,Loss Motorcycle,Training
+0,1,47,0.30719802,Loss Motorcycle,Validation
+0,1,47,1.0,Accuracy Motorcycle,Training
+0,1,47,0.8955224,Accuracy Motorcycle,Validation
+0,1,47,0.00029351568,Loss Person,Training
+0,1,47,3.3760998,Loss Person,Validation
+0,1,47,1.0,Accuracy Person,Training
+0,1,47,0.16129032,Accuracy Person,Validation
+0,1,47,0.00022861315,Loss Potted Plant,Training
+0,1,47,2.7744682,Loss Potted Plant,Validation
+0,1,47,1.0,Accuracy Potted Plant,Training
+0,1,47,0.2977099,Accuracy Potted Plant,Validation
+0,1,47,0.00063035503,Loss Sheep,Training
+0,1,47,0.40384552,Loss Sheep,Validation
+0,1,47,1.0,Accuracy Sheep,Training
+0,1,47,0.89686096,Accuracy Sheep,Validation
+0,1,47,0.00037560487,Loss Sofa,Training
+0,1,47,1.2879674,Loss Sofa,Validation
+0,1,47,1.0,Accuracy Sofa,Training
+0,1,47,0.68135595,Accuracy Sofa,Validation
+0,1,47,0.00042555764,Loss Train,Training
+0,1,47,0.5887647,Loss Train,Validation
+0,1,47,1.0,Accuracy Train,Training
+0,1,47,0.87945205,Accuracy Train,Validation
+0,1,47,0.00048997696,Loss Television,Training
+0,1,47,0.4796091,Loss Television,Validation
+0,1,47,1.0,Accuracy Television,Training
+0,1,47,0.837963,Accuracy Television,Validation
+0,1,48,0.0003765409,Loss,Training
+0,1,48,1.367216,Loss,Validation
+0,1,48,1.0,Accuracy,Training
+0,1,48,0.6317141,Accuracy,Validation
+0,1,48,0.00032032366,Loss Airplane,Training
+0,1,48,1.0664898,Loss Airplane,Validation
+0,1,48,1.0,Accuracy Airplane,Training
+0,1,48,0.77894735,Accuracy Airplane,Validation
+0,1,48,0.0003709878,Loss Bicycle,Training
+0,1,48,1.1793746,Loss Bicycle,Validation
+0,1,48,1.0,Accuracy Bicycle,Training
+0,1,48,0.6818182,Accuracy Bicycle,Validation
+0,1,48,0.0003683115,Loss Bird,Training
+0,1,48,1.5172722,Loss Bird,Validation
+0,1,48,1.0,Accuracy Bird,Training
+0,1,48,0.5198238,Accuracy Bird,Validation
+0,1,48,0.0007525683,Loss Boat,Training
+0,1,48,0.49309823,Loss Boat,Validation
+0,1,48,1.0,Accuracy Boat,Training
+0,1,48,0.92038214,Accuracy Boat,Validation
+0,1,48,0.00032560452,Loss Bottle,Training
+0,1,48,0.6872819,Loss Bottle,Validation
+0,1,48,1.0,Accuracy Bottle,Training
+0,1,48,0.87341774,Accuracy Bottle,Validation
+0,1,48,0.00033615023,Loss Bus,Training
+0,1,48,0.4207559,Loss Bus,Validation
+0,1,48,1.0,Accuracy Bus,Training
+0,1,48,0.8990228,Accuracy Bus,Validation
+0,1,48,0.00046548274,Loss Car,Training
+0,1,48,2.4062123,Loss Car,Validation
+0,1,48,1.0,Accuracy Car,Training
+0,1,48,0.46822742,Accuracy Car,Validation
+0,1,48,0.0002871235,Loss Cat,Training
+0,1,48,0.6565867,Loss Cat,Validation
+0,1,48,1.0,Accuracy Cat,Training
+0,1,48,0.8441247,Accuracy Cat,Validation
+0,1,48,0.00042072925,Loss Chair,Training
+0,1,48,2.6941776,Loss Chair,Validation
+0,1,48,1.0,Accuracy Chair,Training
+0,1,48,0.23125,Accuracy Chair,Validation
+0,1,48,0.0005375604,Loss Cow,Training
+0,1,48,1.5921028,Loss Cow,Validation
+0,1,48,1.0,Accuracy Cow,Training
+0,1,48,0.42662117,Accuracy Cow,Validation
+0,1,48,0.00014149155,Loss Dining Table,Training
+0,1,48,1.3161594,Loss Dining Table,Validation
+0,1,48,1.0,Accuracy Dining Table,Training
+0,1,48,0.5151515,Accuracy Dining Table,Validation
+0,1,48,0.00030995967,Loss Dog,Training
+0,1,48,2.173043,Loss Dog,Validation
+0,1,48,1.0,Accuracy Dog,Training
+0,1,48,0.30750605,Accuracy Dog,Validation
+0,1,48,0.00039907047,Loss Horse,Training
+0,1,48,1.7043418,Loss Horse,Validation
+0,1,48,1.0,Accuracy Horse,Training
+0,1,48,0.52522254,Accuracy Horse,Validation
+0,1,48,0.00042357735,Loss Motorcycle,Training
+0,1,48,0.2777838,Loss Motorcycle,Validation
+0,1,48,1.0,Accuracy Motorcycle,Training
+0,1,48,0.94423795,Accuracy Motorcycle,Validation
+0,1,48,0.00023217002,Loss Person,Training
+0,1,48,3.5172658,Loss Person,Validation
+0,1,48,1.0,Accuracy Person,Training
+0,1,48,0.16983017,Accuracy Person,Validation
+0,1,48,0.00020227992,Loss Potted Plant,Training
+0,1,48,3.0149634,Loss Potted Plant,Validation
+0,1,48,1.0,Accuracy Potted Plant,Training
+0,1,48,0.2881356,Accuracy Potted Plant,Validation
+0,1,48,0.0005786993,Loss Sheep,Training
+0,1,48,0.37834892,Loss Sheep,Validation
+0,1,48,1.0,Accuracy Sheep,Training
+0,1,48,0.87449396,Accuracy Sheep,Validation
+0,1,48,0.00028150438,Loss Sofa,Training
+0,1,48,1.2126244,Loss Sofa,Validation
+0,1,48,1.0,Accuracy Sofa,Training
+0,1,48,0.6621622,Accuracy Sofa,Validation
+0,1,48,0.00033420514,Loss Train,Training
+0,1,48,0.57073265,Loss Train,Validation
+0,1,48,1.0,Accuracy Train,Training
+0,1,48,0.84823847,Accuracy Train,Validation
+0,1,48,0.00044301854,Loss Television,Training
+0,1,48,0.46570826,Loss Television,Validation
+0,1,48,1.0,Accuracy Television,Training
+0,1,48,0.8556701,Accuracy Television,Validation
+0,1,49,0.00036595523,Loss,Training
+0,1,49,1.3225735,Loss,Validation
+0,1,49,1.0,Accuracy,Training
+0,1,49,0.64262354,Accuracy,Validation
+0,1,49,0.00037349903,Loss Airplane,Training
+0,1,49,1.0778702,Loss Airplane,Validation
+0,1,49,1.0,Accuracy Airplane,Training
+0,1,49,0.7663317,Accuracy Airplane,Validation
+0,1,49,0.0003261284,Loss Bicycle,Training
+0,1,49,1.1427664,Loss Bicycle,Validation
+0,1,49,1.0,Accuracy Bicycle,Training
+0,1,49,0.6792453,Accuracy Bicycle,Validation
+0,1,49,0.00040013544,Loss Bird,Training
+0,1,49,1.3901546,Loss Bird,Validation
+0,1,49,1.0,Accuracy Bird,Training
+0,1,49,0.53125,Accuracy Bird,Validation
+0,1,49,0.00061117514,Loss Boat,Training
+0,1,49,0.53220344,Loss Boat,Validation
+0,1,49,1.0,Accuracy Boat,Training
+0,1,49,0.9,Accuracy Boat,Validation
+0,1,49,0.00025923282,Loss Bottle,Training
+0,1,49,0.656836,Loss Bottle,Validation
+0,1,49,1.0,Accuracy Bottle,Training
+0,1,49,0.88757396,Accuracy Bottle,Validation
+0,1,49,0.00031725934,Loss Bus,Training
+0,1,49,0.35378927,Loss Bus,Validation
+0,1,49,1.0,Accuracy Bus,Training
+0,1,49,0.91785717,Accuracy Bus,Validation
+0,1,49,0.0004001347,Loss Car,Training
+0,1,49,2.2241561,Loss Car,Validation
+0,1,49,1.0,Accuracy Car,Training
+0,1,49,0.48965517,Accuracy Car,Validation
+0,1,49,0.00041997217,Loss Cat,Training
+0,1,49,0.7233416,Loss Cat,Validation
+0,1,49,1.0,Accuracy Cat,Training
+0,1,49,0.80917877,Accuracy Cat,Validation
+0,1,49,0.0004234192,Loss Chair,Training
+0,1,49,2.890297,Loss Chair,Validation
+0,1,49,1.0,Accuracy Chair,Training
+0,1,49,0.20289855,Accuracy Chair,Validation
+0,1,49,0.00047454427,Loss Cow,Training
+0,1,49,1.3761029,Loss Cow,Validation
+0,1,49,1.0,Accuracy Cow,Training
+0,1,49,0.48192772,Accuracy Cow,Validation
+0,1,49,0.00017384105,Loss Dining Table,Training
+0,1,49,1.317728,Loss Dining Table,Validation
+0,1,49,1.0,Accuracy Dining Table,Training
+0,1,49,0.574359,Accuracy Dining Table,Validation
+0,1,49,0.0002611087,Loss Dog,Training
+0,1,49,2.10441,Loss Dog,Validation
+0,1,49,1.0,Accuracy Dog,Training
+0,1,49,0.3652174,Accuracy Dog,Validation
+0,1,49,0.0004203404,Loss Horse,Training
+0,1,49,1.5074509,Loss Horse,Validation
+0,1,49,1.0,Accuracy Horse,Training
+0,1,49,0.59076923,Accuracy Horse,Validation
+0,1,49,0.00044078304,Loss Motorcycle,Training
+0,1,49,0.27690625,Loss Motorcycle,Validation
+0,1,49,1.0,Accuracy Motorcycle,Training
+0,1,49,0.9087591,Accuracy Motorcycle,Validation
+0,1,49,0.0002779961,Loss Person,Training
+0,1,49,3.4142382,Loss Person,Validation
+0,1,49,1.0,Accuracy Person,Training
+0,1,49,0.17094861,Accuracy Person,Validation
+0,1,49,0.00022052658,Loss Potted Plant,Training
+0,1,49,2.6402097,Loss Potted Plant,Validation
+0,1,49,1.0,Accuracy Potted Plant,Training
+0,1,49,0.35766423,Accuracy Potted Plant,Validation
+0,1,49,0.00047384345,Loss Sheep,Training
+0,1,49,0.49449077,Loss Sheep,Validation
+0,1,49,1.0,Accuracy Sheep,Training
+0,1,49,0.81673306,Accuracy Sheep,Validation
+0,1,49,0.00027172314,Loss Sofa,Training
+0,1,49,1.2098504,Loss Sofa,Validation
+0,1,49,1.0,Accuracy Sofa,Training
+0,1,49,0.6720779,Accuracy Sofa,Validation
+0,1,49,0.00033881312,Loss Train,Training
+0,1,49,0.64990014,Loss Train,Validation
+0,1,49,1.0,Accuracy Train,Training
+0,1,49,0.8696884,Accuracy Train,Validation
+0,1,49,0.00043462843,Loss Television,Training
+0,1,49,0.4687693,Loss Television,Validation
+0,1,49,1.0,Accuracy Television,Training
+0,1,49,0.8603352,Accuracy Television,Validation

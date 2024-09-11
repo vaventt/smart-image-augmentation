@@ -13,9 +13,11 @@ from dataset import FilteredPASCALDataset
 
 # Constants
 BASE_DIR = "/home/ubuntu/EzLogz/smart-image-augmentation/pascal"
-REAL_DIR = os.path.join(BASE_DIR, "real-1")
-FILTERED_DIR = os.path.join(BASE_DIR, "aug-pascal-original")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
+
+# Configuration
+EXAMPLES_PER_CLASS = [1, 2, 4, 8, 16]
+SEEDS = [0]
 
 class ClassificationModel(nn.Module):
     def __init__(self, num_classes: int, backbone: str = "resnet50"):
@@ -43,17 +45,17 @@ class ClassificationModel(nn.Module):
         return self.out(x)
 
 def run_experiment(examples_per_class: int, seed: int, filtered_strategy: str,
-                   iterations_per_epoch: int = 200, num_epochs: int = 50, 
-                   batch_size: int = 32, synthetic_probability: float = 0.5, 
-                   image_size: int = 256):
+                   real_dir: str, filtered_dir: str, iterations_per_epoch: int = 200, 
+                   num_epochs: int = 50, batch_size: int = 32, 
+                   synthetic_probability: float = 0.5, image_size: int = 256):
     
     torch.manual_seed(seed)
     np.random.seed(seed)
     random.seed(seed)
 
     train_dataset = FilteredPASCALDataset(
-        real_dir=REAL_DIR,
-        filtered_dir=FILTERED_DIR,
+        real_dir=real_dir,
+        filtered_dir=filtered_dir,
         filtered_strategy=filtered_strategy,
         split="train",
         examples_per_class=examples_per_class,
@@ -69,8 +71,8 @@ def run_experiment(examples_per_class: int, seed: int, filtered_strategy: str,
     train_dataloader = DataLoader(train_dataset, batch_size=batch_size, sampler=train_sampler, num_workers=4)
 
     val_dataset = FilteredPASCALDataset(
-        real_dir=REAL_DIR,
-        filtered_dir=FILTERED_DIR,
+        real_dir=real_dir,
+        filtered_dir=filtered_dir,
         filtered_strategy=filtered_strategy,
         split="val",
         seed=seed,
@@ -170,25 +172,49 @@ def run_experiment(examples_per_class: int, seed: int, filtered_strategy: str,
 
     return records
 
+
+def get_filtered_strategies(filtered_dir: str):
+    return [dir for dir in os.listdir(filtered_dir) if os.path.isdir(os.path.join(filtered_dir, dir))]
+
 if __name__ == "__main__":
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
-    examples_per_class = 1
-    filtered_strategy = "pascal-0-1"
-    seed = 0
+    for seed in SEEDS:
+        for epc in EXAMPLES_PER_CLASS:
+            real_dir = os.path.join(BASE_DIR, f"real-{seed}-{epc}")
+            filtered_dir = os.path.join(BASE_DIR, f"filtered-pascal-{seed}-{epc}")
+            
+            if not os.path.exists(real_dir):
+                print(f"Warning: {real_dir} does not exist. Skipping examples_per_class={epc} for seed={seed}")
+                continue
 
-    records = run_experiment(
-        examples_per_class=examples_per_class,
-        seed=seed,
-        filtered_strategy=filtered_strategy,
-        iterations_per_epoch=200,
-        num_epochs=50,
-        batch_size=32,
-        synthetic_probability=0.5,
-        image_size=256
-    )
+            if not os.path.exists(filtered_dir):
+                print(f"Warning: {filtered_dir} does not exist. Skipping examples_per_class={epc} for seed={seed}")
+                continue
 
-    df = pd.DataFrame(records)
-    output_file = f"results_{examples_per_class}_{filtered_strategy.replace('.', '_')}.csv"
-    df.to_csv(os.path.join(RESULTS_DIR, output_file), index=False)
-    print(f"Results saved to {output_file}")
+            filtered_strategies = get_filtered_strategies(filtered_dir)
+            
+            if not filtered_strategies:
+                print(f"Warning: No filtered strategies found for examples_per_class={epc} and seed={seed}. Skipping.")
+                continue
+
+            for filtered_strategy in filtered_strategies:
+                print(f"Running experiment: seed={seed}, examples_per_class={epc}, filtered_strategy={filtered_strategy}")
+                
+                records = run_experiment(
+                    examples_per_class=epc,
+                    seed=seed,
+                    filtered_strategy=filtered_strategy,
+                    real_dir=real_dir,
+                    filtered_dir=filtered_dir,
+                    iterations_per_epoch=200,
+                    num_epochs=50,
+                    batch_size=32,
+                    synthetic_probability=0.5,
+                    image_size=256
+                )
+
+                df = pd.DataFrame(records)
+                output_file = f"pascal-{seed}-{epc}-{filtered_strategy.replace('.', '_')}.csv"
+                df.to_csv(os.path.join(RESULTS_DIR, output_file), index=False)
+                print(f"Results saved to {output_file}")
