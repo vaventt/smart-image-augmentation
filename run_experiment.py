@@ -16,7 +16,7 @@ BASE_DIR = "/home/ubuntu/EzLogz/smart-image-augmentation/pascal"
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
 # Configuration
-EXAMPLES_PER_CLASS = [1, 2, 4, 8, 16]
+EXAMPLES_PER_CLASS = [1,2,4,8,16]
 SEEDS = [0]
 
 class ClassificationModel(nn.Module):
@@ -181,7 +181,7 @@ if __name__ == "__main__":
 
     for seed in SEEDS:
         for epc in EXAMPLES_PER_CLASS:
-            real_dir = os.path.join(BASE_DIR, f"real-{seed}-{epc}")
+            real_dir = os.path.join(BASE_DIR, f"pascal-real-{seed}-{epc}")
             filtered_dir = os.path.join(BASE_DIR, f"filtered-pascal-{seed}-{epc}")
             
             if not os.path.exists(real_dir):
@@ -215,6 +215,6 @@ if __name__ == "__main__":
                 )
 
                 df = pd.DataFrame(records)
-                output_file = f"pascal-{seed}-{epc}-{filtered_strategy.replace('.', '_')}.csv"
+                output_file = f"{filtered_strategy.replace('.', '_')}.csv"
                 df.to_csv(os.path.join(RESULTS_DIR, output_file), index=False)
                 print(f"Results saved to {output_file}")

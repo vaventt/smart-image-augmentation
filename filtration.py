@@ -55,28 +55,25 @@ def analyze_images_with_gpt(image_paths, class_name):
         print(f"No valid images to analyze for class {class_name}")
         return None, 0, 0
     
-    prompt = f"""You are evaluating augmented images for an image classification task. The first image of class {class_name} is real and serves as reference.
-    For each of the remaining 10 augmented images, please evaluate them based on the following criteria, providing a score between 0.0 and 1.0 for each:
-    
-    Index: from 1 to 10 in order of the augmented images
+    prompt = f"""You are an expert computer vision model evaluating augmented images for an image classification task. The first image of class {class_name} is real and serves as a reference. 
+    For each of the remaining 10 augmented images, evaluate them based on the following criteria, providing a score between 0.0 and 1.0 for each:
 
+    Index: from 1 to 10 in order of the augmented images
     1. Class Representation: How well does the image maintain the core semantic content, key features, and distinguishability of the original class? (0 = completely irrelevant or indistinguishable, 1 = perfectly relevant, feature-complete, and highly distinguishable)
-    2. Visual Fidelity: Is the image clear, well-formed, free from artifacts, natural-looking, and in an appropriate context for the given class? (0 = poor quality, unrealistic, or out of context, 1 = excellent quality, realistic, and in perfect context)
-    3. Structural Integrity: How well does the image maintain the overall structure and proportions expected for the class? (0 = severely distorted structure, 1 = perfect structural integrity)
-    4. Diversity: How different is the image from the reference while still maintaining class identity? (0 = identical, 1 = maximum beneficial diversity)
-    5. Beneficial Variations: How effectively does the image introduce meaningful changes in pose, viewpoint, lighting, or color that could aid in generalization? (0 = no variation, 1 = optimal variation)
+    2. Visual Quality: How well does the augmented image maintain a clear, well-formed, and natural appearance while preserving the expected structure and proportions for the given class? (0 = poor quality, unrealistic, or severely distorted structure, 1 = excellent quality, realistic, and perfect structural integrity)
+    3. Diversity: How different is the image from the reference while still maintaining class identity? (0 = almost identical, 1 = maximum beneficial diversity)
+    4. Beneficial Variations: How effectively does the image introduce meaningful changes in pose, viewpoint, lighting, or color that could aid in generalization? (0 = no variation, 1 = optimal variation)
 
     Provide your response as a list of JSON objects, one for each non-reference augmented image, in this format:
     [
-    {{
-    "index": 1,
-    "class_representation": 0.0,
-    "visual_fidelity": 0.0,
-    "structural_integrity": 0.0,
-    "diversity": 0.0,
-    "beneficial_variations": 0.0,
-    "explanation": "Brief explanation of how changes affect classification and quality"
-    }}
+      {{
+        "index": 1,
+        "class_representation": 0.0,
+        "visual_quality": 0.0,
+        "diversity": 0.0,
+        "beneficial_variations": 0.0,
+        "explanation": "Brief explanation of your evaluation"
+      }}
     ]
     """
     
@@ -92,7 +89,7 @@ def analyze_images_with_gpt(image_paths, class_name):
     
     try:
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-2024-05-13",
             messages=messages,
             max_tokens=2000,
             temperature=0.0
@@ -162,10 +159,9 @@ def process_image_group(real_path, aug_paths, class_name):
     while len(df_data) < len(aug_paths):
         i = len(df_data)
         df_data.append({
-            'index': i + 1,
+            'index': i+1,
             'class_representation': 0.5,
-            'visual_fidelity': 0.5,
-            'structural_integrity': 0.5,
+            'visual_quality': 0.5,
             'diversity': 0.5,
             'beneficial_variations': 0.5,
             'explanation': 'Default values due to incomplete GPT response',
@@ -230,7 +226,7 @@ def process_folder(real_dir, aug_dir, mapping_file, output_dir):
                 processed_groups += 1
                 
                 # Add a delay to avoid rate limiting
-                time.sleep(10)  # Wait for 10 seconds between requests
+                time.sleep(1)  # Wait for 10 seconds between requests
 
         total_price = calculate_price(total_input_tokens, total_output_tokens)
         summary = f"\nTotal execution time: {total_execution_time:.2f}s\nTotal input tokens: {total_input_tokens}\nTotal output tokens: {total_output_tokens}\nTotal price: ${total_price:.4f}"

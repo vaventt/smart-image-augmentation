@@ -9,17 +9,17 @@ import scipy.stats as stats
 # Constants for directory paths
 BASE_DIR = "/Users/andrew/Thesis/smart-image-augmentation"
 REAL_DIR = os.path.join(BASE_DIR, "pascal", "real")
-AUG_DIR = os.path.join(BASE_DIR, "pascal", "aug-pascal-original", "pascal-0-1")
-FILTRATION_CSV_PATH = os.path.join(BASE_DIR, "results", "filtration-results", "pascal-0-1-results.csv")
-OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "filtered-pascal-0-1")
+AUG_DIR = os.path.join(BASE_DIR, "pascal", "aug-pascal-original", "pascal-0-16")
+FILTRATION_CSV_PATH = os.path.join(BASE_DIR, "results", "filtration-results", "pascal-0-16-results.csv")
+OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "filtered-pascal-0-16")
+REAL_OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "real-filtered")
 
 # Configuration
-SCORE_COLUMNS = ['class_representation', 'visual_fidelity', 'structural_integrity', 'diversity', 'beneficial_variations']
-CREATIVE_SCORE_PAIRS = [(0, 3), (2, 4)]  # Indices of columns to be multiplied for creative score
+SCORE_COLUMNS = ['class_representation', 'visual_quality', 'diversity', 'beneficial_variations']
 
 def calculate_score(row, creative: bool = False):
     if creative:
-        return sum(row[SCORE_COLUMNS[i]] * row[SCORE_COLUMNS[j]] for i, j in CREATIVE_SCORE_PAIRS)
+        return np.prod([row[col] for col in SCORE_COLUMNS])
     else:
         return sum(row[col] for col in SCORE_COLUMNS) / len(SCORE_COLUMNS)
 
@@ -35,9 +35,15 @@ def filter_images(csv_path: str, aug_dir: str, output_dir: str, strategies: List
 
         filtered_df = apply_strategy(df, strategy)
         strategy_name = strategy['name']
-        strategy_value = strategy.get('value', '')
-        if strategy_value == '':
-            strategy_value = 'NA'
+        
+        if strategy['type'] in ['zscore_top_n', 'percentile_top_n']:
+            strategy_value = {
+                'threshold': strategy.get('zscore_threshold', strategy.get('percentile_value')),
+                'top_n': strategy['top_n_value']
+            }
+        else:
+            strategy_value = strategy.get('value', strategy.get('threshold'))
+        
         strategy_output_dir = create_output_dir(output_dir, seed, example_per_class, strategy_name, strategy_value)
         copy_filtered_images(filtered_df, aug_dir, strategy_output_dir)
         print_strategy_results(strategy_name, strategy_value, strategy_output_dir, filtered_df)
@@ -99,14 +105,16 @@ def apply_percentile_top_n_strategy(df: pd.DataFrame, percentile_value: float, t
     percentile_filtered['score'] = percentile_filtered.apply(lambda row: calculate_score(row, creative), axis=1)
     return apply_top_n_strategy(percentile_filtered, top_n_value, group_by_class)
 
-def create_output_dir(base_dir: str, seed: str, example_per_class: str, strategy: str, value: Union[float, str]) -> str:
-    if strategy == 'combined':
-        strategy_dir = f"filtered-pascal-{seed}-{example_per_class}-combined-{value}".replace(".", "_")
+def create_output_dir(base_dir: str, seed: str, example_per_class: str, strategy: str, value: Union[float, str, dict]) -> str:
+    if isinstance(value, dict):
+        # For strategies with multiple parameters (e.g., percentile_top_n, zscore_top_n)
+        value_str = '-'.join(str(v).replace('.', '_') for v in value.values())
+    elif isinstance(value, float):
+        value_str = f"{value:.2f}".replace('.', '_')
     else:
-        if isinstance(value, float):
-            strategy_dir = f"filtered-pascal-{seed}-{example_per_class}-{strategy}-{value:.2f}".replace(".", "_")
-        else:
-            strategy_dir = f"filtered-pascal-{seed}-{example_per_class}-{strategy}-{value}".replace(".", "_")
+        value_str = str(value).replace('.', '_')
+    
+    strategy_dir = f"pascal-{seed}-{example_per_class}-{strategy}-{value_str}"
     output_dir = os.path.join(base_dir, strategy_dir)
     os.makedirs(output_dir, exist_ok=True)
     return output_dir
@@ -123,7 +131,7 @@ def copy_filtered_images(df: pd.DataFrame, src_dir: str, dst_dir: str):
 def create_real_images_folder(csv_path: str, real_images_dir: str, output_dir: str):
     df = pd.read_csv(csv_path)
     seed, example_per_class = extract_info_from_csv_name(csv_path)
-    real_folder_name = f"real-{seed}-{example_per_class}"
+    real_folder_name = f"pascal-real-{seed}-{example_per_class}"
     real_output_dir = os.path.join(output_dir, real_folder_name)
     
     if os.path.exists(real_output_dir):
@@ -185,42 +193,50 @@ def print_strategy_results(strategy_name: str, strategy_value: Union[float, str]
 
 def main():
     # Create real images folder
-    create_real_images_folder(FILTRATION_CSV_PATH, REAL_DIR, OUTPUT_DIR)
+    create_real_images_folder(FILTRATION_CSV_PATH, REAL_DIR, REAL_OUTPUT_DIR)
     
     # Define strategies
-    strategies = [
-        # Top-n strategies
-        {'type': 'top_n', 'value': 0.9, 'group_by_class': True, 'name': 'top_n_class', 'creative': False},
-        {'type': 'top_n', 'value': 0.9, 'group_by_class': False, 'name': 'top_n_overall', 'creative': False},
-        {'type': 'top_n', 'value': 0.9, 'group_by_class': True, 'name': 'top_n_class_creative', 'creative': True},
-        {'type': 'top_n', 'value': 0.9, 'group_by_class': False, 'name': 'top_n_overall_creative', 'creative': True},
+    # strategies = [
+    #     # Top-n strategies
+    #     {'type': 'top_n', 'value': 0.9, 'group_by_class': True, 'name': 'top_n_class', 'creative': False},
+    #     {'type': 'top_n', 'value': 0.9, 'group_by_class': False, 'name': 'top_n_overall', 'creative': False},
+    #     {'type': 'top_n', 'value': 0.9, 'group_by_class': True, 'name': 'top_n_class_creative', 'creative': True},
+    #     {'type': 'top_n', 'value': 0.9, 'group_by_class': False, 'name': 'top_n_overall_creative', 'creative': True},
 
-        # Percentile strategies
-        {'type': 'percentile', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_class', 'creative': False},
-        {'type': 'percentile', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_overall', 'creative': False},
-        {'type': 'percentile', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_class_creative', 'creative': True},
-        {'type': 'percentile', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_overall_creative', 'creative': True},
+    #     # Percentile strategies
+    #     {'type': 'percentile', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_class', 'creative': False},
+    #     {'type': 'percentile', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_overall', 'creative': False},
+    #     {'type': 'percentile', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_class_creative', 'creative': True},
+    #     {'type': 'percentile', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_overall_creative', 'creative': True},
 
-        # Z-score strategy
-        {'type': 'zscore', 'threshold': 2, 'group_by_class': True, 'name': 'zscore_class'},
-        {'type': 'zscore', 'threshold': 2, 'group_by_class': False, 'name': 'zscore_overall'},
+    #     # Z-score strategy
+    #     {'type': 'zscore', 'threshold': 2, 'group_by_class': True, 'name': 'zscore_class'},
+    #     {'type': 'zscore', 'threshold': 2, 'group_by_class': False, 'name': 'zscore_overall'},
 
-        # Percentile by columns strategy
-        {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_columns_class'},
-        {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_columns_overall'},
+    #     # Percentile by columns strategy
+    #     {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_columns_class'},
+    #     {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_columns_overall'},
 
-        # Combined Z-score + top-n strategy
-        {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'zscore_top_n_class', 'creative': False},
-        {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'zscore_top_n_overall', 'creative': False},
-        {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'zscore_top_n_class_creative', 'creative': True},
-        {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'zscore_top_n_overall_creative', 'creative': True},
+    #     # Combined Z-score + top-n strategy
+    #     {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'zscore_top_n_class', 'creative': False},
+    #     {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'zscore_top_n_overall', 'creative': False},
+    #     {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'zscore_top_n_class_creative', 'creative': True},
+    #     {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'zscore_top_n_overall_creative', 'creative': True},
         
-        # Combined Column-level Percentile + top-n strategy
+    #     # Combined Column-level Percentile + top-n strategy
+    #     {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': False},
+    #     {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall', 'creative': False},
+    #     {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class_creative', 'creative': True},
+    #     {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall_creative', 'creative': True},
+    # ]
+    strategies = [
+        {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_columns_overall'},
+        {'type': 'percentile', 'value': 0.2, 'group_by_class': False, 'name': 'percentile_overall', 'creative': False},
         {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': False},
-        {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall', 'creative': False},
-        {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class_creative', 'creative': True},
-        {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall_creative', 'creative': True},
+        {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.8, 'group_by_class': False, 'name': 'zscore_top_n_overall_creative', 'creative': True},
+        {'type': 'percentile_by_columns', 'value': 0.2, 'group_by_class': False, 'name': 'percentile_columns_overall'},
     ]
+
     
     # Filter images
     filter_images(FILTRATION_CSV_PATH, AUG_DIR, OUTPUT_DIR, strategies)
