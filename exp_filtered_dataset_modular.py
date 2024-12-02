@@ -9,9 +9,9 @@ import scipy.stats as stats
 # Constants for directory paths
 BASE_DIR = "/Users/andrew/Thesis/smart-image-augmentation"
 REAL_DIR = os.path.join(BASE_DIR, "pascal", "real")
-AUG_DIR = os.path.join(BASE_DIR, "pascal", "aug-pascal-original", "pascal-0-16")
-FILTRATION_CSV_PATH = os.path.join(BASE_DIR, "results", "filtration-results", "pascal-0-16-results.csv")
-OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "filtered-pascal-0-16")
+AUG_DIR = os.path.join(BASE_DIR, "pascal", "aug-pascal-original", "pascal-7-1")
+FILTRATION_CSV_PATH = os.path.join(BASE_DIR, "results", "filtration-results", "pascal-7-1-results.csv")
+OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "filtered-pascal-7-1")
 REAL_OUTPUT_DIR = os.path.join(BASE_DIR, "pascal", "real-filtered")
 
 # Configuration
@@ -230,14 +230,65 @@ def main():
     #     {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall_creative', 'creative': True},
     # ]
     strategies = [
-        {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_columns_overall'},
-        {'type': 'percentile', 'value': 0.2, 'group_by_class': False, 'name': 'percentile_overall', 'creative': False},
-        {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': False},
-        {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.8, 'group_by_class': False, 'name': 'zscore_top_n_overall_creative', 'creative': True},
-        {'type': 'percentile_by_columns', 'value': 0.2, 'group_by_class': False, 'name': 'percentile_columns_overall'},
-    ]
+    # Top-n strategies
+    {'type': 'top_n', 'value': 0.9, 'group_by_class': True, 'name': 'top_n_class', 'creative': True},
+    {'type': 'top_n', 'value': 0.8, 'group_by_class': True, 'name': 'top_n_class', 'creative': True},
+    {'type': 'top_n', 'value': 0.7, 'group_by_class': True, 'name': 'top_n_class', 'creative': True},
+    {'type': 'top_n', 'value': 0.6, 'group_by_class': True, 'name': 'top_n_class', 'creative': True},
+    {'type': 'top_n', 'value': 0.5, 'group_by_class': True, 'name': 'top_n_class', 'creative': True},
+    {'type': 'top_n', 'value': 0.9, 'group_by_class': False, 'name': 'top_n_overall', 'creative': True},
+    {'type': 'top_n', 'value': 0.8, 'group_by_class': False, 'name': 'top_n_overall', 'creative': True},
+    {'type': 'top_n', 'value': 0.7, 'group_by_class': False, 'name': 'top_n_overall', 'creative': True},
+    {'type': 'top_n', 'value': 0.6, 'group_by_class': False, 'name': 'top_n_overall', 'creative': True},
+    {'type': 'top_n', 'value': 0.5, 'group_by_class': False, 'name': 'top_n_overall', 'creative': True},
 
-    
+    # Percentile strategies
+    {'type': 'percentile', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_class', 'creative': True},
+    {'type': 'percentile', 'value': 0.2, 'group_by_class': True, 'name': 'percentile_class', 'creative': True},
+    {'type': 'percentile', 'value': 0.3, 'group_by_class': True, 'name': 'percentile_class', 'creative': True},
+    {'type': 'percentile', 'value': 0.4, 'group_by_class': True, 'name': 'percentile_class', 'creative': True},
+    {'type': 'percentile', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_overall', 'creative': True},
+    {'type': 'percentile', 'value': 0.2, 'group_by_class': False, 'name': 'percentile_overall', 'creative': True},
+    {'type': 'percentile', 'value': 0.3, 'group_by_class': False, 'name': 'percentile_overall', 'creative': True},
+    {'type': 'percentile', 'value': 0.4, 'group_by_class': False, 'name': 'percentile_overall', 'creative': True},
+
+    # Z-score strategies
+    {'type': 'zscore', 'threshold': 2, 'group_by_class': True, 'name': 'zscore_class'},
+    {'type': 'zscore', 'threshold': 1.5, 'group_by_class': True, 'name': 'zscore_class'},
+    {'type': 'zscore', 'threshold': 2, 'group_by_class': False, 'name': 'zscore_overall'},
+    {'type': 'zscore', 'threshold': 1.5, 'group_by_class': False, 'name': 'zscore_overall'},
+
+    # Percentile by columns strategy
+    {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': True, 'name': 'percentile_columns_class'},
+    {'type': 'percentile_by_columns', 'value': 0.2, 'group_by_class': True, 'name': 'percentile_columns_class'},
+    {'type': 'percentile_by_columns', 'value': 0.3, 'group_by_class': True, 'name': 'percentile_columns_class'},
+    {'type': 'percentile_by_columns', 'value': 0.4, 'group_by_class': True, 'name': 'percentile_columns_class'},
+    {'type': 'percentile_by_columns', 'value': 0.1, 'group_by_class': False, 'name': 'percentile_columns_overall'},
+    {'type': 'percentile_by_columns', 'value': 0.2, 'group_by_class': False, 'name': 'percentile_columns_overall'},
+    {'type': 'percentile_by_columns', 'value': 0.3, 'group_by_class': False, 'name': 'percentile_columns_overall'},
+    {'type': 'percentile_by_columns', 'value': 0.4, 'group_by_class': False, 'name': 'percentile_columns_overall'},
+
+    # Z-score + top-n strategies (updated)
+    {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'zscore_top_n_class', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.8, 'group_by_class': True, 'name': 'zscore_top_n_class', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 1.5, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'zscore_top_n_class', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 1.5, 'top_n_value': 0.8, 'group_by_class': True, 'name': 'zscore_top_n_class', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'zscore_top_n_overall', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 2, 'top_n_value': 0.8, 'group_by_class': False, 'name': 'zscore_top_n_overall', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 1.5, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'zscore_top_n_overall', 'creative': True},
+    {'type': 'zscore_top_n', 'zscore_threshold': 1.5, 'top_n_value': 0.8, 'group_by_class': False, 'name': 'zscore_top_n_overall', 'creative': True},
+
+    # Percentile + top-n strategies (updated)
+    {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.8, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.2, 'top_n_value': 0.9, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.2, 'top_n_value': 0.8, 'group_by_class': True, 'name': 'percentile_top_n_class', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.1, 'top_n_value': 0.8, 'group_by_class': False, 'name': 'percentile_top_n_overall', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.2, 'top_n_value': 0.9, 'group_by_class': False, 'name': 'percentile_top_n_overall', 'creative': True},
+    {'type': 'percentile_top_n', 'percentile_value': 0.2, 'top_n_value': 0.8, 'group_by_class': False, 'name': 'percentile_top_n_overall', 'creative': True},
+]
+
     # Filter images
     filter_images(FILTRATION_CSV_PATH, AUG_DIR, OUTPUT_DIR, strategies)
 
